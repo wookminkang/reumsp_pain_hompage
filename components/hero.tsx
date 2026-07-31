@@ -5,6 +5,7 @@ import { useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { CLINIC, TEL_HREF } from "@/lib/clinic";
+import { HERO_BLUR } from "@/lib/hero-blur";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -53,7 +54,9 @@ export default function Hero() {
             fill
             priority
             quality={100}
-            sizes="(max-width: 720px) 150vw, 900px"
+            placeholder="blur"
+            blurDataURL={HERO_BLUR}
+            sizes="(max-width: 720px) 120vw, 900px"
             className="object-cover"
           />
         </div>

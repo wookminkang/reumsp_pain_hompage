@@ -136,7 +136,8 @@ export default function FacilityCarousel() {
                   alt={slide.caption}
                   fill
                   quality={100}
-                  sizes="(max-width: 720px) 70vw, 340px"
+                  // 세로 카드 + object-cover라 필요 해상도가 높이로 결정된다 → sizes를 넉넉히
+                  sizes="(max-width: 720px) 120vw, 640px"
                   className="pointer-events-none object-cover"
                   draggable={false}
                 />

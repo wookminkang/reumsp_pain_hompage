@@ -36,7 +36,8 @@ export default function AthleteCare() {
               {group.photos.map((photo) => (
                 <div
                   key={photo.src}
-                  className="relative aspect-[4/3] flex-1 overflow-hidden rounded-lg"
+                  // 원본과 동일한 3:2 — 잘림 없이 사진 전체가 보인다
+                  className="relative aspect-[3/2] flex-1 overflow-hidden rounded-lg"
                 >
                   <Image
                     src={photo.src}

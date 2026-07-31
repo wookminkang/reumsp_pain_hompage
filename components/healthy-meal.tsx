@@ -3,7 +3,7 @@ import Parallax from "@/components/parallax";
 import Reveal from "@/components/reveal";
 import SectionEyebrow from "@/components/section-eyebrow";
 
-const THUMBS = ["/figma/meal-1.png", "/figma/meal-2.png", "/figma/meal-3.png"];
+const THUMBS = ["/figma/meal-1.jpg", "/figma/meal-2.jpg", "/figma/meal-3.jpg"];
 
 export default function HealthyMeal() {
   return (
@@ -16,10 +16,10 @@ export default function HealthyMeal() {
           <div className="relative h-[192px] w-full overflow-hidden rounded-lg">
             <Parallax className="absolute inset-0" amount={9} scale={1.14}>
               <Image
-                src="/figma/meal-main.png"
+                src="/figma/meal-main.jpg"
                 alt="리움한방병원 입원 환자 식단"
                 fill
-                quality={90}
+                quality={100}
                 sizes="(max-width: 720px) 100vw, 680px"
                 className="object-cover"
               />
@@ -35,7 +35,7 @@ export default function HealthyMeal() {
                   src={src}
                   alt={`식단 예시 ${i + 1}`}
                   fill
-                  quality={90}
+                  quality={100}
                   sizes="113px"
                   className="object-cover"
                 />

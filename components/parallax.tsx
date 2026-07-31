@@ -29,9 +29,13 @@ export default function Parallax({
 
   useLayoutEffect(() => {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    // 모바일에서는 스크롤 중 대형 이미지 리페인트 비용이 커서 패럴랙스를 끈다
+    if (!window.matchMedia("(min-width: 1024px)").matches) return;
 
     const el = ref.current;
     if (!el) return;
+
+    el.style.willChange = "transform";
 
     const ctx = gsap.context(() => {
       gsap.fromTo(
@@ -45,17 +49,20 @@ export default function Parallax({
             trigger: el.parentElement,
             start: "top bottom",
             end: "bottom top",
-            scrub: true,
+            scrub: 0.4,
           },
         },
       );
     }, el);
 
-    return () => ctx.revert();
+    return () => {
+      ctx.revert();
+      el.style.willChange = "";
+    };
   }, [amount, scale]);
 
   return (
-    <div ref={ref} className={`will-change-transform ${className ?? ""}`}>
+    <div ref={ref} className={className}>
       {children}
     </div>
   );

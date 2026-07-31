@@ -6,15 +6,15 @@ const GROUPS = [
   {
     heading: "국가대표 선수단과 함께",
     photos: [
-      { src: "/figma/athlete-1.png", alt: "국가대표 선수단과 함께한 의료진" },
-      { src: "/figma/athlete-2.png", alt: "국가대표 선수단 의무 지원 현장" },
+      { src: "/figma/athlete-1.jpg", alt: "국가대표 선수단과 함께한 의료진" },
+      { src: "/figma/athlete-2.jpg", alt: "국가대표 선수단 의무 지원 현장" },
     ],
   },
   {
     heading: "정확한 진단, 세심한 치료",
     photos: [
-      { src: "/figma/care-1.png", alt: "환자를 진단하는 의료진" },
-      { src: "/figma/care-2.png", alt: "세심하게 치료 중인 의료진" },
+      { src: "/figma/care-1.jpg", alt: "환자를 진단하는 의료진" },
+      { src: "/figma/care-2.jpg", alt: "세심하게 치료 중인 의료진" },
     ],
   },
 ];
@@ -42,7 +42,7 @@ export default function AthleteCare() {
                     src={photo.src}
                     alt={photo.alt}
                     fill
-                    quality={90}
+                    quality={100}
                     sizes="(max-width: 720px) 45vw, 320px"
                     className="object-cover"
                   />

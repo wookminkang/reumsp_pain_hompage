@@ -16,7 +16,7 @@ export default function Hanbang() {
           src="/ai/herbs-luxury.jpg"
           alt="한약재와 약탕"
           fill
-          quality={90}
+          quality={100}
           sizes="(max-width: 720px) 100vw, 720px"
           className="object-cover"
         />

@@ -3,12 +3,12 @@ import Parallax from "@/components/parallax";
 import Reveal from "@/components/reveal";
 
 const COLLAGE = [
-  { src: "/figma/consult.png", alt: "전문의 진료 상담", flip: false },
-  { src: "/figma/oxygen-room.png", alt: "고압산소 치료실", flip: false },
-  { src: "/figma/pulse-check.png", alt: "맥진 진찰", flip: false },
-  { src: "/figma/pulse-check-2.png", alt: "맥진 진찰", flip: true },
-  { src: "/figma/ward.png", alt: "입원실", flip: false },
-  { src: "/figma/stretch.png", alt: "도수치료", flip: true },
+  { src: "/figma/consult.jpg", alt: "전문의 진료 상담", flip: false },
+  { src: "/figma/oxygen-room.jpg", alt: "고압산소 치료실", flip: false },
+  { src: "/figma/pulse-check.jpg", alt: "맥진 진찰", flip: false },
+  { src: "/figma/pulse-check-2.jpg", alt: "맥진 진찰", flip: true },
+  { src: "/figma/ward.jpg", alt: "입원실", flip: false },
+  { src: "/figma/stretch.jpg", alt: "도수치료", flip: true },
 ];
 
 export default function Collaboration() {
@@ -28,7 +28,7 @@ export default function Collaboration() {
               src={photo.src}
               alt=""
               fill
-              quality={90}
+              quality={100}
               sizes="(max-width: 720px) 85vw, 620px"
               className="object-cover"
             />
@@ -38,7 +38,7 @@ export default function Collaboration() {
 
       <div className="absolute inset-0 flex items-center justify-center">
         <Reveal>
-          <div className="flex w-[322px] flex-col items-center gap-2 bg-white/80 px-6 py-8 backdrop-blur-[1px]">
+          <div className="flex w-[322px] flex-col items-center gap-2 bg-white/85 px-6 py-8">
             <h2 className="text-center text-[28px] font-bold leading-[1.3] tracking-[-0.28px] text-black">
               한·양방 협진으로
               <br />

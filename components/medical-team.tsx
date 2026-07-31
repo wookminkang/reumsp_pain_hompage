@@ -23,10 +23,10 @@ export default function MedicalTeam() {
         <div className="relative mx-auto mt-7 aspect-[354/149] w-full max-w-[560px] overflow-hidden">
           <Parallax className="absolute inset-0" amount={8} scale={1.12}>
             <Image
-              src="/figma/medical-team.png"
+              src="/figma/medical-team.jpg"
               alt={`${CLINIC.name} 의료진 단체 사진`}
               fill
-              quality={90}
+              quality={100}
               sizes="(max-width: 720px) 100vw, 560px"
               className="object-cover object-top"
             />

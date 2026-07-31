@@ -9,7 +9,7 @@ export default function Philosophy() {
           src="/ai/hands-care.jpg"
           alt="환자의 어깨에 손을 얹은 의료진"
           fill
-          quality={90}
+          quality={100}
           sizes="(max-width: 720px) 100vw, 720px"
           className="object-cover"
         />

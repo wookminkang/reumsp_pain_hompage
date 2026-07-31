@@ -18,7 +18,7 @@ export default function SiteHeader() {
 
   return (
     <header className="fixed inset-x-0 top-0 z-50 mx-auto w-full max-w-[720px] lg:hidden">
-      <div className="flex items-center justify-between bg-black/20 px-4 py-[11px] backdrop-blur-[2px]">
+      <div className="flex items-center justify-between bg-black/35 px-4 py-[11px] lg:backdrop-blur-[2px]">
         <a href="#top" aria-label={`${CLINIC.name} 홈`}>
           <Image
             src="/figma/logo.svg"

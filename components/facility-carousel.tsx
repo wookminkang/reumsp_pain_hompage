@@ -7,27 +7,27 @@ import SectionEyebrow from "@/components/section-eyebrow";
 
 const SLIDES = [
   {
-    src: "/figma/facility-ward.png",
+    src: "/figma/facility-ward.jpg",
     caption: "입원실",
     desc: "쾌적한 회복을 위한 입원 병상",
   },
   {
-    src: "/figma/facility-lounge.png",
+    src: "/figma/facility-lounge.jpg",
     caption: "휴게라운지",
     desc: "환자와 보호자를 위한 휴식 공간",
   },
   {
-    src: "/figma/facility-rehab.png",
+    src: "/figma/facility-rehab.jpg",
     caption: "재활센터",
     desc: "체계적인 재활 치료 전문 공간",
   },
   {
-    src: "/figma/facility-single.png",
+    src: "/figma/facility-single.jpg",
     caption: "1인실",
     desc: "프라이빗한 회복을 위한 1인 병상",
   },
   {
-    src: "/figma/facility-consult.png",
+    src: "/figma/facility-consult.jpg",
     caption: "상담실",
     desc: "1:1 맞춤 상담이 이루어지는 공간",
   },
@@ -43,23 +43,21 @@ function signedOffset(i: number, index: number) {
   return d;
 }
 
-// 커버플로우 배치: 중앙 카드 + 좌우로 살짝 보이는 이웃 카드
+// 커버플로우 배치: 중앙 카드 + 좌우로 살짝 보이는 이웃 카드.
+// 어둡게 하는 처리는 CSS filter 대신 오버레이 opacity로 — 모바일 리페인트 비용 절감
 function deckStyle(d: number) {
-  if (d === 0)
-    return { x: "0%", scale: 1, opacity: 1, filter: "brightness(1)", zIndex: 30 };
+  if (d === 0) return { x: "0%", scale: 1, opacity: 1, zIndex: 30 };
   if (Math.abs(d) === 1)
     return {
       x: d > 0 ? "88%" : "-88%",
       scale: 0.86,
       opacity: 1,
-      filter: "brightness(0.55)",
       zIndex: 20,
     };
   return {
     x: d > 0 ? "140%" : "-140%",
     scale: 0.8,
     opacity: 0,
-    filter: "brightness(0.4)",
     zIndex: 10,
   };
 }
@@ -79,10 +77,12 @@ export default function FacilityCarousel() {
     return () => clearInterval(timer);
   }, [next]);
 
+  // 이동 거리 + 던진 속도를 함께 보고 판정 — 짧고 빠른 스와이프도 넘어간다
   const onDragEnd = useCallback(
     (_: unknown, info: PanInfo) => {
-      if (info.offset.x < -60) next();
-      else if (info.offset.x > 60) prev();
+      const power = info.offset.x + info.velocity.x * 0.2;
+      if (power < -45) next();
+      else if (power > 45) prev();
     },
     [next, prev],
   );
@@ -107,6 +107,8 @@ export default function FacilityCarousel() {
           const d = signedOffset(i, index);
           const style = deckStyle(d);
           const isCenter = d === 0;
+          // 화면에 보이는 3장(중앙+좌우)만 합성 — 나머지는 DOM에서 제외
+          if (Math.abs(d) > 1) return null;
           return (
             <motion.div
               key={slide.src}
@@ -115,10 +117,12 @@ export default function FacilityCarousel() {
               }`}
               style={{ zIndex: style.zIndex, touchAction: "pan-y" }}
               animate={style}
-              transition={{ type: "spring", stiffness: 230, damping: 28 }}
+              transition={{ type: "spring", stiffness: 260, damping: 30, mass: 0.7 }}
               drag={isCenter ? "x" : false}
               dragConstraints={{ left: 0, right: 0 }}
-              dragElastic={0.5}
+              dragElastic={0.25}
+              dragMomentum={false}
+              onDragStart={() => (pausedRef.current = true)}
               onDragEnd={isCenter ? onDragEnd : undefined}
               onClick={!isCenter && Math.abs(d) === 1 ? () => setIndex(i) : undefined}
               role="group"
@@ -131,12 +135,18 @@ export default function FacilityCarousel() {
                   src={slide.src}
                   alt={slide.caption}
                   fill
-                  quality={90}
-                  sizes="(max-width: 720px) 75vw, 380px"
+                  quality={100}
+                  sizes="(max-width: 720px) 70vw, 340px"
                   className="pointer-events-none object-cover"
                   draggable={false}
                 />
                 <div className="pointer-events-none absolute inset-x-0 bottom-0 h-[65%] bg-gradient-to-b from-transparent to-[rgba(10,20,23,0.92)]" />
+                {/* 비중앙 카드 딤 처리 (filter 대체) */}
+                <div
+                  aria-hidden
+                  className="pointer-events-none absolute inset-0 bg-[#0a1417] transition-opacity duration-300"
+                  style={{ opacity: isCenter ? 0 : 0.5 }}
+                />
                 <div className="absolute inset-x-0 bottom-8 flex flex-col items-center px-7 text-center">
                   <p className="text-[26px] font-extrabold tracking-[-0.3px] text-white">
                     {slide.caption}

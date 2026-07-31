@@ -26,6 +26,28 @@ html {
   }
 }
 
+/* 히어로 진입 연출 — JS 없이 동작해야 하는 핵심 콘텐츠라 CSS로 처리 */
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 26px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.rise-in {
+  animation: rise-in 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rise-in {
+    animation: none;
+  }
+}
+
 body {
   background: #ffffff;
   color: var(--color-ink);

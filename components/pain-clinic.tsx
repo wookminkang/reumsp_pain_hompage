@@ -2,10 +2,10 @@ import Image from "next/image";
 import Reveal from "@/components/reveal";
 
 const SPECIALTIES = [
-  { src: "/figma/specialty-1.png", label: "교통사고 후유증" },
-  { src: "/figma/specialty-2.png", label: "수술 후 재활" },
-  { src: "/figma/specialty-3.png", label: "목 · 허리 통증" },
-  { src: "/figma/specialty-4.png", label: "어깨 · 무릎 통증" },
+  { src: "/figma/specialty-1.jpg", label: "교통사고 후유증" },
+  { src: "/figma/specialty-2.jpg", label: "수술 후 재활" },
+  { src: "/figma/specialty-3.jpg", label: "목 · 허리 통증" },
+  { src: "/figma/specialty-4.jpg", label: "어깨 · 무릎 통증" },
 ];
 
 export default function PainClinic() {
@@ -38,7 +38,7 @@ export default function PainClinic() {
                   src={item.src}
                   alt=""
                   fill
-                  quality={90}
+                  quality={100}
                   sizes="150px"
                   className="object-cover"
                 />
@@ -60,10 +60,10 @@ export default function PainClinic() {
             <figure className="pt-[10px]">
               <div className="relative h-[233px] w-full overflow-hidden rounded-[14px]">
                 <Image
-                  src="/figma/chuna-room.png"
+                  src="/figma/chuna-room.jpg"
                   alt="추나치료실"
                   fill
-                  quality={90}
+                  quality={100}
                   sizes="350px"
                   className="object-cover"
                 />
@@ -77,10 +77,10 @@ export default function PainClinic() {
             <figure className="pt-[42px]">
               <div className="relative h-[233px] w-full overflow-hidden rounded-[14px]">
                 <Image
-                  src="/figma/doctor-1.png"
+                  src="/figma/doctor-1.jpg"
                   alt="전문의 진료 모습"
                   fill
-                  quality={90}
+                  quality={100}
                   sizes="350px"
                   className="object-cover"
                 />

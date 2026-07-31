@@ -24,5 +24,16 @@ export const CLINIC = {
 
 export const TEL_HREF = `tel:${CLINIC.tel.replace(/-/g, "")}`;
 
+/**
+ * 사이트 절대 URL (OG 이미지·sitemap·JSON-LD에 사용).
+ * 1) 직접 지정한 NEXT_PUBLIC_SITE_URL
+ * 2) Vercel이 빌드 시 주입하는 운영 도메인 (환경변수 설정 없이도 동작)
+ * 3) 로컬 개발
+ */
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://reum-pain-landing.vercel.app";
+  process.env.NEXT_PUBLIC_SITE_URL ??
+  (process.env.VERCEL_PROJECT_PRODUCTION_URL
+    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+    : process.env.VERCEL_URL
+      ? `https://${process.env.VERCEL_URL}`
+      : "http://localhost:3000");

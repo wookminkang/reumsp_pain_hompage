@@ -60,15 +60,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko" className="h-full antialiased">
-      <head>
-        {/* LCP 히어로 배경 preload */}
-        <link
-          rel="preload"
-          as="image"
-          href="/figma/hero-building.jpg"
-          fetchPriority="high"
-        />
-      </head>
+      {/* 히어로 배경은 next/image priority가 preload를 처리한다 */}
       <body className="min-h-full bg-white">{children}</body>
     </html>
   );

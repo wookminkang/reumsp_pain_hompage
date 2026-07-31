@@ -2,10 +2,10 @@ import Image from "next/image";
 import Reveal from "@/components/reveal";
 
 const SPECIALTIES = [
-  { src: "/figma/specialty-1.png", label: "교통사고 후유증" },
-  { src: "/figma/specialty-2.png", label: "수술 후 재활" },
-  { src: "/figma/specialty-3.png", label: "목 · 허리 통증" },
-  { src: "/figma/specialty-4.png", label: "어깨 · 무릎 통증" },
+  { src: "/figma/specialty-1.jpg", label: "교통사고 후유증" },
+  { src: "/figma/specialty-2.jpg", label: "수술 후 재활" },
+  { src: "/figma/specialty-3.jpg", label: "목 · 허리 통증" },
+  { src: "/figma/specialty-4.jpg", label: "어깨 · 무릎 통증" },
 ];
 
 export default function SpecialtyRow() {
@@ -35,7 +35,7 @@ export default function SpecialtyRow() {
                   src={item.src}
                   alt=""
                   fill
-                  quality={90}
+                  quality={100}
                   sizes="(max-width: 720px) 45vw, 320px"
                   className="object-cover"
                 />

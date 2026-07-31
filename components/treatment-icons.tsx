@@ -20,10 +20,10 @@ export default function TreatmentIcons() {
       <div aria-hidden className="absolute inset-0">
         <Parallax className="absolute inset-0">
           <Image
-            src="/figma/treatment-bg.png"
+            src="/figma/treatment-bg.jpg"
             alt=""
             fill
-            quality={90}
+            quality={100}
             sizes="(max-width: 720px) 150vw, 1080px"
             className="object-cover object-[22%_55%]"
           />
@@ -34,7 +34,7 @@ export default function TreatmentIcons() {
         <ul className="grid w-[290px] grid-cols-3 gap-x-11 gap-y-8">
           {TREATMENTS.map((item) => (
             <li key={item.label} className="flex flex-col items-center gap-[14px]">
-              <span className="flex h-[67px] w-full items-center justify-center rounded-full bg-white/20 backdrop-blur-[2.4px]">
+              <span className="flex h-[67px] w-full items-center justify-center rounded-full bg-white/20 lg:backdrop-blur-[2.4px]">
                 <Image src={item.icon} alt="" width={29} height={29} />
               </span>
               <p className="text-center text-[16.2px] font-semibold text-white">

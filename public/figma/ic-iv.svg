@@ -1,0 +1,9 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="28.8" height="28.8" viewBox="0 0 28.8 28.8" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icon">
+<path id="hook" d="M14.4 2.4V5.1" stroke="white" stroke-width="1.92" stroke-linecap="round"/>
+<rect id="bag" x="9.6" y="5.1" width="9.6" height="10.5" rx="2.2" stroke="white" stroke-width="1.92"/>
+<path id="level" d="M9.6 9.9H19.2" stroke="white" stroke-width="1.92"/>
+<path id="line" d="M14.4 15.6V19.8" stroke="white" stroke-width="1.92" stroke-linecap="round"/>
+<path id="drop" d="M14.4 21.6C15.3 22.7 15.9 23.6 15.9 24.5C15.9 25.33 15.23 26 14.4 26C13.57 26 12.9 25.33 12.9 24.5C12.9 23.6 13.5 22.7 14.4 21.6Z" stroke="white" stroke-width="1.44" stroke-linejoin="round"/>
+</g>
+</svg>

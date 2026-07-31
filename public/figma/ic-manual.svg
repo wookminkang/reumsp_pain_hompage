@@ -1,0 +1,9 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="28.8" height="28.8" viewBox="0 0 28.8 28.8" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icon">
+<path id="hand-top" d="M7.8 8.7C10.6 5.9 18.2 5.9 21 8.7" stroke="white" stroke-width="1.92" stroke-linecap="round"/>
+<path id="hand-bottom" d="M7.8 20.1C10.6 22.9 18.2 22.9 21 20.1" stroke="white" stroke-width="1.92" stroke-linecap="round"/>
+<circle id="joint" cx="14.4" cy="14.4" r="2.7" stroke="white" stroke-width="1.92"/>
+<path id="press-top" d="M14.4 10.2V11.1" stroke="white" stroke-width="1.92" stroke-linecap="round"/>
+<path id="press-bottom" d="M14.4 17.7V18.6" stroke="white" stroke-width="1.92" stroke-linecap="round"/>
+</g>
+</svg>

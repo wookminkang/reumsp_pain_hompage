@@ -1,0 +1,28 @@
+/** 병원 정보 단일 소스 — 모든 컴포넌트·SEO 메타데이터가 이 값을 참조한다. */
+export const CLINIC = {
+  name: "리움한방병원 강동송파",
+  shortName: "리움한방병원",
+  address: "서울 강동구 강동대로 243 (성내동, 풍원빌딩)",
+  addressRegion: "서울특별시",
+  addressLocality: "강동구",
+  streetAddress: "강동대로 243 (성내동, 풍원빌딩)",
+  tel: "02-6416-1010",
+  bizNumber: "334-98-01651",
+  hours: [
+    { label: "평일", value: "09:00 – 18:00" },
+    { label: "토요일", value: "09:00 – 13:00" },
+    { label: "일 · 공휴일", value: "휴진" },
+  ],
+  reservationUrl: "https://booking.naver.com/booking/13/bizes/1069712",
+  // TODO: 암센터 전용 페이지 URL 확정되면 교체 (현재 공식 사이트 루트)
+  cancerCenterUrl: "https://www.reumsp.com",
+  naverMapSearchUrl:
+    "https://map.naver.com/p/search/리움한방병원%20강동송파",
+  // 리움한방병원 강동송파점(강동대로 243, 성내동 449-16) 실좌표 — 네이버 지역검색 기준
+  geo: { lat: 37.5223977, lng: 127.1329931 },
+} as const;
+
+export const TEL_HREF = `tel:${CLINIC.tel.replace(/-/g, "")}`;
+
+export const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://reum-pain-landing.vercel.app";

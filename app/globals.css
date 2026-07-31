@@ -26,6 +26,22 @@ html {
   }
 }
 
+/*
+ * 히어로 높이 — 카카오톡·인스타 등 인앱 브라우저 호환.
+ * 1) svh 미지원(구형 안드로이드 WebView)에서는 88vh로 폴백해 툴바에 가릴 여지를 남긴다.
+ * 2) svh 지원 시 툴바가 보이는 상태의 실제 가시 높이를 쓴다.
+ * 100vh는 인앱 브라우저에서 실제 화면보다 커져 하단 CTA가 잘리므로 쓰지 않는다.
+ */
+.hero-viewport {
+  height: 88vh;
+  height: 100svh;
+}
+
+/* 하단 고정 요소가 인앱 브라우저 툴바/홈 인디케이터에 가리지 않도록 */
+.safe-bottom {
+  padding-bottom: calc(1.5rem + env(safe-area-inset-bottom, 0px));
+}
+
 /* 히어로 진입 연출 — JS 없이 동작해야 하는 핵심 콘텐츠라 CSS로 처리 */
 @keyframes rise-in {
   from {

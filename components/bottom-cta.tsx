@@ -18,7 +18,7 @@ export default function BottomCta() {
   }, []);
 
   return (
-    <div className="fixed bottom-6 right-4 z-40 flex flex-col items-center gap-3 lg:right-[calc(50%-424px)]">
+    <div className="safe-bottom fixed bottom-0 right-4 z-40 flex flex-col items-center gap-3 lg:right-[calc(50%-424px)]">
       <AnimatePresence>
         {showTop && (
           <motion.button

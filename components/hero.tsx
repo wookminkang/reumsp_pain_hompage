@@ -38,7 +38,7 @@ export default function Hero() {
     <section
       id="top"
       ref={rootRef}
-      className="relative flex h-[100svh] max-h-[890px] min-h-[560px] w-full items-end overflow-hidden"
+      className="relative flex hero-viewport max-h-[890px] min-h-[560px] w-full items-end overflow-hidden"
     >
       <div aria-hidden className="absolute inset-0">
         {/* LCP 배경 — next/image로 뷰포트에 맞는 크기만 내려받는다 */}

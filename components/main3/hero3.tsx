@@ -50,7 +50,7 @@ export default function Hero3() {
     <section
       id="top"
       ref={rootRef}
-      className="relative flex h-[100svh] max-h-[930px] min-h-[620px] w-full items-end overflow-hidden bg-navy"
+      className="relative flex hero-viewport max-h-[930px] min-h-[620px] w-full items-end overflow-hidden bg-navy"
     >
       <div aria-hidden className="absolute inset-0">
         <img

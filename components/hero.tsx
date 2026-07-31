@@ -43,23 +43,27 @@ export default function Hero() {
       <div aria-hidden className="absolute inset-0">
         {/* LCP 배경 — next/image로 뷰포트에 맞는 크기만 내려받는다 */}
         <div data-hero-bg className="absolute inset-0">
+          {/*
+            세로로 긴 컨테이너 + object-cover라 필요한 해상도는 폭이 아니라 높이가 결정한다.
+            sizes를 뷰포트 폭보다 크게 잡아야 충분한 크기의 변형본을 받는다.
+          */}
           <Image
             src="/figma/hero-building.jpg"
             alt=""
             fill
             priority
             quality={100}
-            sizes="(max-width: 720px) 100vw, 720px"
+            sizes="(max-width: 720px) 150vw, 900px"
             className="object-cover"
           />
         </div>
-        {/* 상단은 거의 투명하게, 텍스트가 놓이는 하단만 어둡게 */}
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[rgba(8,30,34,0.18)] to-[rgba(8,30,34,0.78)]" />
+        {/* 상단은 밝게 두되, 텍스트가 놓이는 하단은 확실히 어둡게 (가독성 확보) */}
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent from-25% via-[rgba(8,30,34,0.45)] via-65% to-[rgba(8,30,34,0.92)]" />
       </div>
 
       <div className="relative w-full max-w-[720px] px-6 pb-24">
         <h1
-          className="rise-in text-[36px] font-extrabold leading-[1.22] tracking-[-0.72px] text-white"
+          className="rise-in text-[27px] font-extrabold leading-[1.3] tracking-[-0.5px] text-white sm:text-[32px] lg:text-[34px]"
           style={{ animationDelay: "0.1s" }}
         >
           {CLINIC.name.replace(" 강동송파", "")} 강동송파
@@ -67,7 +71,7 @@ export default function Hero() {
           통증 치료 클리닉
         </h1>
         <p
-          className="rise-in mt-5 text-[17px] leading-[1.6] text-white/80"
+          className="rise-in mt-4 text-[15px] font-semibold leading-[1.6] text-white sm:text-[16px]"
           style={{ animationDelay: "0.26s" }}
         >
           365일, 야간·공휴일 진료/입원 가능

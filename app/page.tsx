@@ -14,62 +14,12 @@ import Consultation from "@/components/consultation";
 import Location from "@/components/location";
 import SiteFooter from "@/components/site-footer";
 import BottomCta from "@/components/bottom-cta";
-import { CLINIC, SITE_URL } from "@/lib/clinic";
-
-const JSON_LD = {
-  "@context": "https://schema.org",
-  "@type": "MedicalClinic",
-  name: CLINIC.name,
-  url: SITE_URL,
-  telephone: CLINIC.tel,
-  address: {
-    "@type": "PostalAddress",
-    addressCountry: "KR",
-    addressRegion: CLINIC.addressRegion,
-    addressLocality: CLINIC.addressLocality,
-    streetAddress: CLINIC.streetAddress,
-  },
-  geo: {
-    "@type": "GeoCoordinates",
-    latitude: CLINIC.geo.lat,
-    longitude: CLINIC.geo.lng,
-  },
-  openingHoursSpecification: [
-    {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      opens: "09:00",
-      closes: "18:00",
-    },
-    {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: "Saturday",
-      opens: "09:00",
-      closes: "13:00",
-    },
-  ],
-  medicalSpecialty: ["PhysicalMedicineAndRehabilitation"],
-  availableService: [
-    { "@type": "MedicalTherapy", name: "추나치료" },
-    { "@type": "MedicalTherapy", name: "침·약침 치료" },
-    { "@type": "MedicalTherapy", name: "도수치료" },
-    { "@type": "MedicalTherapy", name: "수액치료" },
-  ],
-  contactPoint: {
-    "@type": "ContactPoint",
-    telephone: CLINIC.tel,
-    contactType: "reservations",
-    url: CLINIC.reservationUrl,
-  },
-};
+import { CLINIC_JSON_LD, JsonLd } from "@/lib/schema";
 
 export default function Home() {
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(JSON_LD) }}
-      />
+      <JsonLd data={CLINIC_JSON_LD} />
       <SiteHeader />
       {/* 데스크탑: 좌측 사이드바 + 우측 콘텐츠 컬럼 / 모바일: 단일 컬럼 */}
       <div className="lg:flex lg:min-h-svh lg:justify-center lg:gap-10 lg:bg-[#ece5d8]">

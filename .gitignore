@@ -42,3 +42,4 @@ next-env.d.ts
 
 # 예시 환경변수 파일은 추적 (실제 키 없음)
 !.env.example
+.gstack/

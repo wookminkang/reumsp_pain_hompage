@@ -8,7 +8,7 @@ const DESCRIPTION =
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: TITLE,
+  title: { default: TITLE, template: `%s | ${CLINIC.shortName}` },
   description: DESCRIPTION,
   keywords: [
     "리움한방병원",

@@ -20,10 +20,10 @@ export default function MedicalTeam() {
         </h2>
       </Reveal>
       <Reveal delay={0.12}>
-        <div className="relative mx-auto mt-7 aspect-[354/149] w-full max-w-[560px] overflow-hidden">
+        <div className="relative mx-auto mt-7 aspect-[1363/737] w-full max-w-[560px] overflow-hidden">
           <Parallax className="absolute inset-0" amount={8} scale={1.12}>
             <Image
-              src="/figma/medical-team.webp"
+              src="/images/doctor.png"
               alt={`${CLINIC.name} 의료진 단체 사진`}
               fill
               quality={100}

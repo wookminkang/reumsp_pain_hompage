@@ -7,29 +7,49 @@ import SectionEyebrow from "@/components/section-eyebrow";
 
 const SLIDES = [
   {
-    src: "/figma/facility-ward.jpg",
-    caption: "입원실",
-    desc: "쾌적한 회복을 위한 입원 병상",
+    src: "/figma/facility-02.jpg",
+    caption: "재활치료센터",
+    desc: "체계적인 재활 치료 전문 공간",
   },
   {
-    src: "/figma/facility-lounge.jpg",
+    src: "/figma/facility-07.jpg",
+    caption: "운동치료실",
+    desc: "넓고 쾌적한 운동 치료 공간",
+  },
+  {
+    src: "/figma/facility-01.jpg",
+    caption: "도수치료실",
+    desc: "1:1 맞춤 도수·슬링 치료 공간",
+  },
+  {
+    src: "/figma/facility-08.jpg",
+    caption: "물리치료실",
+    desc: "최신 장비를 갖춘 치료 공간",
+  },
+  {
+    src: "/figma/facility-03.jpg",
+    caption: "검사·치료센터",
+    desc: "정확한 진단을 위한 검사·치료 공간",
+  },
+  {
+    src: "/figma/facility-04.jpg",
+    caption: "족욕 테라피",
+    desc: "편안한 회복을 돕는 힐링 공간",
+  },
+  {
+    src: "/figma/facility-06.jpg",
     caption: "휴게라운지",
     desc: "환자와 보호자를 위한 휴식 공간",
   },
   {
-    src: "/figma/facility-rehab.jpg",
-    caption: "재활센터",
-    desc: "체계적인 재활 치료 전문 공간",
+    src: "/figma/facility-05.jpg",
+    caption: "대기공간",
+    desc: "여유로운 진료 대기 공간",
   },
   {
-    src: "/figma/facility-single.jpg",
-    caption: "1인실",
-    desc: "프라이빗한 회복을 위한 1인 병상",
-  },
-  {
-    src: "/figma/facility-consult.jpg",
-    caption: "상담실",
-    desc: "1:1 맞춤 상담이 이루어지는 공간",
+    src: "/figma/facility-09.jpg",
+    caption: "재활치료센터 입구",
+    desc: "재활 전문 치료가 시작되는 곳",
   },
 ];
 

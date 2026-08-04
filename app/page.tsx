@@ -14,12 +14,13 @@ import Consultation from "@/components/consultation";
 import Location from "@/components/location";
 import SiteFooter from "@/components/site-footer";
 import BottomCta from "@/components/bottom-cta";
-import { CLINIC_JSON_LD, JsonLd } from "@/lib/schema";
+import { CLINIC_JSON_LD, JsonLd, WEBSITE_JSON_LD } from "@/lib/schema";
 
 export default function Home() {
   return (
     <>
       <JsonLd data={CLINIC_JSON_LD} />
+      <JsonLd data={WEBSITE_JSON_LD} />
       <SiteHeader />
       {/* 데스크탑: 좌측 사이드바 + 우측 콘텐츠 컬럼 / 모바일: 단일 컬럼 */}
       <div className="lg:flex lg:min-h-svh lg:justify-center lg:gap-10 lg:bg-[#ece5d8]">

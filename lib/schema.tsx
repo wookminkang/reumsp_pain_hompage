@@ -26,8 +26,11 @@ export const CLINIC_JSON_LD = {
   "@type": ["MedicalClinic", "Hospital"],
   "@id": CLINIC_ID,
   name: CLINIC.name,
+  alternateName: [CLINIC.shortName, "리움한방병원 강동송파점"],
   url: SITE_URL,
   image: `${SITE_URL}/og.png`,
+  // 동일 엔티티의 다른 공식 프로필 — AI·검색엔진의 엔티티 통합(정체성 확인) 신호
+  sameAs: [CLINIC.cancerCenterUrl, CLINIC.reservationUrl],
   telephone: CLINIC.tel,
   address: {
     "@type": "PostalAddress",
@@ -84,6 +87,18 @@ export const CLINIC_JSON_LD = {
     contactType: "reservations",
     url: CLINIC.reservationUrl,
   },
+};
+
+/** 공식 홈페이지 WebSite 스키마 — 홈(/)에서 병원 본체와 함께 출력 */
+export const WEBSITE_JSON_LD = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": `${SITE_URL}/#website`,
+  url: SITE_URL,
+  name: `${CLINIC.name} 공식 홈페이지`,
+  alternateName: CLINIC.shortName,
+  publisher: { "@id": CLINIC_ID },
+  inLanguage: "ko-KR",
 };
 
 const columnUrl = (slug: string) => `${SITE_URL}/columns/${slug}`;

@@ -152,12 +152,12 @@ export const asanHospitalNearbyKoreanMedicine = {
               "365일 진료 · 평일 09:00~18:00 · 토요일 09:00~13:00 · 야간·공휴일 진료/입원 가능 (방문 전 전화 확인 권장)",
             ],
             [
-              "대표 진료 분야",
-              "목·허리·어깨·무릎 통증, 교통사고 후유증, 수술 후 재활",
+              "진료 센터",
+              `${CLINIC.centers.map((center) => center.name).join(", ")} (분과 진료 운영)`,
             ],
             [
               "주요 치료",
-              "추나치료, 침·약침, 도수치료, 수액치료, 고압산소치료, 고주파치료, 물리치료, 재활치료",
+              "침, 약침, 추나, 한약, 도수치료, 물리치료, 재활치료, 수액치료, 고압산소치료, 고주파온열치료(BSD-2000)",
             ],
             ["진료 형태", "한·양방 협진, 입원 병동 운영"],
             [
@@ -171,6 +171,21 @@ export const asanHospitalNearbyKoreanMedicine = {
                 .join(", ")}`,
             ],
             ["예약·문의", `전화 ${CLINIC.tel}, 네이버 예약`],
+          ],
+        },
+        {
+          type: "paragraph",
+          content: [
+            "진료는 대학병원처럼 분과 센터 체계로 운영됩니다. 센터별 진료 범위는 아래와 같습니다.",
+          ],
+        },
+        {
+          type: "table",
+          caption: "리움한방병원 강동송파 진료 센터별 특징",
+          headers: ["분야", "특징"],
+          rows: [
+            ...CLINIC.centers.map((center) => [center.name, center.features]),
+            ["고주파온열치료", "BSD-2000 등 고주파 온열치료 장비 운영"],
           ],
         },
         {

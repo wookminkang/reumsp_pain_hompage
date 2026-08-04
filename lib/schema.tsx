@@ -22,7 +22,8 @@ export function JsonLd({ data }: { data: object }) {
 /** 병원 본체 스키마 — 홈(/)에서만 출력하고, 다른 페이지는 @id로 참조한다. */
 export const CLINIC_JSON_LD = {
   "@context": "https://schema.org",
-  "@type": "MedicalClinic",
+  // 65병상 입원 병동을 갖춘 병원급 의료기관 — numberOfBeds는 Hospital 타입 속성
+  "@type": ["MedicalClinic", "Hospital"],
   "@id": CLINIC_ID,
   name: CLINIC.name,
   url: SITE_URL,
@@ -55,11 +56,21 @@ export const CLINIC_JSON_LD = {
     },
   ],
   medicalSpecialty: ["PhysicalMedicineAndRehabilitation"],
+  numberOfBeds: CLINIC.beds,
+  employee: CLINIC.doctors.map((doctor) => ({
+    "@type": "Person",
+    name: doctor.name,
+    jobTitle: doctor.title,
+  })),
   availableService: [
     { "@type": "MedicalTherapy", name: "추나치료" },
     { "@type": "MedicalTherapy", name: "침·약침 치료" },
     { "@type": "MedicalTherapy", name: "도수치료" },
     { "@type": "MedicalTherapy", name: "수액치료" },
+    { "@type": "MedicalTherapy", name: "고압산소치료" },
+    { "@type": "MedicalTherapy", name: "고주파치료" },
+    { "@type": "MedicalTherapy", name: "물리치료" },
+    { "@type": "MedicalTherapy", name: "재활치료" },
   ],
   contactPoint: {
     "@type": "ContactPoint",

@@ -13,6 +13,30 @@ export const CLINIC = {
     { label: "토요일", value: "09:00 – 13:00" },
     { label: "일 · 공휴일", value: "휴진" },
   ],
+  /** 입원 병동 병상 수 */
+  beds: 65,
+  /** 병실 구성 */
+  roomTypes: ["1인실", "2인실", "3인실", "4인실"],
+  /** 진료원장 (대표원장 우선) */
+  doctors: [
+    { name: "도성국", title: "대표원장" },
+    { name: "한아람", title: "원장" },
+    { name: "최대홍", title: "원장" },
+    { name: "강소현", title: "원장" },
+    { name: "김수정", title: "원장" },
+    { name: "이성덕", title: "원장" },
+  ],
+  /** 층별 시설 안내 (지하 2층 ~ 지상 6층) */
+  floors: [
+    { floor: "6층", facilities: "휴라운지, 웰니스스튜디오, 입원병동 (601~603호)" },
+    { floor: "5층", facilities: "입원병동 (501~506호)" },
+    { floor: "4층", facilities: "입원병동 (401~406호)" },
+    { floor: "3층", facilities: "입원병동 (301~306호)" },
+    { floor: "2층", facilities: "고압산소치료센터, 입원병동 (201~204호)" },
+    { floor: "1층", facilities: "원무과(접수·수납), 상담실, 힐링센터, 면회라운지" },
+    { floor: "지하 1층", facilities: "외래진료센터, 검사실(X-ray), 고주파치료센터, 물리치료실, 주사실" },
+    { floor: "지하 2층", facilities: "재활치료센터" },
+  ],
   reservationUrl: "https://booking.naver.com/booking/13/bizes/1069712",
   // TODO: 암센터 전용 페이지 URL 확정되면 교체 (현재 공식 사이트 루트)
   cancerCenterUrl: "https://www.reumsp.com",

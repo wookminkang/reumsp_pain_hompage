@@ -46,8 +46,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             images: [
               {
                 url: column.thumbnail.src,
-                width: 1200,
-                height: 675,
+                width: 1080,
+                height: 1080,
                 alt: column.thumbnail.alt,
               },
             ],
@@ -100,9 +100,9 @@ export default async function ColumnPage({ params }: Props) {
         </div>
       </header>
 
-      {/* 히어로 썸네일 */}
+      {/* 히어로 썸네일 — 1:1 리움 오버레이 템플릿 (scripts/make-thumbnail.py) */}
       {column.thumbnail && (
-        <div className="relative mt-8 aspect-[16/9] w-full overflow-hidden rounded-2xl bg-cream">
+        <div className="relative mt-8 aspect-square w-full overflow-hidden rounded-2xl bg-cream">
           <Image
             src={column.thumbnail.src}
             alt={column.thumbnail.alt}

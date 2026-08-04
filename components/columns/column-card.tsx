@@ -25,7 +25,7 @@ export default function ColumnCard({ column }: { column: ColumnArticle }) {
         </time>
       </div>
       {column.thumbnail && (
-        <div className="relative aspect-[4/3] w-[104px] shrink-0 overflow-hidden rounded-xl bg-cream sm:w-[140px]">
+        <div className="relative aspect-square w-[96px] shrink-0 overflow-hidden rounded-xl bg-cream sm:w-[120px]">
           <Image
             src={column.thumbnail.src}
             alt=""

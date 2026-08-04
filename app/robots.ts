@@ -3,8 +3,12 @@ import { SITE_URL } from "@/lib/clinic";
 
 export default function robots(): MetadataRoute.Robots {
   return {
-    // /main2·/main3는 디자인 시안 — 메타 noindex에 더해 크롤 단계에서도 차단
-    rules: { userAgent: "*", allow: "/", disallow: ["/main2", "/main3"] },
+    // /main2·/main3는 디자인 시안, /internal은 내부 확인용 — 크롤 차단
+    rules: {
+      userAgent: "*",
+      allow: "/",
+      disallow: ["/main2", "/main3", "/internal"],
+    },
     sitemap: `${SITE_URL}/sitemap.xml`,
   };
 }

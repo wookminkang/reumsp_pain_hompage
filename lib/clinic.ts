@@ -88,15 +88,10 @@ export const CLINIC = {
 export const TEL_HREF = `tel:${CLINIC.tel.replace(/-/g, "")}`;
 
 /**
- * 사이트 절대 URL (OG 이미지·sitemap·JSON-LD에 사용).
- * 1) 직접 지정한 NEXT_PUBLIC_SITE_URL
- * 2) Vercel이 빌드 시 주입하는 운영 도메인 (환경변수 설정 없이도 동작)
- * 3) 로컬 개발
+ * 사이트 절대 URL (canonical·OG·sitemap·JSON-LD에 사용).
+ * 대표 도메인 reumpainclinic.com 고정 — 프리뷰/로컬에서도 canonical이
+ * 운영 도메인을 가리키는 것이 SEO상 올바른 동작이다.
+ * 특수한 경우에만 NEXT_PUBLIC_SITE_URL로 재정의한다.
  */
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ??
-  (process.env.VERCEL_PROJECT_PRODUCTION_URL
-    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
-    : process.env.VERCEL_URL
-      ? `https://${process.env.VERCEL_URL}`
-      : "http://localhost:3000");
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://reumpainclinic.com";

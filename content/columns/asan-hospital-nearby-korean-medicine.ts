@@ -201,11 +201,23 @@ export const asanHospitalNearbyKoreanMedicine = {
           rows: CLINIC.floors.map((f) => [f.floor, f.facilities]),
         },
         {
+          type: "table",
+          caption: "주차 안내 (네비게이션: 서울 강동구 강동대로 243, 성내동 풍원빌딩)",
+          headers: ["이용 구분", "주차 혜택"],
+          rows: CLINIC.parking.map((p) => [p.case, p.benefit]),
+        },
+        {
+          type: "table",
+          caption: "대중교통 안내",
+          headers: ["교통편", "안내"],
+          rows: CLINIC.transit.map((t) => [t.mode, t.guide]),
+        },
+        {
           type: "callout",
           tone: "info",
-          title: "위치·주차 안내",
+          title: "위치·내원 안내",
           content: [
-            "상세 위치와 주차 안내는 ",
+            "상세 위치와 교통편은 ",
             { text: "오시는길 안내", href: "/#location" },
             "에서 확인할 수 있습니다. 대학병원 외래 당일 방문이라면 전화로 미리 내원 시간을 조율하는 것이 좋습니다.",
           ],
@@ -287,6 +299,11 @@ export const asanHospitalNearbyKoreanMedicine = {
       question: "추나치료는 건강보험이 적용되나요?",
       answer:
         "네. 추나요법은 2019년 4월부터 건강보험이 적용되어 연간 20회까지 보험 혜택을 받을 수 있습니다. 본인부담률은 단순·복잡 등 추나 유형에 따라 50~80%로 다르며, 정확한 본인부담금은 진료 전에 병원에 확인하는 것이 좋습니다.",
+    },
+    {
+      question: "주차는 가능한가요?",
+      answer:
+        "네, 가능합니다. 네비게이션에 '서울 강동구 강동대로 243 (성내동, 풍원빌딩)'을 입력하면 됩니다. 당일 입·퇴원, 외래진료(접수부터 수납까지), 입원환자 면회 시 각각 2시간 주차가 무료로 제공됩니다.",
     },
     {
       question: "일요일이나 공휴일에도 진료를 받을 수 있나요?",

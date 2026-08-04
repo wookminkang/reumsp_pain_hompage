@@ -50,6 +50,32 @@ export const CLINIC = {
     { floor: "지하 1층", facilities: "외래진료센터, 검사실(X-ray), 고주파치료센터, 물리치료실, 주사실" },
     { floor: "지하 2층", facilities: "재활치료센터" },
   ],
+  /** 대중교통 안내 */
+  transit: [
+    {
+      mode: "지하철 9호선",
+      guide: "올림픽공원역 1·2번 출구 도보 약 10분, 둔촌오륜역 1~4번 출구 도보 약 10분",
+    },
+    { mode: "지하철 5호선", guide: "둔촌동역 3번 출구 도보 약 10분" },
+    {
+      mode: "버스 (오륜교회 앞, 서울체육중고등학교)",
+      guide: "지선 3220, 3319",
+    },
+    {
+      mode: "버스 (서울성내동우체국)",
+      guide: "지선 3214, 3316, 3412, 3413",
+    },
+    {
+      mode: "버스 (한국전력공사 강동송파지사)",
+      guide: "지선 3214, 3316, 3412, 3413 / 마을 1, 7(안촌·갈미행), 8",
+    },
+  ],
+  /** 주차 안내 — 네비게이션 주소는 address와 동일 */
+  parking: [
+    { case: "당일 입·퇴원", benefit: "2시간 주차 무료" },
+    { case: "외래진료 (접수부터 수납까지)", benefit: "2시간 주차 무료" },
+    { case: "입원환자 면회", benefit: "2시간 주차 무료" },
+  ],
   reservationUrl: "https://booking.naver.com/booking/13/bizes/1069712",
   // TODO: 암센터 전용 페이지 URL 확정되면 교체 (현재 공식 사이트 루트)
   cancerCenterUrl: "https://www.reumsp.com",

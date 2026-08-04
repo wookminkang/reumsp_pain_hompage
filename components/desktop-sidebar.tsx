@@ -38,14 +38,14 @@ export default function DesktopSidebar() {
         </p>
       </div>
 
-      <nav aria-label="데스크탑 메뉴" className="relative mt-7 min-h-0 flex-1">
+      <nav aria-label="데스크탑 메뉴" className="relative mt-5 min-h-0 flex-1">
         <ul>
           <li>
             <a
               href={CLINIC.reservationUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex items-center justify-between border-b border-[#e4ddcd] py-[14px] text-[17px] font-semibold text-navy transition-colors hover:text-[#8a6a3e]"
+              className="group flex items-center justify-between border-b border-[#e4ddcd] py-[9px] text-[14.5px] font-semibold text-navy transition-colors hover:text-[#8a6a3e]"
             >
               <span className="flex items-center gap-3">
                 <span
@@ -63,7 +63,7 @@ export default function DesktopSidebar() {
             <li key={item.href}>
               <a
                 href={item.href}
-                className="group flex items-center justify-between border-b border-[#e4ddcd] py-[14px] text-[17px] font-semibold text-navy transition-colors hover:text-[#8a6a3e]"
+                className="group flex items-center justify-between border-b border-[#e4ddcd] py-[9px] text-[14.5px] font-semibold text-navy transition-colors hover:text-[#8a6a3e]"
               >
                 <span className="flex items-center gap-3">
                   <span

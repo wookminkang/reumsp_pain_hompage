@@ -46,7 +46,7 @@ npm run build  # 프로덕션 빌드
 - `app/layout.tsx`: metadataBase / OG(`public/og.png` 1200×630) / twitter / robots / canonical / title.template
 - `lib/schema.tsx`: JSON-LD 유틸 — `MedicalClinic`+`Hospital`(병상·의료진·센터·sameAs), `WebSite`, 칼럼용 `Article`/`FAQPage`/`BreadcrumbList`
 - `app/sitemap.ts`(칼럼 자동 반영), `app/robots.ts`
-- 대표 도메인: **https://reumpainclinic.com** (`lib/clinic.ts` SITE_URL 기본값, `NEXT_PUBLIC_SITE_URL`로 재정의 가능)
+- 대표 도메인: **https://www.reumpainclinic.com** (`lib/clinic.ts` SITE_URL 기본값, `NEXT_PUBLIC_SITE_URL`로 재정의 가능)
 
 ## 네이버 지도
 
@@ -61,8 +61,8 @@ npm run build  # 프로덕션 빌드
 - [x] 주차 상세 안내 확정 — `lib/clinic.ts` `parking` (2시간 무료 3개 케이스)
 - [ ] 암센터 바로가기 정확한 URL 확정 (현재 reumsp.com 루트)
 - [ ] 연구 카드 3(Lee 외 2021)의 실제 PubMed 원문 링크 확인 — 현재 검색 링크로 대체
-- [x] 대표 도메인 확정 — https://reumpainclinic.com (`lib/clinic.ts` 기본값 반영)
-- [ ] reumpainclinic.com을 Vercel 프로젝트 도메인으로 연결 + 네이버 서치어드바이저/구글 서치콘솔 등록
+- [x] 대표 도메인 확정 — https://www.reumpainclinic.com (`lib/clinic.ts` 기본값 반영)
+- [x] 도메인 Vercel 연결 완료 (apex → www 308 리다이렉트). 남은 것: 네이버 서치어드바이저/구글 서치콘솔 등록
 - [ ] 네이버 플레이스 "홈페이지" 필드에 reumpainclinic.com 등록 (sameAs 양방향 완성)
 
 ## /main2 — 프리미엄 시안 (비교용)

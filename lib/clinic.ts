@@ -89,9 +89,10 @@ export const TEL_HREF = `tel:${CLINIC.tel.replace(/-/g, "")}`;
 
 /**
  * 사이트 절대 URL (canonical·OG·sitemap·JSON-LD에 사용).
- * 대표 도메인 reumpainclinic.com 고정 — 프리뷰/로컬에서도 canonical이
+ * Vercel이 apex(reumpainclinic.com)를 www로 308 리다이렉트하므로
+ * 실제 서빙 도메인인 www를 canonical로 쓴다. 프리뷰/로컬에서도 canonical이
  * 운영 도메인을 가리키는 것이 SEO상 올바른 동작이다.
  * 특수한 경우에만 NEXT_PUBLIC_SITE_URL로 재정의한다.
  */
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://reumpainclinic.com";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.reumpainclinic.com";

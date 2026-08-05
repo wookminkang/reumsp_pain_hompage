@@ -22,11 +22,6 @@ const SLIDES = [
     desc: "1:1 맞춤 도수·슬링 치료 공간",
   },
   {
-    src: "/figma/facility-08.jpg",
-    caption: "물리치료실",
-    desc: "최신 장비를 갖춘 치료 공간",
-  },
-  {
     src: "/figma/facility-03.jpg",
     caption: "검사·치료센터",
     desc: "정확한 진단을 위한 검사·치료 공간",
@@ -38,8 +33,23 @@ const SLIDES = [
   },
   {
     src: "/figma/facility-06.jpg",
-    caption: "휴게라운지",
+    caption: "입원라운지",
     desc: "환자와 보호자를 위한 휴식 공간",
+  },
+  {
+    src: "/images/room-single.jpg",
+    caption: "1인실",
+    desc: "프라이빗한 회복을 위한 1인 병실",
+  },
+  {
+    src: "/images/room-quad.jpg",
+    caption: "4인실",
+    desc: "쾌적하게 머물 수 있는 4인 병실",
+  },
+  {
+    src: "/images/rooftop-walk.jpg",
+    caption: "옥상 산책로",
+    desc: "가벼운 산책이 가능한 옥외 공간",
   },
   {
     src: "/figma/facility-05.jpg",

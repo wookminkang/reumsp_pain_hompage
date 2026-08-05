@@ -1,6 +1,10 @@
 import type { ColumnArticle } from "@/lib/columns/types";
 import { asanHospitalNearbyKoreanMedicine } from "./asan-hospital-nearby-korean-medicine";
 import { asanHospitalNearbyNursingHospital } from "./asan-hospital-nearby-nursing-hospital";
+import { dunchonStationNursingHospital } from "./dunchon-station-nursing-hospital";
+import { gangdongLumbarDisc } from "./gangdong-lumbar-disc";
+import { samsungHospitalNearbyNursingHospital } from "./samsung-hospital-nearby-nursing-hospital";
+import { songpaNeckDisc } from "./songpa-neck-disc";
 
 /**
  * 칼럼 레지스트리 — 원고 추가 절차:
@@ -11,6 +15,10 @@ import { asanHospitalNearbyNursingHospital } from "./asan-hospital-nearby-nursin
 export const COLUMNS: ColumnArticle[] = [
   asanHospitalNearbyKoreanMedicine,
   asanHospitalNearbyNursingHospital,
+  dunchonStationNursingHospital,
+  gangdongLumbarDisc,
+  samsungHospitalNearbyNursingHospital,
+  songpaNeckDisc,
 ].sort((a, b) => (a.datePublished < b.datePublished ? 1 : -1));
 
 export function getColumn(slug: string): ColumnArticle | undefined {

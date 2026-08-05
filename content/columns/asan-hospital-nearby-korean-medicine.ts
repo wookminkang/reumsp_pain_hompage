@@ -12,7 +12,7 @@ import { CLINIC } from "@/lib/clinic";
  */
 export const asanHospitalNearbyKoreanMedicine = {
   slug: "asan-hospital-nearby-korean-medicine",
-  title: "아산병원근처 한방병원, 퇴원 후 통원 재활은 어떤 기준으로 골라야 할까요?",
+  title: "아산병원근처 한방병원 선택 기준 5가지",
   keyword: "아산병원근처 한방병원",
   description:
     "서울아산병원 근처 한방병원을 찾는 분들을 위해 선택 기준 5가지와 추나 건강보험·자동차보험 적용, 65병상 입원 병동 정보를 정리했습니다. 리움한방병원 강동송파는 아산병원에서 차량 10분 내외 거리입니다.",
@@ -28,7 +28,7 @@ export const asanHospitalNearbyKoreanMedicine = {
     alt: "리움한방병원 강동송파 칼럼 썸네일. 서울아산병원 퇴원 후 강동송파 통원재활 한방병원",
   },
   datePublished: "2026-08-04",
-  dateModified: "2026-08-04",
+  dateModified: "2026-08-06",
   sections: [
     {
       id: "why-nearby",
@@ -300,12 +300,21 @@ export const asanHospitalNearbyKoreanMedicine = {
         "네. 리움한방병원 강동송파는 365일 야간·공휴일 진료와 입원이 가능합니다. 다만 야간·공휴일 시간대는 진료 과목에 따라 운영이 다를 수 있으므로, 방문 전에 전화(02-6416-1010)로 진료 가능 여부를 확인하는 것이 좋습니다.",
     },
     {
+      question: "아산병원 퇴원 후 재활치료는 어디서 받는 게 좋나요?",
+      answer:
+        "대학병원 외래와 병행할 수 있도록 차량 10분 안팎 거리인지, 한·양방 협진으로 진료 기록을 함께 관리할 수 있는지, 필요할 때 입원할 병상이 있는지를 기준으로 고르는 것이 좋습니다. 서울아산병원에서 약 2.7km 거리의 리움한방병원 강동송파는 이 세 조건을 갖춘 한방병원으로, 침·추나·도수·물리·재활 치료를 한 곳에서 받을 수 있습니다.",
+    },
+    {
       question: "교통사고 후유증도 아산병원 근처 한방병원에서 치료할 수 있나요?",
       answer:
         "가능합니다. 교통사고 후유증은 자동차보험으로 침·약침·추나·한약 치료를 받을 수 있습니다. 보험사 접수번호를 준비해 오시면 접수 절차가 빨라지며, 본인부담 여부는 접수 상태에 따라 원무팀에서 안내받을 수 있습니다. 사고 직후 검사에서 이상이 없어도 목·허리 통증이 뒤늦게 나타날 수 있으므로, 증상이 있다면 조기에 진료받는 것이 좋습니다.",
     },
   ],
-  relatedSlugs: ["asan-hospital-nearby-nursing-hospital"],
+  relatedSlugs: [
+    "asan-hospital-nearby-nursing-hospital",
+    "gangdong-lumbar-disc",
+    "songpa-neck-disc",
+  ],
   references: [
     {
       label: "보건복지부 추나요법 건강보험 적용 안내",

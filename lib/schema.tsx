@@ -27,6 +27,10 @@ export const CLINIC_JSON_LD = {
   "@id": CLINIC_ID,
   name: CLINIC.name,
   alternateName: [CLINIC.shortName, "리움한방병원 강동송파점"],
+  // 365일 진료·입원 가능(담당자 확인) — 일·공휴일 구체 시간대 미확정이라
+  // openingHoursSpecification에는 정규 외래만 두고, 전체 운영 사실은 description으로 명시
+  description:
+    "서울 강동구·송파구 생활권의 한·양방 협진 한방병원. 365일 진료와 입원이 가능하며, 정규 외래는 평일 09:00~18:00, 토요일 09:00~13:00입니다. 야간·일요일·공휴일 진료와 입원은 전화 확인 후 이용할 수 있습니다.",
   url: SITE_URL,
   image: `${SITE_URL}/og.png`,
   // 동일 엔티티의 다른 공식 프로필 — AI·검색엔진의 엔티티 통합(정체성 확인) 신호
@@ -103,6 +107,18 @@ export const WEBSITE_JSON_LD = {
 
 const columnUrl = (slug: string) => `${SITE_URL}/columns/${slug}`;
 
+/**
+ * 칼럼 페이지를 단독으로 파싱하는 크롤러를 위해 @id 참조에 최소 정보를 인라인 병기.
+ * 전체 엔티티(병상·의료진·진료시간 등)는 홈(/)의 CLINIC_JSON_LD가 제공한다.
+ */
+const CLINIC_REF = {
+  "@type": ["MedicalClinic", "Hospital"],
+  "@id": CLINIC_ID,
+  name: CLINIC.name,
+  url: SITE_URL,
+  telephone: CLINIC.tel,
+};
+
 export function articleJsonLd(article: ColumnArticle) {
   return {
     "@context": "https://schema.org",
@@ -124,8 +140,8 @@ export function articleJsonLd(article: ColumnArticle) {
     datePublished: article.datePublished,
     dateModified: article.dateModified,
     inLanguage: "ko-KR",
-    author: { "@id": CLINIC_ID },
-    publisher: { "@id": CLINIC_ID },
+    author: CLINIC_REF,
+    publisher: CLINIC_REF,
     mainEntityOfPage: columnUrl(article.slug),
     // AI·음성 검색이 우선 발췌할 영역 지정 (제목 + 핵심 요약)
     speakable: {

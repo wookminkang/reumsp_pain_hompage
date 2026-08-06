@@ -1,8 +1,15 @@
 import type { ColumnArticle } from "@/lib/columns/types";
 import { asanHospitalNearbyKoreanMedicine } from "./asan-hospital-nearby-korean-medicine";
 import { asanHospitalNearbyNursingHospital } from "./asan-hospital-nearby-nursing-hospital";
+import { cheonhoNeckShoulderPain } from "./cheonho-neck-shoulder-pain";
 import { dunchonStationNursingHospital } from "./dunchon-station-nursing-hospital";
+import { gangdongCarAccident } from "./gangdong-car-accident";
 import { gangdongLumbarDisc } from "./gangdong-lumbar-disc";
+import { jamsilSpinePain } from "./jamsil-spine-pain";
+import { konkukHospitalNearbyKoreanMedicine } from "./konkuk-hospital-nearby-korean-medicine";
+import { konkukHospitalNearbyNursingHospital } from "./konkuk-hospital-nearby-nursing-hospital";
+import { kyungheeHospitalNearbyKoreanMedicine } from "./kyunghee-hospital-nearby-korean-medicine";
+import { kyungheeHospitalNearbyNursingHospital } from "./kyunghee-hospital-nearby-nursing-hospital";
 import { samsungHospitalNearbyNursingHospital } from "./samsung-hospital-nearby-nursing-hospital";
 import { songpaNeckDisc } from "./songpa-neck-disc";
 
@@ -15,8 +22,15 @@ import { songpaNeckDisc } from "./songpa-neck-disc";
 export const COLUMNS: ColumnArticle[] = [
   asanHospitalNearbyKoreanMedicine,
   asanHospitalNearbyNursingHospital,
+  cheonhoNeckShoulderPain,
   dunchonStationNursingHospital,
+  gangdongCarAccident,
   gangdongLumbarDisc,
+  jamsilSpinePain,
+  konkukHospitalNearbyKoreanMedicine,
+  konkukHospitalNearbyNursingHospital,
+  kyungheeHospitalNearbyKoreanMedicine,
+  kyungheeHospitalNearbyNursingHospital,
   samsungHospitalNearbyNursingHospital,
   songpaNeckDisc,
 ].sort((a, b) => (a.datePublished < b.datePublished ? 1 : -1));

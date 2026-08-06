@@ -284,7 +284,11 @@ export const gangdongLumbarDisc = {
         "네. 리움한방병원 강동송파는 365일 야간·공휴일 진료와 입원이 가능합니다. 다만 시간대에 따라 운영이 다를 수 있으므로 방문 전에 전화(02-6416-1010)로 진료 가능 여부를 확인하는 것이 좋습니다.",
     },
   ],
-  relatedSlugs: ["songpa-neck-disc", "asan-hospital-nearby-korean-medicine"],
+  relatedSlugs: [
+    "songpa-neck-disc",
+    "gangdong-car-accident",
+    "asan-hospital-nearby-korean-medicine",
+  ],
   references: [
     {
       label: "보건복지부 추나요법 건강보험 적용 안내",

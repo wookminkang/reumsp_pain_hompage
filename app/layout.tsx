@@ -28,13 +28,12 @@ export const metadata: Metadata = {
     ...(process.env.GOOGLE_SITE_VERIFICATION
       ? { google: process.env.GOOGLE_SITE_VERIFICATION }
       : {}),
-    ...(process.env.NAVER_SITE_VERIFICATION
-      ? {
-          other: {
-            "naver-site-verification": process.env.NAVER_SITE_VERIFICATION,
-          },
-        }
-      : {}),
+    // 소유확인 코드는 공개 메타값이라 코드에 직접 기록 (env로 재정의 가능)
+    other: {
+      "naver-site-verification":
+        process.env.NAVER_SITE_VERIFICATION ??
+        "53f8d023e60070866f1b62d06446c28a96572e5d",
+    },
   },
   openGraph: {
     type: "website",

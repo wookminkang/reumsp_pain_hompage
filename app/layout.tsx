@@ -25,9 +25,9 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
   // 서치어드바이저·서치콘솔 소유확인 — .env.local에 코드 입력 시 메타태그 출력
   verification: {
-    ...(process.env.GOOGLE_SITE_VERIFICATION
-      ? { google: process.env.GOOGLE_SITE_VERIFICATION }
-      : {}),
+    google:
+      process.env.GOOGLE_SITE_VERIFICATION ??
+      "ntNZJwU1uNtFa-8-6jCoxKBpRWBN7PyYusPTukoyKRw",
     // 소유확인 코드는 공개 메타값이라 코드에 직접 기록 (env로 재정의 가능)
     other: {
       "naver-site-verification":

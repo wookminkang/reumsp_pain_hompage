@@ -14,9 +14,7 @@ export default function ColumnsLayout({
       <main className="mx-auto w-full max-w-[720px] px-5 pb-24 pt-10">
         {children}
       </main>
-      <div className="mx-auto w-full max-w-[720px]">
-        <SiteFooter />
-      </div>
+      <SiteFooter />
       <BottomCta />
     </>
   );

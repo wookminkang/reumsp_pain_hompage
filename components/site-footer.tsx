@@ -5,7 +5,8 @@ import { CLINIC } from "@/lib/clinic";
 export default function SiteFooter() {
   return (
     <footer className="w-full bg-navy pb-7 pt-14">
-      <div className="px-6">
+      {/* 배경은 100% 가로, 내용은 헤더와 동일하게 중앙 720px */}
+      <div className="mx-auto w-full max-w-[720px] px-6">
         <div className="border-b border-white/20 pb-8">
           <Image
             src="/figma/logo.svg"

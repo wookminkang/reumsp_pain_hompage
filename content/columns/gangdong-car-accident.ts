@@ -248,6 +248,7 @@ export const gangdongCarAccident = {
     },
   ],
   relatedSlugs: [
+    "gangdong-car-accident-hospitalization",
     "gangdong-lumbar-disc",
     "asan-hospital-nearby-korean-medicine",
   ],

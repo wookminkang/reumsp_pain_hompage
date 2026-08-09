@@ -3,9 +3,12 @@ import { asanHospitalNearbyKoreanMedicine } from "./asan-hospital-nearby-korean-
 import { asanHospitalNearbyNursingHospital } from "./asan-hospital-nearby-nursing-hospital";
 import { cheonhoNeckShoulderPain } from "./cheonho-neck-shoulder-pain";
 import { dunchonStationNursingHospital } from "./dunchon-station-nursing-hospital";
+import { gangdongCancerNursingHospital } from "./gangdong-cancer-nursing-hospital";
 import { gangdongCarAccident } from "./gangdong-car-accident";
 import { gangdongCarAccidentHospitalization } from "./gangdong-car-accident-hospitalization";
+import { gangdongChemoSideEffectCare } from "./gangdong-chemo-side-effect-care";
 import { gangdongLumbarDisc } from "./gangdong-lumbar-disc";
+import { jamsilCancerSurgeryRecovery } from "./jamsil-cancer-surgery-recovery";
 import { jamsilSpinePain } from "./jamsil-spine-pain";
 import { konkukHospitalNearbyKoreanMedicine } from "./konkuk-hospital-nearby-korean-medicine";
 import { konkukHospitalNearbyNursingHospital } from "./konkuk-hospital-nearby-nursing-hospital";
@@ -14,6 +17,7 @@ import { kyungheeHospitalNearbyNursingHospital } from "./kyunghee-hospital-nearb
 import { samsungHospitalNearbyNursingHospital } from "./samsung-hospital-nearby-nursing-hospital";
 import { songpaCancerNursingHospital } from "./songpa-cancer-nursing-hospital";
 import { songpaNeckDisc } from "./songpa-neck-disc";
+import { thyroidCancerSurgeryRecovery } from "./thyroid-cancer-surgery-recovery";
 
 /**
  * 칼럼 레지스트리 — 원고 추가 절차:
@@ -26,9 +30,12 @@ export const COLUMNS: ColumnArticle[] = [
   asanHospitalNearbyNursingHospital,
   cheonhoNeckShoulderPain,
   dunchonStationNursingHospital,
+  gangdongCancerNursingHospital,
   gangdongCarAccident,
   gangdongCarAccidentHospitalization,
+  gangdongChemoSideEffectCare,
   gangdongLumbarDisc,
+  jamsilCancerSurgeryRecovery,
   jamsilSpinePain,
   konkukHospitalNearbyKoreanMedicine,
   konkukHospitalNearbyNursingHospital,
@@ -37,6 +44,7 @@ export const COLUMNS: ColumnArticle[] = [
   samsungHospitalNearbyNursingHospital,
   songpaCancerNursingHospital,
   songpaNeckDisc,
+  thyroidCancerSurgeryRecovery,
 ].sort((a, b) => (a.datePublished < b.datePublished ? 1 : -1));
 
 export function getColumn(slug: string): ColumnArticle | undefined {

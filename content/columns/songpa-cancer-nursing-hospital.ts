@@ -222,9 +222,9 @@ export const songpaCancerNursingHospital = {
     },
   ],
   relatedSlugs: [
+    "gangdong-cancer-nursing-hospital",
+    "gangdong-chemo-side-effect-care",
     "asan-hospital-nearby-nursing-hospital",
-    "samsung-hospital-nearby-nursing-hospital",
-    "dunchon-station-nursing-hospital",
   ],
   references: [
     {

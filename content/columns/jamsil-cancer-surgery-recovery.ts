@@ -30,7 +30,7 @@ export const jamsilCancerSurgeryRecovery = {
     alt: "리움한방병원 강동송파 재활 치료실을 배경으로 한 칼럼 썸네일. 회복 단계별 치료, 잠실 암수술 후 한방병원",
   },
   datePublished: "2026-08-09",
-  dateModified: "2026-08-09",
+  dateModified: "2026-08-11",
   sections: [
     {
       id: "recovery-is-staged",
@@ -146,6 +146,18 @@ export const jamsilCancerSurgeryRecovery = {
               href: "/columns/gangdong-cancer-nursing-hospital",
             },
             " 칼럼을 참고하세요.",
+          ],
+        },
+        {
+          type: "paragraph",
+          content: [
+            "암 진료 센터와 프로그램에 대한 공식 안내는 ",
+            {
+              text: "리움 암센터 공식 홈페이지",
+              href: CLINIC.cancerCenterUrl,
+              external: true,
+            },
+            "에서도 확인할 수 있습니다.",
           ],
         },
       ],

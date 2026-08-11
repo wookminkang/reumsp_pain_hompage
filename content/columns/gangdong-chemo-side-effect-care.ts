@@ -30,7 +30,7 @@ export const gangdongChemoSideEffectCare = {
     alt: "리움한방병원 강동송파 검사·치료센터를 배경으로 한 칼럼 썸네일. 부작용은 관리 대상입니다, 강동구 항암 부작용 한방병원",
   },
   datePublished: "2026-08-09",
-  dateModified: "2026-08-09",
+  dateModified: "2026-08-11",
   sections: [
     {
       id: "side-effects-managed",
@@ -168,6 +168,18 @@ export const gangdongChemoSideEffectCare = {
               href: "/columns/gangdong-cancer-nursing-hospital",
             },
             " 칼럼을 참고하세요.",
+          ],
+        },
+        {
+          type: "paragraph",
+          content: [
+            "암 진료 센터와 프로그램에 대한 공식 안내는 ",
+            {
+              text: "리움 암센터 공식 홈페이지",
+              href: CLINIC.cancerCenterUrl,
+              external: true,
+            },
+            "에서도 확인할 수 있습니다.",
           ],
         },
       ],

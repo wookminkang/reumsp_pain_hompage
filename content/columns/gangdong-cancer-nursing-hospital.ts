@@ -29,7 +29,7 @@ export const gangdongCancerNursingHospital = {
     alt: "리움한방병원 강동송파 재활치료센터를 배경으로 한 칼럼 썸네일. 시설부터 확인하세요, 강동구 암요양병원 알아보기",
   },
   datePublished: "2026-08-09",
-  dateModified: "2026-08-09",
+  dateModified: "2026-08-11",
   sections: [
     {
       id: "name-vs-facility",
@@ -162,6 +162,18 @@ export const gangdongCancerNursingHospital = {
             "상세 위치는 ",
             { text: "오시는길 안내", href: "/#location" },
             "에서 확인할 수 있습니다. 항암 치료 병행 중이라면 한방 치료 시작 시점을 반드시 주치의와 상의하세요.",
+          ],
+        },
+        {
+          type: "paragraph",
+          content: [
+            "암 진료 센터와 프로그램에 대한 공식 안내는 ",
+            {
+              text: "리움 암센터 공식 홈페이지",
+              href: CLINIC.cancerCenterUrl,
+              external: true,
+            },
+            "에서도 확인할 수 있습니다.",
           ],
         },
       ],

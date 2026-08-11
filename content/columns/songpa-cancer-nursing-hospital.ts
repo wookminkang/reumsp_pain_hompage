@@ -30,7 +30,7 @@ export const songpaCancerNursingHospital = {
     alt: "회복기 환자를 위한 식단을 배경으로 한 칼럼 썸네일. 확인하고 결정하세요, 송파구 암요양병원 알아보기",
   },
   datePublished: "2026-08-08",
-  dateModified: "2026-08-08",
+  dateModified: "2026-08-11",
   sections: [
     {
       id: "before-list",
@@ -169,6 +169,18 @@ export const songpaCancerNursingHospital = {
             "항암·방사선 치료 중이라면 한방 치료 병행 시작 시점을 반드시 주치의와 상의하세요. 상세 위치는 ",
             { text: "오시는길 안내", href: "/#location" },
             "에서 확인할 수 있습니다.",
+          ],
+        },
+        {
+          type: "paragraph",
+          content: [
+            "암 진료 센터와 프로그램에 대한 공식 안내는 ",
+            {
+              text: "리움 암센터 공식 홈페이지",
+              href: CLINIC.cancerCenterUrl,
+              external: true,
+            },
+            "에서도 확인할 수 있습니다.",
           ],
         },
       ],

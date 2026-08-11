@@ -28,7 +28,7 @@ export const asanHospitalNearbyNursingHospital = {
     alt: "리움한방병원 강동송파 1층 라운지를 배경으로 한 칼럼 썸네일. 서울아산병원 퇴원 후 요양병원과 한방병원 차이",
   },
   datePublished: "2026-08-04",
-  dateModified: "2026-08-06",
+  dateModified: "2026-08-11",
   sections: [
     {
       id: "after-discharge",
@@ -206,6 +206,18 @@ export const asanHospitalNearbyNursingHospital = {
               href: "/columns/asan-hospital-nearby-korean-medicine",
             },
             " 칼럼에 정리되어 있습니다.",
+          ],
+        },
+        {
+          type: "paragraph",
+          content: [
+            "암 진료 센터와 프로그램에 대한 공식 안내는 ",
+            {
+              text: "리움 암센터 공식 홈페이지",
+              href: CLINIC.cancerCenterUrl,
+              external: true,
+            },
+            "에서도 확인할 수 있습니다.",
           ],
         },
       ],

@@ -10,11 +10,13 @@ import { gangdongCarAccidentHospitalization } from "./gangdong-car-accident-hosp
 import { gangdongChemoSideEffectCare } from "./gangdong-chemo-side-effect-care";
 import { gangdongLumbarDisc } from "./gangdong-lumbar-disc";
 import { jamsilCancerSurgeryRecovery } from "./jamsil-cancer-surgery-recovery";
+import { jamsilShoulderPain } from "./jamsil-shoulder-pain";
 import { jamsilSpinePain } from "./jamsil-spine-pain";
 import { konkukHospitalNearbyKoreanMedicine } from "./konkuk-hospital-nearby-korean-medicine";
 import { konkukHospitalNearbyNursingHospital } from "./konkuk-hospital-nearby-nursing-hospital";
 import { kyungheeHospitalNearbyKoreanMedicine } from "./kyunghee-hospital-nearby-korean-medicine";
 import { kyungheeHospitalNearbyNursingHospital } from "./kyunghee-hospital-nearby-nursing-hospital";
+import { neckStiffnessHandNumbness } from "./neck-stiffness-hand-numbness";
 import { samsungHospitalNearbyNursingHospital } from "./samsung-hospital-nearby-nursing-hospital";
 import { songpaCancerNursingHospital } from "./songpa-cancer-nursing-hospital";
 import { songpaNeckDisc } from "./songpa-neck-disc";
@@ -38,11 +40,13 @@ export const COLUMNS: ColumnArticle[] = [
   gangdongChemoSideEffectCare,
   gangdongLumbarDisc,
   jamsilCancerSurgeryRecovery,
+  jamsilShoulderPain,
   jamsilSpinePain,
   konkukHospitalNearbyKoreanMedicine,
   konkukHospitalNearbyNursingHospital,
   kyungheeHospitalNearbyKoreanMedicine,
   kyungheeHospitalNearbyNursingHospital,
+  neckStiffnessHandNumbness,
   samsungHospitalNearbyNursingHospital,
   songpaCancerNursingHospital,
   songpaNeckDisc,

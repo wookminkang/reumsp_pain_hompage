@@ -4,6 +4,7 @@ import { asanHospitalNearbyNursingHospital } from "./asan-hospital-nearby-nursin
 import { cheonhoNeckShoulderPain } from "./cheonho-neck-shoulder-pain";
 import { dunchonStationNursingHospital } from "./dunchon-station-nursing-hospital";
 import { gangdongCancerNursingHospital } from "./gangdong-cancer-nursing-hospital";
+import { gangdongBackPainHospital } from "./gangdong-back-pain-hospital";
 import { gangdongCarAccident } from "./gangdong-car-accident";
 import { gangdongCarAccidentHospitalization } from "./gangdong-car-accident-hospitalization";
 import { gangdongChemoSideEffectCare } from "./gangdong-chemo-side-effect-care";
@@ -30,6 +31,7 @@ export const COLUMNS: ColumnArticle[] = [
   asanHospitalNearbyNursingHospital,
   cheonhoNeckShoulderPain,
   dunchonStationNursingHospital,
+  gangdongBackPainHospital,
   gangdongCancerNursingHospital,
   gangdongCarAccident,
   gangdongCarAccidentHospitalization,

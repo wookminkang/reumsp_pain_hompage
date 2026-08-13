@@ -22,7 +22,10 @@ export const metadata: Metadata = {
     "한양방 협진",
     "도수치료",
   ],
-  alternates: { canonical: "/" },
+  alternates: {
+    canonical: "/",
+    types: { "application/rss+xml": "/rss.xml" },
+  },
   // 서치어드바이저·서치콘솔 소유확인 — .env.local에 코드 입력 시 메타태그 출력
   verification: {
     google:

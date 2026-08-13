@@ -1,6 +1,7 @@
 import type { ColumnArticle } from "@/lib/columns/types";
 import { asanHospitalNearbyKoreanMedicine } from "./asan-hospital-nearby-korean-medicine";
 import { asanHospitalNearbyNursingHospital } from "./asan-hospital-nearby-nursing-hospital";
+import { carAccidentAftereffectsTreatment } from "./car-accident-aftereffects-treatment";
 import { cheonhoNeckShoulderPain } from "./cheonho-neck-shoulder-pain";
 import { dunchonStationNursingHospital } from "./dunchon-station-nursing-hospital";
 import { gangdongCancerNursingHospital } from "./gangdong-cancer-nursing-hospital";
@@ -17,6 +18,7 @@ import { konkukHospitalNearbyNursingHospital } from "./konkuk-hospital-nearby-nu
 import { kyungheeHospitalNearbyKoreanMedicine } from "./kyunghee-hospital-nearby-korean-medicine";
 import { kyungheeHospitalNearbyNursingHospital } from "./kyunghee-hospital-nearby-nursing-hospital";
 import { neckStiffnessHandNumbness } from "./neck-stiffness-hand-numbness";
+import { postExercisePain } from "./post-exercise-pain";
 import { samsungHospitalNearbyNursingHospital } from "./samsung-hospital-nearby-nursing-hospital";
 import { songpaCancerNursingHospital } from "./songpa-cancer-nursing-hospital";
 import { songpaNeckDisc } from "./songpa-neck-disc";
@@ -31,6 +33,7 @@ import { thyroidCancerSurgeryRecovery } from "./thyroid-cancer-surgery-recovery"
 export const COLUMNS: ColumnArticle[] = [
   asanHospitalNearbyKoreanMedicine,
   asanHospitalNearbyNursingHospital,
+  carAccidentAftereffectsTreatment,
   cheonhoNeckShoulderPain,
   dunchonStationNursingHospital,
   gangdongBackPainHospital,
@@ -47,6 +50,7 @@ export const COLUMNS: ColumnArticle[] = [
   kyungheeHospitalNearbyKoreanMedicine,
   kyungheeHospitalNearbyNursingHospital,
   neckStiffnessHandNumbness,
+  postExercisePain,
   samsungHospitalNearbyNursingHospital,
   songpaCancerNursingHospital,
   songpaNeckDisc,

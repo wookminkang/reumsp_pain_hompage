@@ -15,6 +15,7 @@ import ArticleRenderer from "@/components/columns/article-renderer";
 import FaqSection from "@/components/columns/faq-section";
 import References from "@/components/columns/references";
 import Disclaimer from "@/components/columns/disclaimer";
+import NetworkBranches from "@/components/columns/network-branches";
 import RelatedColumns from "@/components/columns/related-columns";
 
 // Next 16: 동적 세그먼트 params는 Promise — 반드시 await
@@ -129,6 +130,7 @@ export default async function ColumnPage({ params }: Props) {
 
       <div className="mt-16 flex flex-col gap-10">
         {column.references && <References references={column.references} />}
+        <NetworkBranches />
         <Disclaimer />
         <RelatedColumns current={column} />
       </div>

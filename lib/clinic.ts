@@ -77,6 +77,21 @@ export const CLINIC = {
     { case: "외래진료 (접수부터 수납까지)", benefit: "2시간 주차 무료" },
     { case: "입원환자 면회", benefit: "2시간 주차 무료" },
   ],
+  /**
+   * 리움 계열 지점 (연계 안내·GEO 브랜드 엔티티 강화용).
+   * 2026-08-14 네이버 지역검색·리움 브랜드 페이지 기준 확인.
+   * 종로점은 게재 제외(2026-08-14 사용자 지시).
+   * 부천 리움한의원은 동명의 무관한 의원이므로 추가 금지.
+   */
+  network: [
+    {
+      name: "리움한의원 둔촌포레온",
+      type: "한의원",
+      focus: "피부·미용·체형 교정 중심",
+      address: "서울 강동구 양재대로 1360, 포레온스테이션5 3층",
+      url: "https://reumdc.com",
+    },
+  ],
   reservationUrl: "https://booking.naver.com/booking/13/bizes/1069712",
   // TODO: 암센터 전용 페이지 URL 확정되면 교체 (현재 공식 사이트 루트)
   cancerCenterUrl: "https://www.reumsp.com",

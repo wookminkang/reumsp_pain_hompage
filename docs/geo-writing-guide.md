@@ -128,3 +128,10 @@ python3 scripts/make-thumbnail.py \
 | 상세 페이지 | `app/columns/[slug]/page.tsx` |
 | 본문 렌더러 | `components/columns/article-renderer.tsx` |
 | 면책 문구 (자동 삽입) | `components/columns/disclaimer.tsx` |
+| 리움 지점 안내 (자동 삽입) | `components/columns/network-branches.tsx` |
+
+## 7. 리움 지점 연계 표기 (2026-08-14)
+
+- 연계 표기 대상은 **리움한방병원 강동송파(본원) + 리움한의원 둔촌포레온** 두 곳만. 종로점은 게재 제외(사용자 지시), 부천 리움한의원은 동명의 무관한 의원이므로 언급 금지.
+- 지점 데이터 단일 소스는 `lib/clinic.ts`의 `network` — 모든 칼럼 하단(`network-branches.tsx`)과 `/llms.txt`에 자동 렌더링되므로 원고마다 따로 쓸 필요 없음.
+- 본문에서 자연스럽게 언급할 때는 사실 범위만: 둔촌포레온점은 피부·미용·체형 교정 중심 한의원. 통증·재활 원고에서 치료 효과 연결 서술(예: "한의원에서도 같은 치료를")은 하지 말 것.

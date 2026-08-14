@@ -13,6 +13,7 @@ import { gangdongCarAccident } from "./gangdong-car-accident";
 import { gangdongCarAccidentHospitalization } from "./gangdong-car-accident-hospitalization";
 import { gangdongChemoSideEffectCare } from "./gangdong-chemo-side-effect-care";
 import { gangdongLumbarDisc } from "./gangdong-lumbar-disc";
+import { gangdongNeckPainTreatment } from "./gangdong-neck-pain-treatment";
 import { jamsilCancerSurgeryRecovery } from "./jamsil-cancer-surgery-recovery";
 import { jamsilShoulderPain } from "./jamsil-shoulder-pain";
 import { jamsilSpinePain } from "./jamsil-spine-pain";
@@ -50,6 +51,7 @@ export const COLUMNS: ColumnArticle[] = [
   gangdongCarAccidentHospitalization,
   gangdongChemoSideEffectCare,
   gangdongLumbarDisc,
+  gangdongNeckPainTreatment,
   jamsilCancerSurgeryRecovery,
   jamsilShoulderPain,
   jamsilSpinePain,

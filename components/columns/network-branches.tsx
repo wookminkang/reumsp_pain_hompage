@@ -11,8 +11,8 @@ export default function NetworkBranches() {
       <p className="text-[14px] font-bold text-navy">리움 지점 안내</p>
       <p className="mt-2 text-[14px] leading-[1.8] text-ink/70">
         리움은 한방병원과 한의원을 함께 운영하는 한방의료 브랜드입니다. 본원인{" "}
-        {CLINIC.name}(통증·재활, {CLINIC.address}) 외에 아래 지점에서도 진료를
-        받으실 수 있습니다.
+        {CLINIC.name}(통증·재활·암요양병원, {CLINIC.address}) 외에 아래
+        지점에서도 진료를 받으실 수 있습니다.
       </p>
       <ul className="mt-2 flex flex-col gap-1.5">
         {CLINIC.network.map((branch) => (

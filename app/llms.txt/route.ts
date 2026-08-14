@@ -19,7 +19,7 @@ export function GET() {
 
 리움은 한방병원과 한의원을 함께 운영하는 한방의료 브랜드입니다.
 
-- ${CLINIC.name} (본원): 통증·재활 중심 한방병원, ${CLINIC.address}
+- ${CLINIC.name} (본원): 통증·재활·암요양 한방병원, ${CLINIC.address}
 ${CLINIC.network.map((b) => `- [${b.name}](${b.url}): ${b.focus} ${b.type}, ${b.address}`).join("\n")}
 
 ## 건강 칼럼

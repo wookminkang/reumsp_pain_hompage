@@ -1,11 +1,14 @@
 import type { ColumnArticle } from "@/lib/columns/types";
 import { asanHospitalNearbyKoreanMedicine } from "./asan-hospital-nearby-korean-medicine";
 import { asanHospitalNearbyNursingHospital } from "./asan-hospital-nearby-nursing-hospital";
+import { bohunHospitalNearbyNursingHospital } from "./bohun-hospital-nearby-nursing-hospital";
+import { breastCancerSurgeryRecovery } from "./breast-cancer-surgery-recovery";
 import { carAccidentAftereffectsTreatment } from "./car-accident-aftereffects-treatment";
 import { cheonhoNeckShoulderPain } from "./cheonho-neck-shoulder-pain";
 import { dunchonStationNursingHospital } from "./dunchon-station-nursing-hospital";
 import { gangdongCancerNursingHospital } from "./gangdong-cancer-nursing-hospital";
 import { gangdongBackPainHospital } from "./gangdong-back-pain-hospital";
+import { gangdongBackPainTreatment } from "./gangdong-back-pain-treatment";
 import { gangdongCarAccident } from "./gangdong-car-accident";
 import { gangdongCarAccidentHospitalization } from "./gangdong-car-accident-hospitalization";
 import { gangdongChemoSideEffectCare } from "./gangdong-chemo-side-effect-care";
@@ -19,7 +22,9 @@ import { kyungheeHospitalNearbyKoreanMedicine } from "./kyunghee-hospital-nearby
 import { kyungheeHospitalNearbyNursingHospital } from "./kyunghee-hospital-nearby-nursing-hospital";
 import { neckStiffnessHandNumbness } from "./neck-stiffness-hand-numbness";
 import { postExercisePain } from "./post-exercise-pain";
+import { radiationTherapyRecovery } from "./radiation-therapy-recovery";
 import { samsungHospitalNearbyNursingHospital } from "./samsung-hospital-nearby-nursing-hospital";
+import { seongsimHospitalNearbyKoreanMedicine } from "./seongsim-hospital-nearby-korean-medicine";
 import { songpaCancerNursingHospital } from "./songpa-cancer-nursing-hospital";
 import { songpaNeckDisc } from "./songpa-neck-disc";
 import { thyroidCancerSurgeryRecovery } from "./thyroid-cancer-surgery-recovery";
@@ -33,10 +38,13 @@ import { thyroidCancerSurgeryRecovery } from "./thyroid-cancer-surgery-recovery"
 export const COLUMNS: ColumnArticle[] = [
   asanHospitalNearbyKoreanMedicine,
   asanHospitalNearbyNursingHospital,
+  bohunHospitalNearbyNursingHospital,
+  breastCancerSurgeryRecovery,
   carAccidentAftereffectsTreatment,
   cheonhoNeckShoulderPain,
   dunchonStationNursingHospital,
   gangdongBackPainHospital,
+  gangdongBackPainTreatment,
   gangdongCancerNursingHospital,
   gangdongCarAccident,
   gangdongCarAccidentHospitalization,
@@ -51,7 +59,9 @@ export const COLUMNS: ColumnArticle[] = [
   kyungheeHospitalNearbyNursingHospital,
   neckStiffnessHandNumbness,
   postExercisePain,
+  radiationTherapyRecovery,
   samsungHospitalNearbyNursingHospital,
+  seongsimHospitalNearbyKoreanMedicine,
   songpaCancerNursingHospital,
   songpaNeckDisc,
   thyroidCancerSurgeryRecovery,

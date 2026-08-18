@@ -18,7 +18,8 @@ export default function SiteFooter() {
             {CLINIC.address}
           </p>
           <p className="pt-1 text-[13.5px] leading-[1.6] text-white/60">
-            대표전화 {CLINIC.tel} · 사업자등록번호 {CLINIC.bizNumber}
+            대표원장 {CLINIC.doctors.find((d) => d.title === "대표원장")?.name}{" "}
+            · 대표전화 {CLINIC.tel} · 사업자등록번호 {CLINIC.bizNumber}
           </p>
           <nav aria-label="푸터 메뉴" className="pt-6">
             <ul className="flex gap-6">

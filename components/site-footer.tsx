@@ -14,13 +14,16 @@ export default function SiteFooter() {
             width={110}
             height={28}
           />
-          <p className="pt-[14px] text-[13.5px] leading-[1.6] text-white/60">
-            {CLINIC.address}
-          </p>
-          <p className="pt-1 text-[13.5px] leading-[1.6] text-white/60">
-            대표원장 {CLINIC.doctors.find((d) => d.title === "대표원장")?.name}{" "}
-            · 대표전화 {CLINIC.tel} · 사업자등록번호 {CLINIC.bizNumber}
-          </p>
+          <div className="flex flex-col gap-1 pt-[14px] text-[13.5px] leading-[1.6] text-white/60">
+            <p>상호명 {CLINIC.name}</p>
+            <p>{CLINIC.address}</p>
+            <p>
+              대표원장{" "}
+              {CLINIC.doctors.find((d) => d.title === "대표원장")?.name}
+            </p>
+            <p>대표전화 {CLINIC.tel}</p>
+            <p>사업자등록번호 {CLINIC.bizNumber}</p>
+          </div>
           <nav aria-label="푸터 메뉴" className="pt-6">
             <ul className="flex gap-6">
               {FOOTER_NAV.map((item) => (

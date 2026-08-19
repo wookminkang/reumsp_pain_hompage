@@ -6,6 +6,7 @@ import { breastCancerSurgeryRecovery } from "./breast-cancer-surgery-recovery";
 import { carAccidentAftereffectsTreatment } from "./car-accident-aftereffects-treatment";
 import { cheonhoNeckShoulderPain } from "./cheonho-neck-shoulder-pain";
 import { dunchonStationNursingHospital } from "./dunchon-station-nursing-hospital";
+import { gangdongAnklePainCare } from "./gangdong-ankle-pain-care";
 import { gangdongCancerNursingHospital } from "./gangdong-cancer-nursing-hospital";
 import { gangdongBackPainHospital } from "./gangdong-back-pain-hospital";
 import { gangdongBackPainTreatment } from "./gangdong-back-pain-treatment";
@@ -13,6 +14,7 @@ import { gangdongCarAccident } from "./gangdong-car-accident";
 import { gangdongCarAccidentHospitalization } from "./gangdong-car-accident-hospitalization";
 import { gangdongChemoSideEffectCare } from "./gangdong-chemo-side-effect-care";
 import { gangdongFrozenShoulderTreatment } from "./gangdong-frozen-shoulder-treatment";
+import { gangdongKneePainTreatment } from "./gangdong-knee-pain-treatment";
 import { gangdongLumbarDisc } from "./gangdong-lumbar-disc";
 import { gangdongNeckPainTreatment } from "./gangdong-neck-pain-treatment";
 import { gangdongPostSurgeryRehabHospital } from "./gangdong-post-surgery-rehab-hospital";
@@ -46,6 +48,7 @@ export const COLUMNS: ColumnArticle[] = [
   carAccidentAftereffectsTreatment,
   cheonhoNeckShoulderPain,
   dunchonStationNursingHospital,
+  gangdongAnklePainCare,
   gangdongBackPainHospital,
   gangdongBackPainTreatment,
   gangdongCancerNursingHospital,
@@ -53,6 +56,7 @@ export const COLUMNS: ColumnArticle[] = [
   gangdongCarAccidentHospitalization,
   gangdongChemoSideEffectCare,
   gangdongFrozenShoulderTreatment,
+  gangdongKneePainTreatment,
   gangdongLumbarDisc,
   gangdongNeckPainTreatment,
   gangdongPostSurgeryRehabHospital,

@@ -5,6 +5,7 @@ import { bohunHospitalNearbyNursingHospital } from "./bohun-hospital-nearby-nurs
 import { breastCancerSurgeryRecovery } from "./breast-cancer-surgery-recovery";
 import { carAccidentAftereffectsTreatment } from "./car-accident-aftereffects-treatment";
 import { cheonhoNeckShoulderPain } from "./cheonho-neck-shoulder-pain";
+import { dunchonPostSurgeryRehabHospital } from "./dunchon-post-surgery-rehab-hospital";
 import { dunchonStationNursingHospital } from "./dunchon-station-nursing-hospital";
 import { gangdongAnklePainCare } from "./gangdong-ankle-pain-care";
 import { gangdongCancerNursingHospital } from "./gangdong-cancer-nursing-hospital";
@@ -13,6 +14,7 @@ import { gangdongBackPainTreatment } from "./gangdong-back-pain-treatment";
 import { gangdongCarAccident } from "./gangdong-car-accident";
 import { gangdongCarAccidentHospitalization } from "./gangdong-car-accident-hospitalization";
 import { gangdongChemoSideEffectCare } from "./gangdong-chemo-side-effect-care";
+import { gangdongChronicPainCarAccident } from "./gangdong-chronic-pain-car-accident";
 import { gangdongFrozenShoulderTreatment } from "./gangdong-frozen-shoulder-treatment";
 import { gangdongKneePainTreatment } from "./gangdong-knee-pain-treatment";
 import { gangdongLumbarDisc } from "./gangdong-lumbar-disc";
@@ -32,6 +34,7 @@ import { samsungHospitalNearbyNursingHospital } from "./samsung-hospital-nearby-
 import { seongsimHospitalNearbyKoreanMedicine } from "./seongsim-hospital-nearby-korean-medicine";
 import { songpaCancerNursingHospital } from "./songpa-cancer-nursing-hospital";
 import { songpaNeckDisc } from "./songpa-neck-disc";
+import { songpaPostSurgeryRehabHospital } from "./songpa-post-surgery-rehab-hospital";
 import { thyroidCancerSurgeryRecovery } from "./thyroid-cancer-surgery-recovery";
 
 /**
@@ -47,6 +50,7 @@ export const COLUMNS: ColumnArticle[] = [
   breastCancerSurgeryRecovery,
   carAccidentAftereffectsTreatment,
   cheonhoNeckShoulderPain,
+  dunchonPostSurgeryRehabHospital,
   dunchonStationNursingHospital,
   gangdongAnklePainCare,
   gangdongBackPainHospital,
@@ -55,6 +59,7 @@ export const COLUMNS: ColumnArticle[] = [
   gangdongCarAccident,
   gangdongCarAccidentHospitalization,
   gangdongChemoSideEffectCare,
+  gangdongChronicPainCarAccident,
   gangdongFrozenShoulderTreatment,
   gangdongKneePainTreatment,
   gangdongLumbarDisc,
@@ -74,6 +79,7 @@ export const COLUMNS: ColumnArticle[] = [
   seongsimHospitalNearbyKoreanMedicine,
   songpaCancerNursingHospital,
   songpaNeckDisc,
+  songpaPostSurgeryRehabHospital,
   thyroidCancerSurgeryRecovery,
 ].sort((a, b) => (a.datePublished < b.datePublished ? 1 : -1));
 

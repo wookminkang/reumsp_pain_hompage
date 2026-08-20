@@ -28,11 +28,12 @@ export default function Consultation() {
           </a>
         </div>
 
-        <dl className="mt-[18px] flex w-[210px] flex-col items-center gap-2 rounded-full border border-white/20 px-6 py-[22px]">
+        {/* 진료시간 문구가 길어져 210px 알약 보더가 깨짐 — 보더 제거 (2026-08-20) */}
+        <dl className="mt-6 flex flex-col items-center gap-2 px-6">
           {CLINIC.hours.map((row) => (
             <div key={row.label} className="flex items-baseline gap-2 text-[13.5px]">
               <dt className="shrink-0 whitespace-nowrap font-bold text-white">{row.label}</dt>
-              <dd className="text-white/80">{row.value}</dd>
+              <dd className="text-center text-white/80">{row.value}</dd>
             </div>
           ))}
         </dl>

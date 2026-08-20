@@ -68,9 +68,13 @@ export const QUESTION_SECTIONS: QuestionSection[] = [
   {
     title: "3. 병상·병실",
     warning:
-      "현재 '입원 병동 65개 병상, 1인실·2인실·3인실·4인실 구비(2층~6층)'로 게재 중입니다.",
+      "현재 '입원 병동 64개 병상, 1인실·2인실·3인실·4인실 구비(2층~6층)'로 게재 중입니다.",
     items: [
-      { id: "beds-total", question: "총 병상 수 65개가 정확한가요? (허가 병상 기준)" },
+      {
+        id: "beds-total",
+        question:
+          "총 병상 수 확인 완료 — 64개 병상 운영 (2026-08-20 담당자 확인, 사이트 전체 반영됨)",
+      },
       {
         id: "rooms-count",
         question:

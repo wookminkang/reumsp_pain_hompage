@@ -22,7 +22,7 @@ export function JsonLd({ data }: { data: object }) {
 /** 병원 본체 스키마 — 홈(/)에서만 출력하고, 다른 페이지는 @id로 참조한다. */
 export const CLINIC_JSON_LD = {
   "@context": "https://schema.org",
-  // 65병상 입원 병동을 갖춘 병원급 의료기관 — numberOfBeds는 Hospital 타입 속성
+  // 64병상 입원 병동을 갖춘 병원급 의료기관 — numberOfBeds는 Hospital 타입 속성
   "@type": ["MedicalClinic", "Hospital"],
   "@id": CLINIC_ID,
   name: CLINIC.name,

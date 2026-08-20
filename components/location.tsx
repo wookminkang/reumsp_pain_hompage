@@ -27,8 +27,8 @@ const INFO_ROWS: {
   {
     icon: "/figma/ic-parking.svg",
     label: "주차",
-    // TODO: 주차 상세 안내(지원 시간·요금) 확정 후 교체
-    lines: ["건물 내 주차 가능"],
+    // 2026-08-20 담당자 확인: 주차장은 건물 뒷편
+    lines: ["건물 뒷편 주차 가능"],
   },
 ];
 

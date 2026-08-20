@@ -27,10 +27,10 @@ export const CLINIC_JSON_LD = {
   "@id": CLINIC_ID,
   name: CLINIC.name,
   alternateName: [CLINIC.shortName, "리움한방병원 강동송파점"],
-  // 365일 진료·입원 가능(담당자 확인) — 일·공휴일 구체 시간대 미확정이라
+  // 365일 진료·입원 가능(담당자 확인) — 공휴일 구체 시간대 미확정이라
   // openingHoursSpecification에는 정규 외래만 두고, 전체 운영 사실은 description으로 명시
   description:
-    "서울 강동구·송파구 생활권의 한·양방 협진 한방병원. 365일 진료와 입원이 가능하며, 정규 외래는 평일 09:00~18:00, 토요일 09:00~13:00입니다. 야간·일요일·공휴일 진료와 입원은 전화 확인 후 이용할 수 있습니다.",
+    "서울 강동구·송파구 생활권의 한·양방 협진 한방병원. 365일 진료와 입원이 가능하며, 정규 외래는 평일 09:00~20:00, 토·일요일 09:00~13:00(점심시간 없이 진료)입니다. 야간·공휴일 진료와 입원은 전화 확인 후 이용할 수 있습니다.",
   url: SITE_URL,
   image: `${SITE_URL}/og.png`,
   // 동일 엔티티의 다른 공식 프로필 — AI·검색엔진의 엔티티 통합(정체성 확인) 신호
@@ -53,11 +53,11 @@ export const CLINIC_JSON_LD = {
       "@type": "OpeningHoursSpecification",
       dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
       opens: "09:00",
-      closes: "18:00",
+      closes: "20:00",
     },
     {
       "@type": "OpeningHoursSpecification",
-      dayOfWeek: "Saturday",
+      dayOfWeek: ["Saturday", "Sunday"],
       opens: "09:00",
       closes: "13:00",
     },

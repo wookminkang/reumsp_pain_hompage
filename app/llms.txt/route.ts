@@ -11,7 +11,7 @@ export function GET() {
 
 - 주소: ${CLINIC.address}
 - 전화: ${CLINIC.tel}
-- 진료: 평일 09:00~18:00, 토요일 09:00~13:00, 야간·공휴일 진료/입원 가능 (방문 전 전화 확인 권장)
+- 진료: 평일 09:00~20:00, 토·일요일 09:00~13:00 (점심시간 없이 진료), 야간·공휴일 진료/입원 가능 (방문 전 전화 확인 권장)
 - 진료 센터: ${CLINIC.centers.map((c) => c.name).join(", ")}
 - 예약: ${CLINIC.reservationUrl}
 

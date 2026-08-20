@@ -24,6 +24,14 @@ export default function ColumnHeader() {
           <ul className="flex items-center gap-5">
             <li>
               <Link
+                href="/location"
+                className="text-[14.5px] font-semibold text-white/90"
+              >
+                오시는길
+              </Link>
+            </li>
+            <li>
+              <Link
                 href="/columns"
                 className="text-[14.5px] font-semibold text-white/90"
               >

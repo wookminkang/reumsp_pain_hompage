@@ -13,6 +13,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
+      url: `${SITE_URL}/location`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.6,
+    },
+    {
       url: `${SITE_URL}/columns`,
       lastModified: latestColumn ? new Date(latestColumn) : new Date(),
       changeFrequency: "weekly",

@@ -19,6 +19,7 @@ import { gangdongChronicPainCarAccident } from "./gangdong-chronic-pain-car-acci
 import { gangdongFrozenShoulderTreatment } from "./gangdong-frozen-shoulder-treatment";
 import { gangdongKneePainTreatment } from "./gangdong-knee-pain-treatment";
 import { gangdongLumbarDisc } from "./gangdong-lumbar-disc";
+import { gangdongMuscleSpasmTreatment } from "./gangdong-muscle-spasm-treatment";
 import { gangdongNeckPainTreatment } from "./gangdong-neck-pain-treatment";
 import { gangdongPostSurgeryRehabHospital } from "./gangdong-post-surgery-rehab-hospital";
 import { gildongCarAccidentAftereffects } from "./gildong-car-accident-aftereffects";
@@ -36,6 +37,7 @@ import { samsungHospitalNearbyNursingHospital } from "./samsung-hospital-nearby-
 import { seongsimHospitalNearbyKoreanMedicine } from "./seongsim-hospital-nearby-korean-medicine";
 import { songpaCancerNursingHospital } from "./songpa-cancer-nursing-hospital";
 import { songpaNeckDisc } from "./songpa-neck-disc";
+import { songpaPelvicPainOutpatientCare } from "./songpa-pelvic-pain-outpatient-care";
 import { songpaPostSurgeryRehabHospital } from "./songpa-post-surgery-rehab-hospital";
 import { thyroidCancerSurgeryRecovery } from "./thyroid-cancer-surgery-recovery";
 
@@ -66,6 +68,7 @@ export const COLUMNS: ColumnArticle[] = [
   gangdongFrozenShoulderTreatment,
   gangdongKneePainTreatment,
   gangdongLumbarDisc,
+  gangdongMuscleSpasmTreatment,
   gangdongNeckPainTreatment,
   gangdongPostSurgeryRehabHospital,
   gildongCarAccidentAftereffects,
@@ -83,6 +86,7 @@ export const COLUMNS: ColumnArticle[] = [
   seongsimHospitalNearbyKoreanMedicine,
   songpaCancerNursingHospital,
   songpaNeckDisc,
+  songpaPelvicPainOutpatientCare,
   songpaPostSurgeryRehabHospital,
   thyroidCancerSurgeryRecovery,
 ].sort((a, b) => (a.datePublished < b.datePublished ? 1 : -1));

@@ -22,6 +22,7 @@ import { gangdongLumbarDisc } from "./gangdong-lumbar-disc";
 import { gangdongMuscleSpasmTreatment } from "./gangdong-muscle-spasm-treatment";
 import { gangdongNeckPainTreatment } from "./gangdong-neck-pain-treatment";
 import { gangdongPostSurgeryRehabHospital } from "./gangdong-post-surgery-rehab-hospital";
+import { gangdongWristPainTreatment } from "./gangdong-wrist-pain-treatment";
 import { gildongCarAccidentAftereffects } from "./gildong-car-accident-aftereffects";
 import { jamsilCancerSurgeryRecovery } from "./jamsil-cancer-surgery-recovery";
 import { jamsilShoulderPain } from "./jamsil-shoulder-pain";
@@ -72,6 +73,7 @@ export const COLUMNS: ColumnArticle[] = [
   gangdongMuscleSpasmTreatment,
   gangdongNeckPainTreatment,
   gangdongPostSurgeryRehabHospital,
+  gangdongWristPainTreatment,
   gildongCarAccidentAftereffects,
   jamsilCancerSurgeryRecovery,
   jamsilShoulderPain,

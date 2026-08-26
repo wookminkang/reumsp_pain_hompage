@@ -36,6 +36,7 @@ import { radiationTherapyRecovery } from "./radiation-therapy-recovery";
 import { samsungHospitalNearbyNursingHospital } from "./samsung-hospital-nearby-nursing-hospital";
 import { seongsimHospitalNearbyKoreanMedicine } from "./seongsim-hospital-nearby-korean-medicine";
 import { songpaCancerNursingHospital } from "./songpa-cancer-nursing-hospital";
+import { songpaLumbarDiscSurgeryRehab } from "./songpa-lumbar-disc-surgery-rehab";
 import { songpaNeckDisc } from "./songpa-neck-disc";
 import { songpaPelvicPainOutpatientCare } from "./songpa-pelvic-pain-outpatient-care";
 import { songpaPostSurgeryRehabHospital } from "./songpa-post-surgery-rehab-hospital";
@@ -85,6 +86,7 @@ export const COLUMNS: ColumnArticle[] = [
   samsungHospitalNearbyNursingHospital,
   seongsimHospitalNearbyKoreanMedicine,
   songpaCancerNursingHospital,
+  songpaLumbarDiscSurgeryRehab,
   songpaNeckDisc,
   songpaPelvicPainOutpatientCare,
   songpaPostSurgeryRehabHospital,

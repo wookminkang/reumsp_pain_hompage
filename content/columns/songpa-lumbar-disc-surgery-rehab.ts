@@ -32,8 +32,8 @@ export const songpaLumbarDiscSurgeryRehab = {
     src: "/images/columns/songpa-lumbar-disc-surgery-thumbnail.jpg",
     alt: "재활치료실에서 걷기 운동을 연습하는 중년 환자를 배경으로 한 칼럼 썸네일. 송파구 허리디스크 수술 후 재활 시작 시점",
   },
-  datePublished: "2026-08-26",
-  dateModified: "2026-08-26",
+  datePublished: "2026-08-25",
+  dateModified: "2026-08-25",
   sections: [
     {
       id: "the-question",

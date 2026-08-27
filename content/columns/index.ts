@@ -25,6 +25,7 @@ import { gangdongPostSurgeryRehabHospital } from "./gangdong-post-surgery-rehab-
 import { gangdongWristPainTreatment } from "./gangdong-wrist-pain-treatment";
 import { gildongCarAccidentAftereffects } from "./gildong-car-accident-aftereffects";
 import { jamsilCancerSurgeryRecovery } from "./jamsil-cancer-surgery-recovery";
+import { jamsilElbowPainTreatment } from "./jamsil-elbow-pain-treatment";
 import { jamsilShoulderPain } from "./jamsil-shoulder-pain";
 import { jamsilSpinePain } from "./jamsil-spine-pain";
 import { konkukHospitalNearbyKoreanMedicine } from "./konkuk-hospital-nearby-korean-medicine";
@@ -76,6 +77,7 @@ export const COLUMNS: ColumnArticle[] = [
   gangdongWristPainTreatment,
   gildongCarAccidentAftereffects,
   jamsilCancerSurgeryRecovery,
+  jamsilElbowPainTreatment,
   jamsilShoulderPain,
   jamsilSpinePain,
   konkukHospitalNearbyKoreanMedicine,

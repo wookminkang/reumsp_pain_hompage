@@ -8,6 +8,7 @@ import { carAccidentAftereffectsTreatment } from "./car-accident-aftereffects-tr
 import { cheonhoNeckShoulderPain } from "./cheonho-neck-shoulder-pain";
 import { dunchonPostSurgeryRehabHospital } from "./dunchon-post-surgery-rehab-hospital";
 import { dunchonStationNursingHospital } from "./dunchon-station-nursing-hospital";
+import { dunchonTarsalTunnelSyndrome } from "./dunchon-tarsal-tunnel-syndrome";
 import { gangdongAnklePainCare } from "./gangdong-ankle-pain-care";
 import { gangdongCancerNursingHospital } from "./gangdong-cancer-nursing-hospital";
 import { gangdongBackPainHospital } from "./gangdong-back-pain-hospital";
@@ -60,6 +61,7 @@ export const COLUMNS: ColumnArticle[] = [
   cheonhoNeckShoulderPain,
   dunchonPostSurgeryRehabHospital,
   dunchonStationNursingHospital,
+  dunchonTarsalTunnelSyndrome,
   gangdongAnklePainCare,
   gangdongBackPainHospital,
   gangdongBackPainTreatment,

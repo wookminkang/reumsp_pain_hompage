@@ -35,7 +35,7 @@ export const gangdongAnklePainCare = {
     alt: "길에서 발목을 붙잡고 있는 모습을 배경으로 한 칼럼 썸네일. 강동구 발목통증 관리, 자꾸 삐는 발목",
   },
   datePublished: "2026-08-19",
-  dateModified: "2026-08-19",
+  dateModified: "2026-08-27",
   sections: [
     {
       id: "sprain-moment",
@@ -150,7 +150,12 @@ export const gangdongAnklePainCare = {
               text: "강동구 무릎통증 치료, 어떤 동작에서 아픈지가 단서입니다",
               href: "/columns/gangdong-knee-pain-treatment",
             },
-            " 칼럼을 이어서 읽어 보세요.",
+            " 칼럼을 이어서 읽어 보세요. 삔 적이 없는데도 발목이 저리거나 화끈거린다면 ",
+            {
+              text: "둔촌동 발목터널증후군 인대 아닌 신경 문제",
+              href: "/columns/dunchon-tarsal-tunnel-syndrome",
+            },
+            " 칼럼도 함께 확인해 보세요.",
           ],
         },
       ],
@@ -181,7 +186,7 @@ export const gangdongAnklePainCare = {
   relatedSlugs: [
     "post-exercise-pain",
     "gangdong-knee-pain-treatment",
-    "gangdong-frozen-shoulder-treatment",
+    "dunchon-tarsal-tunnel-syndrome",
   ],
   references: [
     {

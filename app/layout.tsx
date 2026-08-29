@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import Script from "next/script";
 import "./globals.css";
 import { CLINIC, SITE_URL } from "@/lib/clinic";
 
@@ -78,7 +79,24 @@ export default function RootLayout({
   return (
     <html lang="ko" className="h-full antialiased">
       {/* 히어로 배경은 next/image priority가 preload를 처리한다 */}
-      <body className="min-h-full bg-white">{children}</body>
+      <body className="min-h-full bg-white">
+        {children}
+        <Script
+          src="//wcs.naver.net/wcslog.js"
+          strategy="afterInteractive"
+        />
+        <Script id="naver-wcslog" strategy="afterInteractive">
+          {`
+            if (!wcs_add) var wcs_add={};
+            wcs_add["wa"] = "s_1fb45e1c178";
+            if (!_nasa) var _nasa={};
+            if(window.wcs){
+              wcs.inflow();
+              wcs_do();
+            }
+          `}
+        </Script>
+      </body>
     </html>
   );
 }

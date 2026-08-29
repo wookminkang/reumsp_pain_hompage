@@ -96,6 +96,23 @@ export default function RootLayout({
             }
           `}
         </Script>
+        <Script id="smartlog-config" strategy="afterInteractive">
+          {`
+            var hpt_info={'_account':'UHPT-301092', '_server': 'a300'};
+          `}
+        </Script>
+        <Script
+          src="//cdn.smlog.co.kr/core/smart_renew.js"
+          strategy="afterInteractive"
+        />
+        <noscript>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="//a300.smlog.co.kr/smart_bda?_account=301092"
+            style={{ display: "none", width: 0, height: 0 }}
+            alt=""
+          />
+        </noscript>
       </body>
     </html>
   );

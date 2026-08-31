@@ -19,6 +19,7 @@ import { gangdongChemoSideEffectCare } from "./gangdong-chemo-side-effect-care";
 import { gangdongChronicPainCarAccident } from "./gangdong-chronic-pain-car-accident";
 import { gangdongFrozenShoulderTreatment } from "./gangdong-frozen-shoulder-treatment";
 import { gangdongKneePainTreatment } from "./gangdong-knee-pain-treatment";
+import { gangdongLegNumbnessTreatment } from "./gangdong-leg-numbness-treatment";
 import { gangdongLumbarDisc } from "./gangdong-lumbar-disc";
 import { gangdongMuscleSpasmTreatment } from "./gangdong-muscle-spasm-treatment";
 import { gangdongNeckPainTreatment } from "./gangdong-neck-pain-treatment";
@@ -41,6 +42,7 @@ import { seongnaeNeckPainTreatment } from "./seongnae-neck-pain-treatment";
 import { seongsimHospitalNearbyKoreanMedicine } from "./seongsim-hospital-nearby-korean-medicine";
 import { songpaCancerNursingHospital } from "./songpa-cancer-nursing-hospital";
 import { songpaKneeAnklePainCare } from "./songpa-knee-ankle-pain-care";
+import { songpaLegNumbnessTreatment } from "./songpa-leg-numbness-treatment";
 import { songpaLumbarDiscSurgeryRehab } from "./songpa-lumbar-disc-surgery-rehab";
 import { songpaNeckDisc } from "./songpa-neck-disc";
 import { songpaPelvicPainOutpatientCare } from "./songpa-pelvic-pain-outpatient-care";
@@ -74,6 +76,7 @@ export const COLUMNS: ColumnArticle[] = [
   gangdongChronicPainCarAccident,
   gangdongFrozenShoulderTreatment,
   gangdongKneePainTreatment,
+  gangdongLegNumbnessTreatment,
   gangdongLumbarDisc,
   gangdongMuscleSpasmTreatment,
   gangdongNeckPainTreatment,
@@ -96,6 +99,7 @@ export const COLUMNS: ColumnArticle[] = [
   seongsimHospitalNearbyKoreanMedicine,
   songpaCancerNursingHospital,
   songpaKneeAnklePainCare,
+  songpaLegNumbnessTreatment,
   songpaLumbarDiscSurgeryRehab,
   songpaNeckDisc,
   songpaPelvicPainOutpatientCare,

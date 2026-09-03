@@ -41,13 +41,16 @@ import { samsungHospitalNearbyNursingHospital } from "./samsung-hospital-nearby-
 import { seongnaeNeckPainTreatment } from "./seongnae-neck-pain-treatment";
 import { seongsimHospitalNearbyKoreanMedicine } from "./seongsim-hospital-nearby-korean-medicine";
 import { seoulPainHospitalRecommendation } from "./seoul-pain-hospital-recommendation";
+import { songpaBackPainHospital } from "./songpa-back-pain-hospital";
 import { songpaCancerNursingHospital } from "./songpa-cancer-nursing-hospital";
 import { songpaKneeAnklePainCare } from "./songpa-knee-ankle-pain-care";
 import { songpaLegNumbnessTreatment } from "./songpa-leg-numbness-treatment";
 import { songpaLumbarDiscSurgeryRehab } from "./songpa-lumbar-disc-surgery-rehab";
 import { songpaNeckDisc } from "./songpa-neck-disc";
+import { songpaPainHospitalRecommendation } from "./songpa-pain-hospital-recommendation";
 import { songpaPelvicPainOutpatientCare } from "./songpa-pelvic-pain-outpatient-care";
 import { songpaPostSurgeryRehabHospital } from "./songpa-post-surgery-rehab-hospital";
+import { songpaShoulderPainTreatment } from "./songpa-shoulder-pain-treatment";
 import { thyroidCancerSurgeryRecovery } from "./thyroid-cancer-surgery-recovery";
 
 /**
@@ -99,13 +102,16 @@ export const COLUMNS: ColumnArticle[] = [
   seongnaeNeckPainTreatment,
   seongsimHospitalNearbyKoreanMedicine,
   seoulPainHospitalRecommendation,
+  songpaBackPainHospital,
   songpaCancerNursingHospital,
   songpaKneeAnklePainCare,
   songpaLegNumbnessTreatment,
   songpaLumbarDiscSurgeryRehab,
   songpaNeckDisc,
+  songpaPainHospitalRecommendation,
   songpaPelvicPainOutpatientCare,
   songpaPostSurgeryRehabHospital,
+  songpaShoulderPainTreatment,
   thyroidCancerSurgeryRecovery,
 ].sort((a, b) => (a.datePublished < b.datePublished ? 1 : -1));
 

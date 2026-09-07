@@ -6,6 +6,7 @@ import { bohunHospitalNearbyNursingHospital } from "./bohun-hospital-nearby-nurs
 import { breastCancerSurgeryRecovery } from "./breast-cancer-surgery-recovery";
 import { carAccidentAftereffectsTreatment } from "./car-accident-aftereffects-treatment";
 import { cheonhoNeckShoulderPain } from "./cheonho-neck-shoulder-pain";
+import { dunchonCarAccidentTreatment } from "./dunchon-car-accident-treatment";
 import { dunchonPostSurgeryRehabHospital } from "./dunchon-post-surgery-rehab-hospital";
 import { dunchonStationNursingHospital } from "./dunchon-station-nursing-hospital";
 import { dunchonTarsalTunnelSyndrome } from "./dunchon-tarsal-tunnel-syndrome";
@@ -43,6 +44,7 @@ import { seongsimHospitalNearbyKoreanMedicine } from "./seongsim-hospital-nearby
 import { seoulPainHospitalRecommendation } from "./seoul-pain-hospital-recommendation";
 import { songpaBackPainHospital } from "./songpa-back-pain-hospital";
 import { songpaCancerNursingHospital } from "./songpa-cancer-nursing-hospital";
+import { songpaCarAccidentKoreanMedicineHospital } from "./songpa-car-accident-korean-medicine-hospital";
 import { songpaKneeAnklePainCare } from "./songpa-knee-ankle-pain-care";
 import { songpaLegNumbnessTreatment } from "./songpa-leg-numbness-treatment";
 import { songpaLumbarDiscSurgeryRehab } from "./songpa-lumbar-disc-surgery-rehab";
@@ -67,6 +69,7 @@ export const COLUMNS: ColumnArticle[] = [
   breastCancerSurgeryRecovery,
   carAccidentAftereffectsTreatment,
   cheonhoNeckShoulderPain,
+  dunchonCarAccidentTreatment,
   dunchonPostSurgeryRehabHospital,
   dunchonStationNursingHospital,
   dunchonTarsalTunnelSyndrome,
@@ -104,6 +107,7 @@ export const COLUMNS: ColumnArticle[] = [
   seoulPainHospitalRecommendation,
   songpaBackPainHospital,
   songpaCancerNursingHospital,
+  songpaCarAccidentKoreanMedicineHospital,
   songpaKneeAnklePainCare,
   songpaLegNumbnessTreatment,
   songpaLumbarDiscSurgeryRehab,

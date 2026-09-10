@@ -1,6 +1,7 @@
 import type { ColumnArticle } from "@/lib/columns/types";
 import { asanHospitalNearbyKoreanMedicine } from "./asan-hospital-nearby-korean-medicine";
 import { asanHospitalNearbyNursingHospital } from "./asan-hospital-nearby-nursing-hospital";
+import { bangiCarAccidentAftereffects } from "./bangi-car-accident-aftereffects";
 import { bangiPelvicPainTreatment } from "./bangi-pelvic-pain-treatment";
 import { bohunHospitalNearbyNursingHospital } from "./bohun-hospital-nearby-nursing-hospital";
 import { breastCancerSurgeryRecovery } from "./breast-cancer-surgery-recovery";
@@ -66,6 +67,7 @@ import { thyroidCancerSurgeryRecovery } from "./thyroid-cancer-surgery-recovery"
 export const COLUMNS: ColumnArticle[] = [
   asanHospitalNearbyKoreanMedicine,
   asanHospitalNearbyNursingHospital,
+  bangiCarAccidentAftereffects,
   bangiPelvicPainTreatment,
   bohunHospitalNearbyNursingHospital,
   breastCancerSurgeryRecovery,

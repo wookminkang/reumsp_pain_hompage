@@ -6,6 +6,7 @@ import { bangiPelvicPainTreatment } from "./bangi-pelvic-pain-treatment";
 import { bohunHospitalNearbyNursingHospital } from "./bohun-hospital-nearby-nursing-hospital";
 import { breastCancerSurgeryRecovery } from "./breast-cancer-surgery-recovery";
 import { carAccidentAftereffectsTreatment } from "./car-accident-aftereffects-treatment";
+import { carAccidentHospitalizationDuration } from "./car-accident-hospitalization-duration";
 import { cheonhoNeckShoulderPain } from "./cheonho-neck-shoulder-pain";
 import { dunchonCarAccidentTreatment } from "./dunchon-car-accident-treatment";
 import { dunchonPostSurgeryRehabHospital } from "./dunchon-post-surgery-rehab-hospital";
@@ -30,6 +31,7 @@ import { gangdongNeckPainTreatment } from "./gangdong-neck-pain-treatment";
 import { gangdongPostSurgeryRehabHospital } from "./gangdong-post-surgery-rehab-hospital";
 import { gangdongWristPainTreatment } from "./gangdong-wrist-pain-treatment";
 import { gildongCarAccidentAftereffects } from "./gildong-car-accident-aftereffects";
+import { gildongCarAccidentClinicHospital } from "./gildong-car-accident-clinic-hospital";
 import { jamsilCancerSurgeryRecovery } from "./jamsil-cancer-surgery-recovery";
 import { jamsilCarAccidentTreatment } from "./jamsil-car-accident-treatment";
 import { jamsilElbowPainTreatment } from "./jamsil-elbow-pain-treatment";
@@ -74,6 +76,7 @@ export const COLUMNS: ColumnArticle[] = [
   bohunHospitalNearbyNursingHospital,
   breastCancerSurgeryRecovery,
   carAccidentAftereffectsTreatment,
+  carAccidentHospitalizationDuration,
   cheonhoNeckShoulderPain,
   dunchonCarAccidentTreatment,
   dunchonPostSurgeryRehabHospital,
@@ -98,6 +101,7 @@ export const COLUMNS: ColumnArticle[] = [
   gangdongPostSurgeryRehabHospital,
   gangdongWristPainTreatment,
   gildongCarAccidentAftereffects,
+  gildongCarAccidentClinicHospital,
   jamsilCancerSurgeryRecovery,
   jamsilCarAccidentTreatment,
   jamsilElbowPainTreatment,

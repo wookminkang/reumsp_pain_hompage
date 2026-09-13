@@ -45,6 +45,7 @@ import { neckStiffnessHandNumbness } from "./neck-stiffness-hand-numbness";
 import { postExercisePain } from "./post-exercise-pain";
 import { radiationTherapyRecovery } from "./radiation-therapy-recovery";
 import { samsungHospitalNearbyNursingHospital } from "./samsung-hospital-nearby-nursing-hospital";
+import { seongnaeCarAccidentInpatientEnvironment } from "./seongnae-car-accident-inpatient-environment";
 import { seongnaeCarAccidentTreatment } from "./seongnae-car-accident-treatment";
 import { seongnaeNeckPainTreatment } from "./seongnae-neck-pain-treatment";
 import { seongsimHospitalNearbyKoreanMedicine } from "./seongsim-hospital-nearby-korean-medicine";
@@ -115,6 +116,7 @@ export const COLUMNS: ColumnArticle[] = [
   postExercisePain,
   radiationTherapyRecovery,
   samsungHospitalNearbyNursingHospital,
+  seongnaeCarAccidentInpatientEnvironment,
   seongnaeCarAccidentTreatment,
   seongnaeNeckPainTreatment,
   seongsimHospitalNearbyKoreanMedicine,

@@ -7,6 +7,7 @@ import { bohunHospitalNearbyNursingHospital } from "./bohun-hospital-nearby-nurs
 import { breastCancerSurgeryRecovery } from "./breast-cancer-surgery-recovery";
 import { carAccidentAftereffectsTreatment } from "./car-accident-aftereffects-treatment";
 import { carAccidentHospitalizationDuration } from "./car-accident-hospitalization-duration";
+import { carAccidentInpatientMeals } from "./car-accident-inpatient-meals";
 import { cheonhoNeckShoulderPain } from "./cheonho-neck-shoulder-pain";
 import { dunchonCarAccidentInpatientCare } from "./dunchon-car-accident-inpatient-care";
 import { dunchonCarAccidentTreatment } from "./dunchon-car-accident-treatment";
@@ -79,6 +80,7 @@ export const COLUMNS: ColumnArticle[] = [
   breastCancerSurgeryRecovery,
   carAccidentAftereffectsTreatment,
   carAccidentHospitalizationDuration,
+  carAccidentInpatientMeals,
   cheonhoNeckShoulderPain,
   dunchonCarAccidentInpatientCare,
   dunchonCarAccidentTreatment,

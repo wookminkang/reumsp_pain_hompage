@@ -15,7 +15,7 @@
  *   set -a; . ./.env.local; set +a
  */
 import { execFileSync } from "node:child_process";
-import { existsSync, mkdirSync, readFileSync, readdirSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { tmpdir } from "node:os";
 import { fileURLToPath } from "node:url";
@@ -78,12 +78,19 @@ for (const name of names) {
     if (existsSync(bg)) {
       console.log(`  배경 캐시됨: ${name}`);
     } else {
-      execFileSync("python3", [
+      // gen-image.py는 API 실패 시 그라데이션 플레이스홀더를 저장하고 정상 종료한다.
+      // 종료 코드만 보면 실패를 놓치므로 출력으로 판별한다.
+      const log = execFileSync("python3", [
         join(ROOT, "scripts/gen-image.py"),
         bg,
         "1024x1024",
         `${spec.scene}. ${CONSTRAINTS}`,
-      ], { cwd: ROOT, stdio: "pipe" });
+      ], { cwd: ROOT, encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] });
+
+      if (log.includes("fallback placeholder")) {
+        rmSync(bg, { force: true });
+        throw new Error("AI 생성 실패로 플레이스홀더가 저장됨 (크레딧·API 상태 확인 필요)");
+      }
       console.log(`  배경 생성: ${name}`);
     }
 

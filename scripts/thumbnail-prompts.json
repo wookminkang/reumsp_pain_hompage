@@ -1,0 +1,162 @@
+{
+  "_주석": [
+    "칼럼 썸네일 배경 장면 정의. scripts/regen-thumbnail.mjs가 이 파일을 읽는다.",
+    "키는 썸네일 파일명에서 '-thumbnail.jpg'를 뗀 것과 같다.",
+    "scene은 원고 주제에 맞춰 미리 확정했다. 30편이 서로 다른 장면을 갖도록",
+    "실내/실외, 밝기, 소재를 분산했다. 매일 즉흥으로 짜면 톤이 흔들리고 장면이 겹친다.",
+    "공통 제약(사람·글자·간판·로고 배제)은 스크립트가 자동으로 덧붙이므로 여기 쓰지 않는다."
+  ],
+  "_공통제약": "Photorealistic, cinematic, calm and clean. Muted deep teal and warm neutral palette. Soft natural light, shallow depth of field. Absolutely no people, no text, no letters, no signage, no posters, no labels, no numbers, no digital displays, no logos.",
+
+  "songpa-car-accident": {
+    "title": "송파구 교통사고 한방병원",
+    "subtitle": "교통사고 치료를 이어가려면",
+    "scene": "A clean modern Korean city street in a residential apartment district on a bright overcast afternoon, wide paved sidewalk with young street trees in a neat row, tall contemporary apartment buildings softly out of focus behind, calm orderly everyday atmosphere, no cars, no utility poles, no overhead wires"
+  },
+  "dunchon-car-accident": {
+    "title": "둔촌동 교통사고 치료",
+    "subtitle": "차 없이 걸어서 다니는 몇 주",
+    "scene": "An empty tree-lined pedestrian sidewalk in a quiet neighborhood, soft morning light filtering through green leaves, long receding perspective"
+  },
+  "seongnae-car-accident": {
+    "title": "성내동 교통사고 치료",
+    "subtitle": "과실이 정해지기 전에도",
+    "scene": "A clean, empty hospital reception counter corner, a closed plain folder and a pen resting on the surface, diffused daylight from the side"
+  },
+  "jamsil-car-accident": {
+    "title": "잠실 교통사고 치료 병원",
+    "subtitle": "퇴근 후에 다니려면",
+    "scene": "Interior of a quiet clinic waiting area at night, a large window with soft bokeh city lights outside, one warm interior lamp glowing, empty chairs"
+  },
+  "bangi-car-accident": {
+    "title": "방이동 교통사고 후유증",
+    "subtitle": "쉬는 것과 안 움직이는 것",
+    "scene": "An empty park walking path lined with tall trees in early autumn, soft overcast light, calm long perspective"
+  },
+  "gangdong-car-accident-facility": {
+    "title": "강동구 교통사고 입원 시설",
+    "subtitle": "치료 동선으로 확인하기",
+    "scene": "A spacious empty hospital rehabilitation therapy room, padded treatment tables in a row, tall windows with soft daylight, polished floor"
+  },
+  "gangdong-car-accident-clinic": {
+    "title": "강동구 교통사고 한의원",
+    "subtitle": "입원이 필요해지면",
+    "scene": "A calm Korean medicine treatment room, a neatly made treatment bed with folded white linen, warm wood accents and a low partition curtain, soft window light"
+  },
+
+  "car-accident-duration": {
+    "title": "교통사고 입원 기간",
+    "subtitle": "며칠이면 되냐는 질문에",
+    "scene": "An empty hospital room window with morning light falling across a bedside chair and a neatly folded blanket, sheer curtain lifting slightly in the air"
+  },
+  "gildong-car-accident-clinic": {
+    "title": "길동 교통사고 병원 선택",
+    "subtitle": "한 곳으로 끝나지 않습니다",
+    "scene": "A bright hospital corridor junction where two clean passages split in different directions, soft daylight entering from both sides, polished floor"
+  },
+  "seongnae-car-accident-env": {
+    "title": "성내동 교통사고 입원 환경",
+    "subtitle": "병실과 면회 동선",
+    "scene": "A quiet hospital visitor lounge with soft upholstered sofas and a low round table beside a large window, warm afternoon light, empty and tidy"
+  },
+  "dunchon-car-accident-inpatient": {
+    "title": "둔촌동 교통사고 입원 치료",
+    "subtitle": "첫 밤이 고비입니다",
+    "scene": "A dim hospital room at night, a single bed with neatly folded linen, faint warm glow from a small bedside lamp, window showing deep blue darkness outside"
+  },
+  "car-accident-meals": {
+    "title": "교통사고 입원 식단",
+    "subtitle": "무엇을 미리 알려야 할까",
+    "scene": "A simple hospital meal tray resting on a bedside table, plain white bowls of rice and clear soup with small side dishes, faint steam, soft window light"
+  },
+  "car-accident-routine": {
+    "title": "교통사고 입원 하루 일과",
+    "subtitle": "회진부터 저녁까지",
+    "scene": "An empty hospital day room with simple chairs arranged by tall windows, midday sunlight pooling across the floor, quiet and still"
+  },
+  "songpa-car-accident-inpatient": {
+    "title": "송파구 교통사고 입원 문의",
+    "subtitle": "전화로 확인할 것",
+    "scene": "A clean desk corner with a simple telephone handset and a blank notepad beside it, soft daylight from a window, minimal calm composition"
+  },
+  "bangi-car-accident-rehab": {
+    "title": "방이동 교통사고 입원재활",
+    "subtitle": "매일 받는다는 뜻입니다",
+    "scene": "An empty physical therapy exercise room with parallel bars and exercise mats on the floor, tall windows, soft even daylight"
+  },
+  "car-accident-leave": {
+    "title": "교통사고 입원 중 외출",
+    "subtitle": "회사에 가야 한다면",
+    "scene": "View from inside a hospital entrance hall looking out through tall glass doors to a bright quiet street, soft reflections on the polished floor"
+  },
+  "car-accident-rehab-where": {
+    "title": "교통사고 재활치료 가능한 곳",
+    "subtitle": "도수 운동 추나의 차이",
+    "scene": "A manual therapy room with a single treatment table and suspension straps hanging from the ceiling, soft daylight, clean uncluttered space"
+  },
+  "dunchon-car-accident-rehab": {
+    "title": "둔촌동 교통사고 입원재활",
+    "subtitle": "통증 먼저 움직임 나중",
+    "scene": "Neatly arranged exercise mats and foam rollers stacked in the corner of a quiet therapy room, calm morning light"
+  },
+  "jamsil-car-accident-rehab": {
+    "title": "잠실 교통사고 입원재활",
+    "subtitle": "통원으로 넘어가는 때",
+    "scene": "A hospital exit walkway with smooth handrails leading gently down toward a tree-lined path outside, soft afternoon light"
+  },
+  "seongnae-car-accident-equipment": {
+    "title": "성내동 교통사고 재활치료",
+    "subtitle": "장비가 맡는 자리",
+    "scene": "Modern physical therapy equipment units standing in a clean treatment room, smooth white and grey casings with rounded forms, soft indirect lighting, blank surfaces"
+  },
+  "gangdong-car-accident-rehab": {
+    "title": "강동구 교통사고 입원재활",
+    "subtitle": "양방과 한방이 같이 봅니다",
+    "scene": "A clean consultation room with a simple desk and an examination bed behind a partly drawn curtain, soft daylight from a side window"
+  },
+  "car-accident-imaging": {
+    "title": "교통사고 후 검사",
+    "subtitle": "엑스레이로 충분한가",
+    "scene": "A dim radiology reading room with a softly glowing blank light panel mounted on the wall, nothing attached to it, cool teal ambience"
+  },
+  "gildong-car-accident-passenger": {
+    "title": "길동 교통사고 동승자",
+    "subtitle": "운전자가 아니었는데",
+    "scene": "View from an empty car back seat looking out the side window at a softly blurred street, empty upholstered seats in the foreground, daylight"
+  },
+  "jamsil-car-accident-headache": {
+    "title": "잠실 교통사고 두통",
+    "subtitle": "머리인가 목인가",
+    "scene": "A dim quiet room with heavy curtains almost fully drawn, one thin blade of daylight falling across a plain wall, calm and still"
+  },
+  "songpa-car-accident-neck": {
+    "title": "송파구 교통사고 목통증",
+    "subtitle": "다음 날 더 아픈 이유",
+    "scene": "A neatly made bed with a supportive pillow in soft morning light, plain white linen, quiet bedroom corner with a sheer curtain"
+  },
+  "bangi-car-accident-bicycle": {
+    "title": "방이동 교통사고 자전거",
+    "subtitle": "가벼운 사고가 아닙니다",
+    "scene": "A single bicycle leaning against a metal railing beside an empty paved park path, tall trees behind, soft overcast light"
+  },
+  "car-accident-elderly": {
+    "title": "교통사고 고령 환자",
+    "subtitle": "젊은 사람과 다른 점",
+    "scene": "A wooden chair beside a sunlit window with a walking cane resting against the armrest, warm quiet interior, plain wall"
+  },
+  "car-accident-korean-medicine": {
+    "title": "교통사고 한방치료",
+    "subtitle": "침 약침 한약이 하는 일",
+    "scene": "A clean Korean medicine preparation table with small ceramic bowls and dried herbs arranged on a warm wooden surface, soft side light"
+  },
+  "car-accident-four-weeks": {
+    "title": "교통사고 경상 4주",
+    "subtitle": "넘길 것 같다면",
+    "scene": "A plain clipboard holding blank white paper with a pen laid across it on a clean desk, soft daylight from the side, minimal composition"
+  },
+  "car-accident-transfer": {
+    "title": "교통사고 병원 옮기기",
+    "subtitle": "옮길 때 챙길 것",
+    "scene": "A plain envelope and a small stack of blank papers resting on a light wooden table, soft side light, minimal calm composition"
+  }
+}

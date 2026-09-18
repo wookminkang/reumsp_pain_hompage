@@ -15,6 +15,11 @@
 
 > 이 워크플로는 기본 브랜치(main)에 올라가 있어야 동작한다. 파일을 커밋·푸시하기 전까지는 스케줄이 돌지 않는다.
 
+> **2026-09-18 발행 보류 중.** 9/18~9/30 16편의 키워드를 "지역 + 치료목적 + 병원유형"
+> 조합으로 재설계하기로 해서(사용자 지시), 해당 행의 날짜 앞에 `보류`를 붙여 자동 발행
+> 대상에서 뺐다. `publish-due-columns.mjs`가 `| YYYY-MM-DD |` 형태만 인식하므로 이 표기가
+> 있으면 등록되지 않는다. 새 원고를 쓰면서 `보류 ` 를 지우면 다시 발행 대상이 된다.
+
 상태 표기: `작성완료` = 원고 파일 있음 / `등록` = index.ts 등록 완료(공개 중) / 빈칸 = 미작성
 
 | 날짜 | slug | 제목 | 제목 패턴 | 구조 | 장치 | 상태 |
@@ -33,22 +38,22 @@
 | 2026-09-15 | car-accident-inpatient-meals | 교통사고 입원 식단 어떻게 나오고 무엇을 알려야 하나 | 의문형 | 재프레이밍형 | 없음 | 작성완료 |
 | 2026-09-16 | car-accident-inpatient-daily-routine | 교통사고 입원 하루 일과 회진부터 저녁까지 | 하루·일과형 | 하루 시간대 서사형 | 없음 | 작성완료 |
 | 2026-09-17 | songpa-car-accident-inpatient-available | 송파구 교통사고 입원 가능한 한방병원 전화로 물어볼 것 | 권유형 | 실무 문답형 | checklist 1 | 작성완료 |
-| 2026-09-18 | car-accident-inpatient-leave-work | 교통사고 입원 중 외출 회사에 가야 한다면 | 조건 가정형 | 사례 흐름형 | 없음 | 작성완료 |
-| 2026-09-18 | bangi-car-accident-inpatient-rehab | 방이동 교통사고 입원재활치료 매일 받는다는 뜻입니다 | 재프레이밍형 | 비교 감별형 | 표 1 | 작성완료 |
-| 2026-09-19 | dunchon-car-accident-inpatient-rehab | 둔촌동 교통사고 입원재활치료 통증 먼저 움직임 나중 | 순서형 | 시기별 로드맵형 | callout 1 | 작성완료 |
-| 2026-09-19 | car-accident-rehab-where | 교통사고 재활치료 가능한 곳 도수 운동 추나의 차이 | 정보나열형 | 비교 감별형 | 없음 | 작성완료 |
-| 2026-09-20 | jamsil-car-accident-inpatient-rehab | 잠실 교통사고 입원재활치료 통원으로 넘어가는 때 | 시점형 | 진료실 대화 인용형 | 없음 | 작성완료 |
-| 2026-09-21 | seongnae-car-accident-rehab-equipment | 성내동 교통사고 재활치료 한방병원 장비가 맡는 자리 | 대비 열거형 | 통념 반박형 | 표 1 | 작성완료 |
-| 2026-09-22 | gangdong-car-accident-inpatient-rehab | 강동구 교통사고 입원재활치료 양방과 한방이 같이 봅니다 | 단정 서술형 | 사례 흐름형 | 없음 | 작성완료 |
-| 2026-09-23 | car-accident-imaging-tests | 교통사고 후 검사 엑스레이가 보는 것과 못 보는 것 | 대조형 | 시기별 로드맵형 | callout 1 | 작성완료 |
-| 2026-09-24 | gildong-car-accident-passenger | 길동 교통사고 나는 운전자가 아니었는데 | 인용형 | 실무 문답형 | 표 1 | 작성완료 |
-| 2026-09-25 | songpa-car-accident-neck-pain | 송파구 교통사고 목통증 다음 날 더 아픈 이유 | 이유형 | 손상 기전 서사형 | 없음 | 작성완료 |
-| 2026-09-25 | jamsil-car-accident-headache | 잠실 교통사고 두통 머리인가 목인가 | 대비 질문형 | 비교 감별형 | callout 1 | 작성완료 |
-| 2026-09-26 | bangi-car-accident-bicycle | 방이동 교통사고 자전거는 가벼운 사고가 아닙니다 | 부정형 | 통념 반박형 | 없음 | 작성완료 |
-| 2026-09-27 | car-accident-elderly-patient | 교통사고 고령 환자 젊은 사람과 다른 점 | 대조형 | 단일 질문 심층형 | 없음 | 작성완료 |
-| 2026-09-28 | car-accident-korean-medicine-treatment | 교통사고 한방치료 침 약침 한약이 하는 일 | 정보나열형 | 재프레이밍형 | 없음 | 작성완료 |
-| 2026-09-29 | car-accident-minor-injury-four-weeks | 교통사고 경상 진단 4주를 넘길 것 같다면 | 가정형 | 실무 문답형 | 없음 | 작성완료 |
-| 2026-09-30 | car-accident-changing-hospitals | 교통사고 보험 접수 후 병원 옮길 때 챙길 것 | 방법형 | 재프레이밍형 | 없음 | 작성완료 |
+| 보류 2026-09-18 | car-accident-inpatient-leave-work | 교통사고 입원 중 외출 회사에 가야 한다면 | 조건 가정형 | 사례 흐름형 | 없음 | 작성완료 |
+| 보류 2026-09-18 | bangi-car-accident-inpatient-rehab | 방이동 교통사고 입원재활치료 매일 받는다는 뜻입니다 | 재프레이밍형 | 비교 감별형 | 표 1 | 작성완료 |
+| 보류 2026-09-19 | dunchon-car-accident-inpatient-rehab | 둔촌동 교통사고 입원재활치료 통증 먼저 움직임 나중 | 순서형 | 시기별 로드맵형 | callout 1 | 작성완료 |
+| 보류 2026-09-19 | car-accident-rehab-where | 교통사고 재활치료 가능한 곳 도수 운동 추나의 차이 | 정보나열형 | 비교 감별형 | 없음 | 작성완료 |
+| 보류 2026-09-20 | jamsil-car-accident-inpatient-rehab | 잠실 교통사고 입원재활치료 통원으로 넘어가는 때 | 시점형 | 진료실 대화 인용형 | 없음 | 작성완료 |
+| 보류 2026-09-21 | seongnae-car-accident-rehab-equipment | 성내동 교통사고 재활치료 한방병원 장비가 맡는 자리 | 대비 열거형 | 통념 반박형 | 표 1 | 작성완료 |
+| 보류 2026-09-22 | gangdong-car-accident-inpatient-rehab | 강동구 교통사고 입원재활치료 양방과 한방이 같이 봅니다 | 단정 서술형 | 사례 흐름형 | 없음 | 작성완료 |
+| 보류 2026-09-23 | car-accident-imaging-tests | 교통사고 후 검사 엑스레이가 보는 것과 못 보는 것 | 대조형 | 시기별 로드맵형 | callout 1 | 작성완료 |
+| 보류 2026-09-24 | gildong-car-accident-passenger | 길동 교통사고 나는 운전자가 아니었는데 | 인용형 | 실무 문답형 | 표 1 | 작성완료 |
+| 보류 2026-09-25 | songpa-car-accident-neck-pain | 송파구 교통사고 목통증 다음 날 더 아픈 이유 | 이유형 | 손상 기전 서사형 | 없음 | 작성완료 |
+| 보류 2026-09-25 | jamsil-car-accident-headache | 잠실 교통사고 두통 머리인가 목인가 | 대비 질문형 | 비교 감별형 | callout 1 | 작성완료 |
+| 보류 2026-09-26 | bangi-car-accident-bicycle | 방이동 교통사고 자전거는 가벼운 사고가 아닙니다 | 부정형 | 통념 반박형 | 없음 | 작성완료 |
+| 보류 2026-09-27 | car-accident-elderly-patient | 교통사고 고령 환자 젊은 사람과 다른 점 | 대조형 | 단일 질문 심층형 | 없음 | 작성완료 |
+| 보류 2026-09-28 | car-accident-korean-medicine-treatment | 교통사고 한방치료 침 약침 한약이 하는 일 | 정보나열형 | 재프레이밍형 | 없음 | 작성완료 |
+| 보류 2026-09-29 | car-accident-minor-injury-four-weeks | 교통사고 경상 진단 4주를 넘길 것 같다면 | 가정형 | 실무 문답형 | 없음 | 작성완료 |
+| 보류 2026-09-30 | car-accident-changing-hospitals | 교통사고 보험 접수 후 병원 옮길 때 챙길 것 | 방법형 | 재프레이밍형 | 없음 | 작성완료 |
 
 ## 자료 대기였던 두 축 (2026-09-07 대체 완료)
 

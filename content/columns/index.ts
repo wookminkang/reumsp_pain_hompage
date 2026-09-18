@@ -1,4 +1,5 @@
 import type { ColumnArticle } from "@/lib/columns/types";
+import { amsaCarAccidentKoreanMedicineClinic } from "./amsa-car-accident-korean-medicine-clinic";
 import { asanHospitalNearbyKoreanMedicine } from "./asan-hospital-nearby-korean-medicine";
 import { asanHospitalNearbyNursingHospital } from "./asan-hospital-nearby-nursing-hospital";
 import { bangiCarAccidentAftereffects } from "./bangi-car-accident-aftereffects";
@@ -9,6 +10,7 @@ import { carAccidentAftereffectsTreatment } from "./car-accident-aftereffects-tr
 import { carAccidentHospitalizationDuration } from "./car-accident-hospitalization-duration";
 import { carAccidentInpatientDailyRoutine } from "./car-accident-inpatient-daily-routine";
 import { carAccidentInpatientMeals } from "./car-accident-inpatient-meals";
+import { cheonhoCarAccidentTreatment } from "./cheonho-car-accident-treatment";
 import { cheonhoNeckShoulderPain } from "./cheonho-neck-shoulder-pain";
 import { dunchonCarAccidentInpatientCare } from "./dunchon-car-accident-inpatient-care";
 import { dunchonCarAccidentTreatment } from "./dunchon-car-accident-treatment";
@@ -74,6 +76,7 @@ import { thyroidCancerSurgeryRecovery } from "./thyroid-cancer-surgery-recovery"
  * sitemap·목록·상세 페이지가 모두 이 배열을 참조한다.
  */
 export const COLUMNS: ColumnArticle[] = [
+  amsaCarAccidentKoreanMedicineClinic,
   asanHospitalNearbyKoreanMedicine,
   asanHospitalNearbyNursingHospital,
   bangiCarAccidentAftereffects,
@@ -84,6 +87,7 @@ export const COLUMNS: ColumnArticle[] = [
   carAccidentHospitalizationDuration,
   carAccidentInpatientDailyRoutine,
   carAccidentInpatientMeals,
+  cheonhoCarAccidentTreatment,
   cheonhoNeckShoulderPain,
   dunchonCarAccidentInpatientCare,
   dunchonCarAccidentTreatment,

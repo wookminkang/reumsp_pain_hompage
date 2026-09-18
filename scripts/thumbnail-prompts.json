@@ -154,6 +154,17 @@
     "subtitle": "넘길 것 같다면",
     "scene": "A plain clipboard holding blank white paper with a pen laid across it on a clean desk, soft daylight from the side, minimal composition"
   },
+  "cheonho-car-accident": {
+    "title": "천호동 교통사고치료",
+    "subtitle": "며칠만 버티려다",
+    "scene": "A quiet Korean neighborhood commercial street at dusk, modern low-rise concrete and glass buildings, warm light from ground-floor windows falling on a clean paved sidewalk, contemporary Seoul city setting, no shop signs or lettering of any kind"
+  },
+  "amsa-car-accident": {
+    "title": "암사동 교통사고치료 한의원",
+    "subtitle": "먼저 물어볼 것",
+    "scene": "A wide Korean riverside park path along the Han River at early morning, the river broad and calm on one side, low grassy embankment, distant modern apartment towers softly out of focus across the water, misty air, contemporary Seoul setting"
+  },
+
   "car-accident-transfer": {
     "title": "교통사고 병원 옮기기",
     "subtitle": "옮길 때 챙길 것",

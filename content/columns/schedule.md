@@ -49,8 +49,8 @@
 | 2026-09-18 | amsa-car-accident-korean-medicine-clinic | 암사동 교통사고치료 한의원에서 먼저 물어볼 것 | 권유형 | 실무 문답형 | 없음 | 작성완료 |
 | 2026-09-19 | myeongil-car-accident-treatment | 명일동 교통사고치료 한방병원 운전대를 다시 잡기까지 | 범위형 | 단일 질문 심층형 | callout 1 | 작성완료 |
 | 2026-09-19 | ogeum-car-accident-korean-medicine-clinic | 오금동 교통사고치료 한의원 언제까지 다녀야 하나 | 의문형 | 단일 질문 심층형 | 없음 | 작성완료 |
-| 보류 2026-09-20 | jamsil-car-accident-inpatient-rehab | 잠실 교통사고 입원재활치료 통원으로 넘어가는 때 | 시점형 | 진료실 대화 인용형 | 없음 | 작성완료 |
-| 보류 2026-09-21 | seongnae-car-accident-rehab-equipment | 성내동 교통사고 재활치료 한방병원 장비가 맡는 자리 | 대비 열거형 | 통념 반박형 | 표 1 | 작성완료 |
+| 2026-09-20 | godeok-car-accident-inpatient | 고덕동 교통사고 입원치료 비용은 병실에서 갈립니다 | 단정 서술형 | 실무 문답형 | 없음 | 작성완료 |
+| 2026-09-21 | geoyeo-car-accident-treatment | 거여동 교통사고치료 한방병원 아픈 곳이 옮겨갈 때 | 시점·조건형 | 시기별 로드맵형 | callout 1 | 작성완료 |
 | 보류 2026-09-22 | gangdong-car-accident-inpatient-rehab | 강동구 교통사고 입원재활치료 양방과 한방이 같이 봅니다 | 단정 서술형 | 사례 흐름형 | 없음 | 작성완료 |
 | 보류 2026-09-23 | car-accident-imaging-tests | 교통사고 후 검사 엑스레이가 보는 것과 못 보는 것 | 대조형 | 시기별 로드맵형 | callout 1 | 작성완료 |
 | 보류 2026-09-24 | gildong-car-accident-passenger | 길동 교통사고 나는 운전자가 아니었는데 | 인용형 | 실무 문답형 | 표 1 | 작성완료 |

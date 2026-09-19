@@ -154,6 +154,17 @@
     "subtitle": "넘길 것 같다면",
     "scene": "A plain clipboard holding blank white paper with a pen laid across it on a clean desk, soft daylight from the side, minimal composition"
   },
+  "godeok-car-accident": {
+    "title": "고덕동 교통사고 입원치료",
+    "subtitle": "비용은 병실에서 갈립니다",
+    "scene": "A quiet hospital admissions consultation corner with two empty chairs facing each other across a small table, soft daylight from a side window, clean and uncluttered, nothing written on any surface"
+  },
+  "geoyeo-car-accident": {
+    "title": "거여동 교통사고치료",
+    "subtitle": "아픈 곳이 옮겨갈 때",
+    "scene": "Soft morning light falling across an empty treatment room floor, a single low stool beside a neatly covered treatment table, calm and still, shallow depth of field"
+  },
+
   "myeongil-car-accident": {
     "title": "명일동 교통사고치료",
     "subtitle": "운전대를 다시 잡기까지",

@@ -154,6 +154,17 @@
     "subtitle": "넘길 것 같다면",
     "scene": "A plain clipboard holding blank white paper with a pen laid across it on a clean desk, soft daylight from the side, minimal composition"
   },
+  "macheon-car-accident": {
+    "title": "마천동 교통사고치료 한의원",
+    "subtitle": "오가는 사이에 하는 것",
+    "scene": "A quiet home living room corner in soft late afternoon light, a folded yoga mat leaning against the wall beside a low sofa, warm wooden floor, calm and tidy"
+  },
+  "sangil-car-accident": {
+    "title": "상일동 교통사고 입원재활",
+    "subtitle": "사고 전으로 돌아가려면",
+    "scene": "An empty rehabilitation gym with a long handrail along one wall and soft morning light from tall windows, polished floor stretching into the distance, clean and uncluttered"
+  },
+
   "godeok-car-accident": {
     "title": "고덕동 교통사고 입원치료",
     "subtitle": "비용은 병실에서 갈립니다",

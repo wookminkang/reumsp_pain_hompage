@@ -51,8 +51,8 @@
 | 2026-09-19 | ogeum-car-accident-korean-medicine-clinic | 오금동 교통사고치료 한의원 언제까지 다녀야 하나 | 의문형 | 단일 질문 심층형 | 없음 | 작성완료 |
 | 2026-09-20 | godeok-car-accident-inpatient | 고덕동 교통사고 입원치료 비용은 병실에서 갈립니다 | 단정 서술형 | 실무 문답형 | 없음 | 작성완료 |
 | 2026-09-21 | geoyeo-car-accident-treatment | 거여동 교통사고치료 한방병원 아픈 곳이 옮겨갈 때 | 시점·조건형 | 시기별 로드맵형 | callout 1 | 작성완료 |
-| 보류 2026-09-22 | gangdong-car-accident-inpatient-rehab | 강동구 교통사고 입원재활치료 양방과 한방이 같이 봅니다 | 단정 서술형 | 사례 흐름형 | 없음 | 작성완료 |
-| 보류 2026-09-23 | car-accident-imaging-tests | 교통사고 후 검사 엑스레이가 보는 것과 못 보는 것 | 대조형 | 시기별 로드맵형 | callout 1 | 작성완료 |
+| 2026-09-22 | macheon-car-accident-korean-medicine-clinic | 마천동 교통사고치료 한의원 오가는 사이에 하는 것 | 정보나열형 | 실무 문답형 | 없음 | 작성완료 |
+| 2026-09-23 | sangil-car-accident-inpatient-rehab | 상일동 교통사고 입원재활치료 사고 전으로 돌아가려면 | 조건 가정형 | 재프레이밍형 | 없음 | 작성완료 |
 | 보류 2026-09-24 | gildong-car-accident-passenger | 길동 교통사고 나는 운전자가 아니었는데 | 인용형 | 실무 문답형 | 표 1 | 작성완료 |
 | 보류 2026-09-25 | songpa-car-accident-neck-pain | 송파구 교통사고 목통증 다음 날 더 아픈 이유 | 이유형 | 손상 기전 서사형 | 없음 | 작성완료 |
 | 보류 2026-09-25 | jamsil-car-accident-headache | 잠실 교통사고 두통 머리인가 목인가 | 대비 질문형 | 비교 감별형 | callout 1 | 작성완료 |

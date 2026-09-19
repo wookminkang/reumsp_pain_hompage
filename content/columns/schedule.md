@@ -47,8 +47,8 @@
 | 2026-09-17 | songpa-car-accident-inpatient-available | 송파구 교통사고 입원 가능한 한방병원 전화로 물어볼 것 | 권유형 | 실무 문답형 | checklist 1 | 작성완료 |
 | 2026-09-18 | cheonho-car-accident-treatment | 천호동 교통사고치료 한방병원 며칠만 버티려다 | 미완결 경고형 | 사례 흐름형 | 없음 | 작성완료 |
 | 2026-09-18 | amsa-car-accident-korean-medicine-clinic | 암사동 교통사고치료 한의원에서 먼저 물어볼 것 | 권유형 | 실무 문답형 | 없음 | 작성완료 |
-| 보류 2026-09-19 | dunchon-car-accident-inpatient-rehab | 둔촌동 교통사고 입원재활치료 통증 먼저 움직임 나중 | 순서형 | 시기별 로드맵형 | callout 1 | 작성완료 |
-| 보류 2026-09-19 | car-accident-rehab-where | 교통사고 재활치료 가능한 곳 도수 운동 추나의 차이 | 정보나열형 | 비교 감별형 | 없음 | 작성완료 |
+| 2026-09-19 | myeongil-car-accident-treatment | 명일동 교통사고치료 한방병원 운전대를 다시 잡기까지 | 범위형 | 단일 질문 심층형 | callout 1 | 작성완료 |
+| 2026-09-19 | ogeum-car-accident-korean-medicine-clinic | 오금동 교통사고치료 한의원 언제까지 다녀야 하나 | 의문형 | 단일 질문 심층형 | 없음 | 작성완료 |
 | 보류 2026-09-20 | jamsil-car-accident-inpatient-rehab | 잠실 교통사고 입원재활치료 통원으로 넘어가는 때 | 시점형 | 진료실 대화 인용형 | 없음 | 작성완료 |
 | 보류 2026-09-21 | seongnae-car-accident-rehab-equipment | 성내동 교통사고 재활치료 한방병원 장비가 맡는 자리 | 대비 열거형 | 통념 반박형 | 표 1 | 작성완료 |
 | 보류 2026-09-22 | gangdong-car-accident-inpatient-rehab | 강동구 교통사고 입원재활치료 양방과 한방이 같이 봅니다 | 단정 서술형 | 사례 흐름형 | 없음 | 작성완료 |

@@ -154,6 +154,17 @@
     "subtitle": "넘길 것 같다면",
     "scene": "A plain clipboard holding blank white paper with a pen laid across it on a clean desk, soft daylight from the side, minimal composition"
   },
+  "myeongil-car-accident": {
+    "title": "명일동 교통사고치료",
+    "subtitle": "운전대를 다시 잡기까지",
+    "scene": "A single parked car seen from behind in a quiet Korean residential parking area at dusk, softly out of focus apartment building behind, no one around, calm still atmosphere, no license plate visible"
+  },
+  "ogeum-car-accident": {
+    "title": "오금동 교통사고치료 한의원",
+    "subtitle": "언제까지 다녀야 하나",
+    "scene": "An empty Korean subway station platform with clean tiled floor and platform screen doors, soft even indoor lighting, long receding perspective, no people, no station name boards or route maps"
+  },
+
   "cheonho-car-accident": {
     "title": "천호동 교통사고치료",
     "subtitle": "며칠만 버티려다",

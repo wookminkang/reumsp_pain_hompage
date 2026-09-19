@@ -106,12 +106,7 @@ export const amsaCarAccidentKoreanMedicineClinic = {
         {
           type: "paragraph",
           content: [
-            "세 번째는 치료 기간과 서류입니다. 2023년 자동차보험 표준약관 개정으로 경상 환자가 4주를 초과해 치료받을 때는 의료기관이 발급한 진단서를 보험사에 제출하도록 하고 있습니다. 치료가 4주를 넘길 것 같으면 그 시점에 서류를 발급받을 수 있는지 미리 확인해 두시는 편이 좋습니다. 관련 제도는 ",
-            {
-              text: "경상 4주 기준 편",
-              href: "/columns/car-accident-minor-injury-four-weeks",
-            },
-            "에 따로 정리해 두었습니다.",
+            "세 번째는 치료 기간과 서류입니다. 2023년 자동차보험 표준약관 개정으로 경상 환자가 4주를 초과해 치료받을 때는 의료기관이 발급한 진단서를 보험사에 제출하도록 하고 있습니다. 치료가 4주를 넘길 것 같으면 그 시점에 서류를 발급받을 수 있는지 미리 확인해 두시는 편이 좋습니다. 본인이 경상에 해당하는지와 필요한 서류의 형식은 가입하신 보험사에서도 안내받으실 수 있습니다.",
           ],
         },
         {
@@ -220,7 +215,7 @@ export const amsaCarAccidentKoreanMedicineClinic = {
   relatedSlugs: [
     "gangdong-car-accident-korean-medicine-clinic",
     "gangdong-car-accident-hospitalization",
-    "car-accident-minor-injury-four-weeks",
+    "gildong-car-accident-clinic-hospital",
   ],
   references: [
     {

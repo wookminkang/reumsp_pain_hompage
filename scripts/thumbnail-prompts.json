@@ -154,6 +154,17 @@
     "subtitle": "넘길 것 같다면",
     "scene": "A plain clipboard holding blank white paper with a pen laid across it on a clean desk, soft daylight from the side, minimal composition"
   },
+  "seokchon-car-accident": {
+    "title": "석촌동 교통사고치료",
+    "subtitle": "기억과 기록은 다릅니다",
+    "scene": "A small blank notepad and a pen resting on a plain desk beside a phone lying face down, soft window light from the side, calm minimal composition, nothing written on the paper"
+  },
+  "munjeong-car-accident": {
+    "title": "문정동 교통사고치료 한의원",
+    "subtitle": "밤에 더 아픈 이유",
+    "scene": "A dim bedroom at night with rumpled bedding and a pillow, faint blue light coming through a gap in the curtains, quiet and still, no one in the bed"
+  },
+
   "macheon-car-accident": {
     "title": "마천동 교통사고치료 한의원",
     "subtitle": "오가는 사이에 하는 것",

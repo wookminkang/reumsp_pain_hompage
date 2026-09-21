@@ -57,9 +57,9 @@
 | 2026-09-25 | munjeong-car-accident-korean-medicine-clinic | 문정동 교통사고치료 한의원 밤에 더 아픈 이유 | 이유형 | 단일 질문 심층형 | callout 1 | 작성완료 |
 | 2026-09-26 | pungnap-car-accident-treatment | 풍납동 교통사고치료 한방병원 큰 병원 다음 차례 | 순서형 | 순서형 | 없음 | 작성완료 |
 | 2026-09-27 | garak-car-accident-inpatient-rehab | 가락동 교통사고 입원재활치료 앉는 일과 드는 일 | 대비 열거형 | 대비 열거형 | 없음 | 작성완료 |
-| 보류 2026-09-28 | car-accident-korean-medicine-treatment | 교통사고 한방치료 침 약침 한약이 하는 일 | 정보나열형 | 재프레이밍형 | 없음 | 작성완료 |
-| 보류 2026-09-29 | car-accident-minor-injury-four-weeks | 교통사고 경상 진단 4주를 넘길 것 같다면 | 가정형 | 실무 문답형 | 없음 | 작성완료 |
-| 보류 2026-09-30 | car-accident-changing-hospitals | 교통사고 보험 접수 후 병원 옮길 때 챙길 것 | 방법형 | 재프레이밍형 | 없음 | 작성완료 |
+| 2026-09-28 | gangil-car-accident-korean-medicine-clinic | 강일동 교통사고치료 한의원 서류 받는 순서 | 방법형 | 실무 문답형 | 없음 | 작성완료 |
+| 2026-09-29 | hanam-car-accident-treatment | 하남시 교통사고치료 한방병원 한 번만 갈아타면 | 수치형 | 비교 감별형 | 없음 | 작성완료 |
+| 2026-09-30 | gwangjin-car-accident-inpatient | 광진구 교통사고 입원치료 거리를 다시 계산하면 | 재프레이밍형 | 재프레이밍형 | 없음 | 작성완료 |
 
 ## 자료 대기였던 두 축 (2026-09-07 대체 완료)
 

@@ -154,6 +154,22 @@
     "subtitle": "넘길 것 같다면",
     "scene": "A plain clipboard holding blank white paper with a pen laid across it on a clean desk, soft daylight from the side, minimal composition"
   },
+  "gangil-car-accident": {
+    "title": "강일동 교통사고치료 한의원",
+    "subtitle": "서류 받는 순서",
+    "scene": "A clean reception desk corner with a small stack of blank forms and a pen holder, soft daylight from a side window, tidy and minimal, nothing printed on the papers"
+  },
+  "hanam-car-accident": {
+    "title": "하남시 교통사고치료",
+    "subtitle": "한 번만 갈아타면",
+    "scene": "An empty subway transfer corridor with clean tiled walls and soft even lighting, a long passage curving gently out of view, no people, no signs or direction boards"
+  },
+  "gwangjin-car-accident": {
+    "title": "광진구 교통사고 입원치료",
+    "subtitle": "거리를 다시 계산하면",
+    "scene": "A wide river at dusk seen from the bank, a long bridge stretching across in soft silhouette, calm water, distant city lights blurred, quiet and still"
+  },
+
   "pungnap-car-accident": {
     "title": "풍납동 교통사고치료",
     "subtitle": "큰 병원 다음 차례",

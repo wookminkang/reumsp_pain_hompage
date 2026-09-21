@@ -154,6 +154,17 @@
     "subtitle": "넘길 것 같다면",
     "scene": "A plain clipboard holding blank white paper with a pen laid across it on a clean desk, soft daylight from the side, minimal composition"
   },
+  "pungnap-car-accident": {
+    "title": "풍납동 교통사고치료",
+    "subtitle": "큰 병원 다음 차례",
+    "scene": "A plain manila document envelope resting on a clean light wooden table beside a closed folder, soft daylight from a side window, minimal calm composition, nothing written or printed on them"
+  },
+  "garak-car-accident": {
+    "title": "가락동 교통사고 입원재활",
+    "subtitle": "앉는 일과 드는 일",
+    "scene": "An empty rehabilitation exercise area with a low wooden step platform and a pair of light dumbbells resting on the floor, soft morning light, clean uncluttered space"
+  },
+
   "seokchon-car-accident": {
     "title": "석촌동 교통사고치료",
     "subtitle": "기억과 기록은 다릅니다",

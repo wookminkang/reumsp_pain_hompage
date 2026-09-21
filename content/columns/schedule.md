@@ -55,9 +55,8 @@
 | 2026-09-23 | sangil-car-accident-inpatient-rehab | 상일동 교통사고 입원재활치료 사고 전으로 돌아가려면 | 조건 가정형 | 재프레이밍형 | 없음 | 작성완료 |
 | 2026-09-24 | seokchon-car-accident-treatment | 석촌동 교통사고치료 한방병원 기억과 기록은 다릅니다 | 대조형 | 실무 문답형 | 없음 | 작성완료 |
 | 2026-09-25 | munjeong-car-accident-korean-medicine-clinic | 문정동 교통사고치료 한의원 밤에 더 아픈 이유 | 이유형 | 단일 질문 심층형 | callout 1 | 작성완료 |
-| 보류 2026-09-25 | jamsil-car-accident-headache | 잠실 교통사고 두통 머리인가 목인가 | 대비 질문형 | 비교 감별형 | callout 1 | 작성완료 |
-| 보류 2026-09-26 | bangi-car-accident-bicycle | 방이동 교통사고 자전거는 가벼운 사고가 아닙니다 | 부정형 | 통념 반박형 | 없음 | 작성완료 |
-| 보류 2026-09-27 | car-accident-elderly-patient | 교통사고 고령 환자 젊은 사람과 다른 점 | 대조형 | 단일 질문 심층형 | 없음 | 작성완료 |
+| 2026-09-26 | pungnap-car-accident-treatment | 풍납동 교통사고치료 한방병원 큰 병원 다음 차례 | 순서형 | 순서형 | 없음 | 작성완료 |
+| 2026-09-27 | garak-car-accident-inpatient-rehab | 가락동 교통사고 입원재활치료 앉는 일과 드는 일 | 대비 열거형 | 대비 열거형 | 없음 | 작성완료 |
 | 보류 2026-09-28 | car-accident-korean-medicine-treatment | 교통사고 한방치료 침 약침 한약이 하는 일 | 정보나열형 | 재프레이밍형 | 없음 | 작성완료 |
 | 보류 2026-09-29 | car-accident-minor-injury-four-weeks | 교통사고 경상 진단 4주를 넘길 것 같다면 | 가정형 | 실무 문답형 | 없음 | 작성완료 |
 | 보류 2026-09-30 | car-accident-changing-hospitals | 교통사고 보험 접수 후 병원 옮길 때 챙길 것 | 방법형 | 재프레이밍형 | 없음 | 작성완료 |

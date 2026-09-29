@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import "./globals.css";
 import { CLINIC, SITE_URL } from "@/lib/clinic";
+import NaverAnalytics from "@/components/naver-analytics";
 
 const TITLE = `${CLINIC.name}, 365일 한·양방 협진 통증 치료`;
 // 네이버는 앞 80자 내외만 노출 — 엔티티(지역·종별)와 핵심 차별점(365일·입원)을 선두 배치.
@@ -81,21 +82,7 @@ export default function RootLayout({
       {/* 히어로 배경은 next/image priority가 preload를 처리한다 */}
       <body className="min-h-full bg-white">
         {children}
-        <Script
-          src="//wcs.naver.net/wcslog.js"
-          strategy="afterInteractive"
-        />
-        <Script id="naver-wcslog" strategy="afterInteractive">
-          {`
-            if (!wcs_add) var wcs_add={};
-            wcs_add["wa"] = "s_1fb45e1c178";
-            if (!_nasa) var _nasa={};
-            if(window.wcs){
-              wcs.inflow();
-              wcs_do();
-            }
-          `}
-        </Script>
+        <NaverAnalytics />
         <Script id="smartlog-config" strategy="afterInteractive">
           {`
             var hpt_info={'_account':'UHPT-301092', '_server': 'a300'};

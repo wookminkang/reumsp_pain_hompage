@@ -54,6 +54,14 @@ npm run build  # 프로덕션 빌드
 오시는 길에 실제 지도가 렌더링됩니다. 키가 없으면 "네이버지도에서 위치 보기" 링크 폴백.
 `.env.example` 참고. 좌표는 `lib/clinic.ts`의 `geo` (풍원빌딩 근사값 — 키 적용 후 마커 위치 확인 필요).
 
+## 네이버 광고 전환추적
+
+`components/naver-analytics.tsx` (layout에서 전역 로드). 계정 ID `s_1fb45e1c178`.
+- 공통 스크립트: `wcslog.js` 로드 완료(`onLoad`) 후 `wcs.inflow()` + `wcs_do()` — 방문 수집
+- 전환: `booking.naver.com`(온라인 예약)·`tel:`(전화상담) 링크 클릭 시 `wcs.cnv("4", "1")`(4 = 신청/예약) 전송.
+  문서 전체 클릭 위임이라 예약 버튼을 새로 추가해도 별도 작업 불필요
+- 검수: Network 탭에서 `wcs.naver.*/b` POST 바디에 `"t":"conv","cnv":"cnvType=4|cnvValue=1"` 확인
+
 ## 남은 작업 (TODO)
 
 - [ ] 네이버맵 클라이언트 ID 발급 후 `.env.local` 설정 + 마커 좌표 검수

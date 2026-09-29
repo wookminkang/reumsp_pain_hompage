@@ -41,6 +41,7 @@ import { geoyeoCarAccidentTreatment } from "./geoyeo-car-accident-treatment";
 import { gildongCarAccidentAftereffects } from "./gildong-car-accident-aftereffects";
 import { gildongCarAccidentClinicHospital } from "./gildong-car-accident-clinic-hospital";
 import { godeokCarAccidentInpatient } from "./godeok-car-accident-inpatient";
+import { hanamCarAccidentTreatment } from "./hanam-car-accident-treatment";
 import { jamsilCancerSurgeryRecovery } from "./jamsil-cancer-surgery-recovery";
 import { jamsilCarAccidentTreatment } from "./jamsil-car-accident-treatment";
 import { jamsilElbowPainTreatment } from "./jamsil-elbow-pain-treatment";
@@ -129,6 +130,7 @@ export const COLUMNS: ColumnArticle[] = [
   gildongCarAccidentAftereffects,
   gildongCarAccidentClinicHospital,
   godeokCarAccidentInpatient,
+  hanamCarAccidentTreatment,
   jamsilCancerSurgeryRecovery,
   jamsilCarAccidentTreatment,
   jamsilElbowPainTreatment,

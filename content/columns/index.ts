@@ -72,6 +72,7 @@ import { songpaBackPainHospital } from "./songpa-back-pain-hospital";
 import { songpaCancerNursingHospital } from "./songpa-cancer-nursing-hospital";
 import { songpaCarAccidentInpatientAvailable } from "./songpa-car-accident-inpatient-available";
 import { songpaCarAccidentKoreanMedicineHospital } from "./songpa-car-accident-korean-medicine-hospital";
+import { songpaCarAccidentTreatmentKoreanMedicineHospital } from "./songpa-car-accident-treatment-korean-medicine-hospital";
 import { songpaKneeAnklePainCare } from "./songpa-knee-ankle-pain-care";
 import { songpaLegNumbnessTreatment } from "./songpa-leg-numbness-treatment";
 import { songpaLumbarDiscSurgeryRehab } from "./songpa-lumbar-disc-surgery-rehab";
@@ -162,6 +163,7 @@ export const COLUMNS: ColumnArticle[] = [
   songpaCancerNursingHospital,
   songpaCarAccidentInpatientAvailable,
   songpaCarAccidentKoreanMedicineHospital,
+  songpaCarAccidentTreatmentKoreanMedicineHospital,
   songpaKneeAnklePainCare,
   songpaLegNumbnessTreatment,
   songpaLumbarDiscSurgeryRehab,

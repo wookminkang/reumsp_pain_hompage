@@ -240,5 +240,191 @@
     "title": "교통사고 병원 옮기기",
     "subtitle": "옮길 때 챙길 것",
     "scene": "A plain envelope and a small stack of blank papers resting on a light wooden table, soft side light, minimal calm composition"
+  },
+
+  "songpa-car-accident-treatment-korean-medicine-hospital": {
+    "title": "송파구 교통사고 치료",
+    "subtitle": "합의 전화가 먼저 온 날",
+    "scene": "A pair of reading glasses resting on a closed dark notebook on a wide windowsill, soft rain-blurred city view outside the glass, quiet late afternoon light, minimal calm composition, nothing written on any surface"
+  },
+
+  "dunchon-car-accident-aftereffects-treatment": {
+    "title": "둔촌동 교통사고 후유증 치료",
+    "subtitle": "아이를 안아야 한다면",
+    "scene": "A bright apartment living room floor in soft morning light, a few plain wooden toy blocks and a small folded blanket on a play mat beside a low sofa, a fabric baby carrier draped over the sofa arm, warm wooden floor, tidy and calm, plain surfaces with nothing printed on them"
+  },
+
+  "seongnae-car-accident-aftereffects-treatment": {
+    "title": "성내동 교통사고 후유증 치료",
+    "subtitle": "전부터 아프던 허리",
+    "scene": "A soft fabric heating pad folded over the armrest of a plain sofa with its cord coiled neatly beside it, quiet living room in warm early evening light, sheer curtain in the background, calm lived-in atmosphere, plain surfaces with no patterns or lettering"
+  },
+
+  "jamsil-car-accident-aftereffects-treatment": {
+    "title": "잠실 교통사고 후유증 치료",
+    "subtitle": "진단 2주가 뜻하는 것",
+    "scene": "A minimalist analog wristwatch with a plain unmarked dial laid flat on a clean office desk beside a closed laptop, softly blurred high-rise office windows in the background, cool late afternoon daylight, minimal composition, no screens lit and nothing written anywhere"
+  },
+
+  "bangi-car-accident-aftereffects-treatment": {
+    "title": "방이동 교통사고 후유증 치료",
+    "subtitle": "다녀온 날 더 아픈가요",
+    "scene": "A light jacket and a canvas tote bag hanging from a wall-mounted coat hook in a quiet apartment hallway at dusk, warm evening light from a side window casting long soft shadows across a plain pale wall, calm end-of-day mood, no logos or lettering on the jacket or bag"
+  },
+
+  "gangdong-car-accident-treatment-korean-medicine-clinic": {
+    "title": "강동구 교통사고 치료 한의원",
+    "subtitle": "횟수에도 기준이 있습니다",
+    "scene": "A stainless steel treatment cart in a quiet Korean medicine clinic room, a wooden tray holding sealed acupuncture needle packs and a few small unlabeled glass vials arranged in a neat row, soft daylight from a side window, shallow depth of field, clean blank surfaces with nothing printed on any packaging"
+  },
+
+  "gangdong-car-accident-inpatient-treatment-facility": {
+    "title": "강동구 교통사고 입원 시설",
+    "subtitle": "없는 것부터 확인하기",
+    "scene": "An empty hospital elevator lobby with two closed brushed steel elevator doors, soft indirect ceiling light, pale stone floor with faint reflections, a single potted plant in the corner, quiet and orderly, no floor indicators, no buttons lit, no signs or numbers anywhere"
+  },
+
+  "gildong-car-accident-treatment-clinic-hospital": {
+    "title": "길동 교통사고 치료",
+    "subtitle": "받힌 방향이 말해주는 것",
+    "scene": "A quiet four-way intersection in a Korean residential district seen from a slightly elevated angle in early morning, empty asphalt with plain white crosswalk stripes, low sunlight casting long soft shadows from street trees, softly blurred low-rise buildings behind, no cars, no people, no traffic signs, no road lettering"
+  },
+
+  "car-accident-inpatient-treatment-duration": {
+    "title": "교통사고 입원 치료 기간",
+    "subtitle": "7일 4주 8주가 뜻하는 것",
+    "scene": "A long straight hospital ward corridor with evenly spaced closed doors receding into the distance, soft daylight glowing from a window at the far end, polished floor with gentle reflections, calm and empty, no door numbers or signs"
+  },
+
+  "seongnae-car-accident-inpatient-treatment-environment": {
+    "title": "성내동 교통사고 입원 치료",
+    "subtitle": "집과 병동 사이에서",
+    "scene": "A quiet Korean low-rise residential building entrance with a short flight of concrete steps and a metal handrail leading up to a plain front door, a pair of indoor slippers left neatly on the top step, soft morning light, contemporary Seoul neighborhood, no house numbers or nameplates"
+  },
+
+  "dunchon-car-accident-inpatient-treatment-available": {
+    "title": "둔촌동 교통사고 입원 치료",
+    "subtitle": "퇴원 뒤 아플 때",
+    "scene": "A hospital ward room seen through a half open door, a small travel bag set down on the floor just inside the doorway, an empty neatly made bed softly out of focus behind, warm early evening light from the corridor"
+  },
+
+  "car-accident-inpatient-treatment-meals": {
+    "title": "교통사고 입원 치료 식단",
+    "subtitle": "밥에서 죽으로 바꾸는 법",
+    "scene": "A clean hospital kitchen stainless steel counter with a row of plain white lidded bowls and a ladle resting beside a large covered pot, faint steam rising, soft daylight from a high window, nothing printed on any surface"
+  },
+
+  "car-accident-inpatient-treatment-process": {
+    "title": "교통사고 입원 치료 과정",
+    "subtitle": "접수부터 통원 전환까지",
+    "scene": "A freshly made empty hospital bed with a neatly folded patient gown placed on the pillow, a small bedside locker standing open and empty next to it, bright clean morning light from a side window, plain walls"
+  },
+
+  "songpa-car-accident-inpatient-treatment-available": {
+    "title": "송파구 교통사고 입원 치료",
+    "subtitle": "일요일에도 될까요",
+    "scene": "The glass entrance doors of a modern hospital building seen from the sidewalk on a quiet early weekend morning, low golden sunlight, a few fallen autumn leaves on the clean pavement, empty street, no signs or lettering on the facade"
+  },
+
+  "cheonho-car-accident-aftereffects-treatment": {
+    "title": "천호동 교통사고 후유증 치료",
+    "subtitle": "서서 가는 출근길",
+    "scene": "Interior of an empty Korean subway car in soft morning light, a row of hanging grab handles and a vertical steel pole in the foreground, clean bench seats softly out of focus behind, calm and still, no people, no route maps or advertisements"
+  },
+
+  "amsa-car-accident-aftereffects-treatment-clinic": {
+    "title": "암사동 교통사고 후유증 치료",
+    "subtitle": "주무르면 풀린다던데요",
+    "scene": "An empty wooden sauna room with pale timber benches, a single folded white towel resting on the lower bench, warm dim light and a faint haze of steam, quiet and still, no people"
+  },
+
+  "myeongil-car-accident-aftereffects-treatment": {
+    "title": "명일동 교통사고 후유증 치료",
+    "subtitle": "손끝이 저려 올 때",
+    "scene": "A plain ceramic coffee cup and a small set of keys resting near the edge of a wooden table in soft side light, a button-up shirt draped over the back of a chair softly out of focus behind, calm and minimal, no people"
+  },
+
+  "ogeum-car-accident-aftereffects-treatment-clinic": {
+    "title": "오금동 교통사고 후유증 치료",
+    "subtitle": "회복은 직선이 아닙니다",
+    "scene": "A gently winding footpath rising and dipping over low grassy hills in soft overcast morning light, the path curving out of view in the distance, sparse young trees, calm muted tones, no people, no benches or signposts"
+  },
+
+  "godeok-car-accident-inpatient-treatment-available": {
+    "title": "고덕동 교통사고 입원 치료",
+    "subtitle": "아이 맡길 곳부터",
+    "scene": "A quiet apartment complex playground at dusk with an empty swing set and a small slide, warm low sunlight across the soft rubber ground, modern apartment buildings softly out of focus behind, no one around"
+  },
+
+  "geoyeo-car-accident-aftereffects-treatment": {
+    "title": "거여동 교통사고 후유증 치료",
+    "subtitle": "집안일을 나누어 하는 법",
+    "scene": "A tidy apartment kitchen counter in soft morning light, a wooden dish rack with a few plain white bowls drying and a woven laundry basket holding folded towels on the floor beside it, warm neutral tones, calm and uncluttered, no people"
+  },
+
+  "macheon-car-accident-aftereffects-treatment-clinic": {
+    "title": "마천동 교통사고 후유증 치료",
+    "subtitle": "운전대 쥔 손과 밟은 발",
+    "scene": "View from the driver's seat of a parked car, a plain steering wheel in soft daylight and the pedals faintly visible in the shadowed footwell below, windshield showing a softly blurred quiet street, calm and still, no people, no emblem on the wheel, dashboard gauges dark"
+  },
+
+  "sangil-car-accident-inpatient-rehab-hospital": {
+    "title": "상일동 교통사고 입원 재활",
+    "subtitle": "어디부터 재활하나",
+    "scene": "Three round balance cushions in graded sizes laid in a straight line on the pale wooden floor of a quiet therapy room, the first one in sharp focus and the others softly blurred, gentle side light from a tall window, clean uncluttered space"
+  },
+
+  "seokchon-car-accident-aftereffects-treatment": {
+    "title": "석촌동 교통사고 후유증 치료",
+    "subtitle": "벨트 쪽이 아픈 이유",
+    "scene": "Close view of an empty front passenger seat in a parked car with the seat belt fastened diagonally across the plain fabric seatback, soft daylight from the side window, softly blurred trees outside, calm and still, no people, no brand markings"
+  },
+
+  "munjeong-car-accident-aftereffects-treatment-clinic": {
+    "title": "문정동 교통사고 후유증 치료",
+    "subtitle": "아침 기온이 내려가면",
+    "scene": "A window sill on a chilly autumn morning, light condensation on the glass, a folded knitted scarf and a pair of gloves resting on the sill, softly blurred yellow ginkgo trees outside in pale early light, calm and quiet, no people"
+  },
+
+  "pungnap-car-accident-aftereffects-treatment": {
+    "title": "풍납동 교통사고 후유증",
+    "subtitle": "예약일까지 남은 시간",
+    "scene": "A small glass sand hourglass standing on a clean pale wooden windowsill with sand still falling, soft morning light through a sheer curtain, a quiet softly blurred room behind, calm minimal composition"
+  },
+
+  "garak-car-accident-inpatient-rehab-hospital": {
+    "title": "가락동 교통사고 입원 재활",
+    "subtitle": "보호대를 푸는 순서",
+    "scene": "A plain grey elastic lumbar support belt with its fastening strap unfastened, laid loosely over the backrest of a simple wooden chair in a quiet hospital room, soft afternoon light from a window, uncluttered pale wall behind, no labels or markings on the belt"
+  },
+
+  "gangil-car-accident-aftereffects-treatment-clinic": {
+    "title": "강일동 교통사고 후유증",
+    "subtitle": "하루 종일 운전하는 분께",
+    "scene": "The empty driver's seat of a parked city bus seen from the aisle, large steering wheel and wide windshield with soft early morning light coming through, rows of empty passenger seats softly blurred behind, quiet depot atmosphere, no route numbers, no displays, no lettering"
+  },
+
+  "hanam-car-accident-aftereffects-treatment": {
+    "title": "하남시 교통사고 후유증",
+    "subtitle": "가족이 함께 탔다면",
+    "scene": "Four pairs of shoes in different sizes, two adult pairs and two small children's pairs, lined up neatly on the clean tiled floor of a home entryway beside a closed front door, soft daylight from the side, warm and quiet, plain shoes without logos"
+  },
+
+  "gwangjin-car-accident-inpatient-treatment-available": {
+    "title": "광진구 교통사고 입원 치료",
+    "subtitle": "혼자 사는 경우",
+    "scene": "A compact studio apartment corner at dusk, a single neatly made bed and a small round table with one plain mug, a small suitcase standing upright by the door, soft fading window light, quiet and still"
+  },
+
+  "seongdong-car-accident-aftereffects-treatment": {
+    "title": "성동구 교통사고 후유증",
+    "subtitle": "퇴근길 방향이 정합니다",
+    "scene": "Interior of an empty subway car in the evening, long rows of empty seats and hanging hand straps receding into the distance, warm interior light, dark tunnel beyond the windows, a leather work bag left on one seat, no route maps, no advertisements, no lettering"
+  },
+
+  "songpadong-car-accident-aftereffects-treatment-clinic": {
+    "title": "송파동 교통사고 후유증",
+    "subtitle": "학생이 다쳤을 때 볼 것",
+    "scene": "A plain school backpack resting on a wooden chair beside a tidy study desk with a closed blank notebook and a desk lamp, late afternoon light from a window, quiet bedroom corner, no logos or lettering on the bag or the notebook"
   }
 }

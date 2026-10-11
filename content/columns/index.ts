@@ -16,6 +16,7 @@ import { cheonhoCarAccidentTreatment } from "./cheonho-car-accident-treatment";
 import { cheonhoNeckShoulderPain } from "./cheonho-neck-shoulder-pain";
 import { dunchonCarAccidentAftereffectsTreatment } from "./dunchon-car-accident-aftereffects-treatment";
 import { dunchonCarAccidentInpatientCare } from "./dunchon-car-accident-inpatient-care";
+import { dunchonCarAccidentInpatientTreatmentAvailable } from "./dunchon-car-accident-inpatient-treatment-available";
 import { dunchonCarAccidentTreatment } from "./dunchon-car-accident-treatment";
 import { dunchonPostSurgeryRehabHospital } from "./dunchon-post-surgery-rehab-hospital";
 import { dunchonStationNursingHospital } from "./dunchon-station-nursing-hospital";
@@ -116,6 +117,7 @@ export const COLUMNS: ColumnArticle[] = [
   cheonhoNeckShoulderPain,
   dunchonCarAccidentAftereffectsTreatment,
   dunchonCarAccidentInpatientCare,
+  dunchonCarAccidentInpatientTreatmentAvailable,
   dunchonCarAccidentTreatment,
   dunchonPostSurgeryRehabHospital,
   dunchonStationNursingHospital,

@@ -12,6 +12,7 @@ import { carAccidentHospitalizationDuration } from "./car-accident-hospitalizati
 import { carAccidentInpatientDailyRoutine } from "./car-accident-inpatient-daily-routine";
 import { carAccidentInpatientMeals } from "./car-accident-inpatient-meals";
 import { carAccidentInpatientTreatmentDuration } from "./car-accident-inpatient-treatment-duration";
+import { carAccidentInpatientTreatmentMeals } from "./car-accident-inpatient-treatment-meals";
 import { cheonhoCarAccidentTreatment } from "./cheonho-car-accident-treatment";
 import { cheonhoNeckShoulderPain } from "./cheonho-neck-shoulder-pain";
 import { dunchonCarAccidentAftereffectsTreatment } from "./dunchon-car-accident-aftereffects-treatment";
@@ -113,6 +114,7 @@ export const COLUMNS: ColumnArticle[] = [
   carAccidentInpatientDailyRoutine,
   carAccidentInpatientMeals,
   carAccidentInpatientTreatmentDuration,
+  carAccidentInpatientTreatmentMeals,
   cheonhoCarAccidentTreatment,
   cheonhoNeckShoulderPain,
   dunchonCarAccidentAftereffectsTreatment,

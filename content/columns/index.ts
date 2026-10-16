@@ -1,4 +1,5 @@
 import type { ColumnArticle } from "@/lib/columns/types";
+import { amsaCarAccidentAftereffectsTreatmentClinic } from "./amsa-car-accident-aftereffects-treatment-clinic";
 import { amsaCarAccidentKoreanMedicineClinic } from "./amsa-car-accident-korean-medicine-clinic";
 import { asanHospitalNearbyKoreanMedicine } from "./asan-hospital-nearby-korean-medicine";
 import { asanHospitalNearbyNursingHospital } from "./asan-hospital-nearby-nursing-hospital";
@@ -104,6 +105,7 @@ import { thyroidCancerSurgeryRecovery } from "./thyroid-cancer-surgery-recovery"
  * sitemap·목록·상세 페이지가 모두 이 배열을 참조한다.
  */
 export const COLUMNS: ColumnArticle[] = [
+  amsaCarAccidentAftereffectsTreatmentClinic,
   amsaCarAccidentKoreanMedicineClinic,
   asanHospitalNearbyKoreanMedicine,
   asanHospitalNearbyNursingHospital,

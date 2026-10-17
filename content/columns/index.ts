@@ -66,6 +66,7 @@ import { kyungheeHospitalNearbyKoreanMedicine } from "./kyunghee-hospital-nearby
 import { kyungheeHospitalNearbyNursingHospital } from "./kyunghee-hospital-nearby-nursing-hospital";
 import { macheonCarAccidentKoreanMedicineClinic } from "./macheon-car-accident-korean-medicine-clinic";
 import { munjeongCarAccidentKoreanMedicineClinic } from "./munjeong-car-accident-korean-medicine-clinic";
+import { myeongilCarAccidentAftereffectsTreatment } from "./myeongil-car-accident-aftereffects-treatment";
 import { myeongilCarAccidentTreatment } from "./myeongil-car-accident-treatment";
 import { neckStiffnessHandNumbness } from "./neck-stiffness-hand-numbness";
 import { ogeumCarAccidentKoreanMedicineClinic } from "./ogeum-car-accident-korean-medicine-clinic";
@@ -172,6 +173,7 @@ export const COLUMNS: ColumnArticle[] = [
   kyungheeHospitalNearbyNursingHospital,
   macheonCarAccidentKoreanMedicineClinic,
   munjeongCarAccidentKoreanMedicineClinic,
+  myeongilCarAccidentAftereffectsTreatment,
   myeongilCarAccidentTreatment,
   neckStiffnessHandNumbness,
   ogeumCarAccidentKoreanMedicineClinic,

@@ -69,6 +69,7 @@ import { munjeongCarAccidentKoreanMedicineClinic } from "./munjeong-car-accident
 import { myeongilCarAccidentAftereffectsTreatment } from "./myeongil-car-accident-aftereffects-treatment";
 import { myeongilCarAccidentTreatment } from "./myeongil-car-accident-treatment";
 import { neckStiffnessHandNumbness } from "./neck-stiffness-hand-numbness";
+import { ogeumCarAccidentAftereffectsTreatmentClinic } from "./ogeum-car-accident-aftereffects-treatment-clinic";
 import { ogeumCarAccidentKoreanMedicineClinic } from "./ogeum-car-accident-korean-medicine-clinic";
 import { postExercisePain } from "./post-exercise-pain";
 import { pungnapCarAccidentTreatment } from "./pungnap-car-accident-treatment";
@@ -176,6 +177,7 @@ export const COLUMNS: ColumnArticle[] = [
   myeongilCarAccidentAftereffectsTreatment,
   myeongilCarAccidentTreatment,
   neckStiffnessHandNumbness,
+  ogeumCarAccidentAftereffectsTreatmentClinic,
   ogeumCarAccidentKoreanMedicineClinic,
   postExercisePain,
   pungnapCarAccidentTreatment,

@@ -52,6 +52,7 @@ import { gildongCarAccidentAftereffects } from "./gildong-car-accident-aftereffe
 import { gildongCarAccidentClinicHospital } from "./gildong-car-accident-clinic-hospital";
 import { gildongCarAccidentTreatmentClinicHospital } from "./gildong-car-accident-treatment-clinic-hospital";
 import { godeokCarAccidentInpatient } from "./godeok-car-accident-inpatient";
+import { godeokCarAccidentInpatientTreatmentAvailable } from "./godeok-car-accident-inpatient-treatment-available";
 import { gwangjinCarAccidentInpatient } from "./gwangjin-car-accident-inpatient";
 import { hanamCarAccidentTreatment } from "./hanam-car-accident-treatment";
 import { jamsilCancerSurgeryRecovery } from "./jamsil-cancer-surgery-recovery";
@@ -160,6 +161,7 @@ export const COLUMNS: ColumnArticle[] = [
   gildongCarAccidentClinicHospital,
   gildongCarAccidentTreatmentClinicHospital,
   godeokCarAccidentInpatient,
+  godeokCarAccidentInpatientTreatmentAvailable,
   gwangjinCarAccidentInpatient,
   hanamCarAccidentTreatment,
   jamsilCancerSurgeryRecovery,

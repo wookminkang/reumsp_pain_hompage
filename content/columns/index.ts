@@ -79,6 +79,7 @@ import { pungnapCarAccidentTreatment } from "./pungnap-car-accident-treatment";
 import { radiationTherapyRecovery } from "./radiation-therapy-recovery";
 import { samsungHospitalNearbyNursingHospital } from "./samsung-hospital-nearby-nursing-hospital";
 import { sangilCarAccidentInpatientRehab } from "./sangil-car-accident-inpatient-rehab";
+import { sangilCarAccidentInpatientRehabHospital } from "./sangil-car-accident-inpatient-rehab-hospital";
 import { seokchonCarAccidentTreatment } from "./seokchon-car-accident-treatment";
 import { seongnaeCarAccidentAftereffectsTreatment } from "./seongnae-car-accident-aftereffects-treatment";
 import { seongnaeCarAccidentInpatientEnvironment } from "./seongnae-car-accident-inpatient-environment";
@@ -190,6 +191,7 @@ export const COLUMNS: ColumnArticle[] = [
   radiationTherapyRecovery,
   samsungHospitalNearbyNursingHospital,
   sangilCarAccidentInpatientRehab,
+  sangilCarAccidentInpatientRehabHospital,
   seokchonCarAccidentTreatment,
   seongnaeCarAccidentAftereffectsTreatment,
   seongnaeCarAccidentInpatientEnvironment,

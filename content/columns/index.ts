@@ -88,6 +88,7 @@ import { sangilCarAccidentInpatientRehab } from "./sangil-car-accident-inpatient
 import { sangilCarAccidentInpatientRehabHospital } from "./sangil-car-accident-inpatient-rehab-hospital";
 import { seokchonCarAccidentAftereffectsTreatment } from "./seokchon-car-accident-aftereffects-treatment";
 import { seokchonCarAccidentTreatment } from "./seokchon-car-accident-treatment";
+import { seongdongCarAccidentAftereffectsTreatment } from "./seongdong-car-accident-aftereffects-treatment";
 import { seongnaeCarAccidentAftereffectsTreatment } from "./seongnae-car-accident-aftereffects-treatment";
 import { seongnaeCarAccidentInpatientEnvironment } from "./seongnae-car-accident-inpatient-environment";
 import { seongnaeCarAccidentInpatientTreatmentEnvironment } from "./seongnae-car-accident-inpatient-treatment-environment";
@@ -207,6 +208,7 @@ export const COLUMNS: ColumnArticle[] = [
   sangilCarAccidentInpatientRehabHospital,
   seokchonCarAccidentAftereffectsTreatment,
   seokchonCarAccidentTreatment,
+  seongdongCarAccidentAftereffectsTreatment,
   seongnaeCarAccidentAftereffectsTreatment,
   seongnaeCarAccidentInpatientEnvironment,
   seongnaeCarAccidentInpatientTreatmentEnvironment,

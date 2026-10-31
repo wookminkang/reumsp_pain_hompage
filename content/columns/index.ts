@@ -110,6 +110,7 @@ import { songpaPainHospitalRecommendation } from "./songpa-pain-hospital-recomme
 import { songpaPelvicPainOutpatientCare } from "./songpa-pelvic-pain-outpatient-care";
 import { songpaPostSurgeryRehabHospital } from "./songpa-post-surgery-rehab-hospital";
 import { songpaShoulderPainTreatment } from "./songpa-shoulder-pain-treatment";
+import { songpadongCarAccidentAftereffectsTreatmentClinic } from "./songpadong-car-accident-aftereffects-treatment-clinic";
 import { thyroidCancerSurgeryRecovery } from "./thyroid-cancer-surgery-recovery";
 
 /**
@@ -230,6 +231,7 @@ export const COLUMNS: ColumnArticle[] = [
   songpaPelvicPainOutpatientCare,
   songpaPostSurgeryRehabHospital,
   songpaShoulderPainTreatment,
+  songpadongCarAccidentAftereffectsTreatmentClinic,
   thyroidCancerSurgeryRecovery,
 ].sort((a, b) => (a.datePublished < b.datePublished ? 1 : -1));
 

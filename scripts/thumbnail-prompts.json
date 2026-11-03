@@ -390,201 +390,281 @@
   "gangdong-korean-medicine-hospital-recommendation": {
     "title": "강동구 한방병원",
     "subtitle": "증상 범위와 첫 진료",
-    "scene": "A light wooden shelf in a calm, clean treatment room holding a neatly arranged cervical pillow, a plain knee support, a rolled exercise band, a small foam roller and a folded white towel, suggesting care for neck, back, shoulder and knee, soft morning daylight from the side, no people, no lettering, no logos"
+    "scene": "A light wooden shelf in a calm, clean treatment room holding a neatly arranged cervical pillow, a plain knee support, a rolled exercise band, a small foam roller and a folded white towel, suggesting care for neck, back, shoulder and knee, soft morning daylight from the side, no people, no lettering, no logos",
+    "motif": "pin",
+    "variant": "entry"
   },
   "gangdong-car-accident-aftereffects-korean-medicine-hospital": {
     "title": "강동구 교통사고 후유증",
     "subtitle": "여러 곳이 아플 때",
-    "scene": "The empty driver's seat of a parked car seen through the open door, the seatbelt draped diagonally across the seat, a small round cushion resting on the seat, soft overcast daylight, quiet and still, no people, no dashboard displays, no logos or lettering"
+    "scene": "The empty driver's seat of a parked car seen through the open door, the seatbelt draped diagonally across the seat, a small round cushion resting on the seat, soft overcast daylight, quiet and still, no people, no dashboard displays, no logos or lettering",
+    "motif": "car",
+    "variant": "info"
   },
   "gangdong-back-pain-korean-medicine-hospital": {
     "title": "강동구 허리 통증",
     "subtitle": "아침과 저녁이 다르다면",
-    "scene": "A bedroom corner where pale dawn light falls on an unmade bed with rumpled sheets on one side, while a desk chair by the window glows in warm evening lamp light on the other side, contrasting morning and evening in one calm frame, no people, no clocks, no lettering"
+    "scene": "A bedroom corner where pale dawn light falls on an unmade bed with rumpled sheets on one side, while a desk chair by the window glows in warm evening lamp light on the other side, contrasting morning and evening in one calm frame, no people, no clocks, no lettering",
+    "motif": "spine",
+    "variant": "rehab"
   },
   "gangdong-rehab-korean-medicine-hospital": {
     "title": "강동구 재활 치료",
     "subtitle": "기능을 재는 방법",
-    "scene": "A bright, tidy rehabilitation room with wooden parallel walking bars, a low step platform, a pair of light dumbbells and a rolled resistance band on a padded treatment table, a soft balance pad on the floor, clean daylight, no people, no charts, no numbers, no lettering"
+    "scene": "A bright, tidy rehabilitation room with wooden parallel walking bars, a low step platform, a pair of light dumbbells and a rolled resistance band on a padded treatment table, a soft balance pad on the floor, clean daylight, no people, no charts, no numbers, no lettering",
+    "motif": "range",
+    "variant": "rehab"
   },
   "seongnae-korean-medicine-hospital": {
     "title": "성내동 한방병원",
     "subtitle": "퇴근 뒤와 주말 통원",
-    "scene": "A quiet neighborhood street corner at dusk, warm light glowing from the lower windows of a mid-rise building, an empty bus stop bench under a streetlight, a few autumn leaves on the sidewalk, calm and inviting, no signage, no people, no lettering"
+    "scene": "A quiet neighborhood street corner at dusk, warm light glowing from the lower windows of a mid-rise building, an empty bus stop bench under a streetlight, a few autumn leaves on the sidewalk, calm and inviting, no signage, no people, no lettering",
+    "motif": "clock",
+    "variant": "entry"
   },
   "seongnae-car-accident-korean-medicine-hospital": {
     "title": "성내동 교통사고",
     "subtitle": "헬스와 러닝 복귀 시점",
-    "scene": "A pair of plain running shoes and a gym bag resting on a wooden bench in an apartment entryway, a folded towel and a water bottle beside them, soft morning light through a frosted window, waiting to be used again, no people, no logos, no lettering"
+    "scene": "A pair of plain running shoes and a gym bag resting on a wooden bench in an apartment entryway, a folded towel and a water bottle beside them, soft morning light through a frosted window, waiting to be used again, no people, no logos, no lettering",
+    "motif": "car",
+    "variant": "info"
   },
   "seongnae-knee-pain-korean-medicine-hospital": {
     "title": "성내동 무릎 통증",
     "subtitle": "계단에서 아픈 무릎 앞",
-    "scene": "An empty indoor concrete staircase with a smooth metal handrail running down the side, soft daylight from a high window falling across the steps, clean and quiet, viewed from the bottom looking up, no people, no signs, no numbers"
+    "scene": "An empty indoor concrete staircase with a smooth metal handrail running down the side, soft daylight from a high window falling across the steps, clean and quiet, viewed from the bottom looking up, no people, no signs, no numbers",
+    "motif": "knee",
+    "variant": "rehab"
   },
   "seongnae-shoulder-pain-korean-medicine-hospital": {
     "title": "성내동 어깨 통증",
     "subtitle": "밤에 더 아픈 어깨",
-    "scene": "A bed at night lit only by a dim warm bedside lamp, several soft pillows arranged along one side to support an arm, a small cushion placed where an arm would rest, a glass of water on the nightstand, calm and dark bedroom, no people, no clock, no lettering"
+    "scene": "A bed at night lit only by a dim warm bedside lamp, several soft pillows arranged along one side to support an arm, a small cushion placed where an arm would rest, a glass of water on the nightstand, calm and dark bedroom, no people, no clock, no lettering",
+    "motif": "shoulder",
+    "variant": "rehab"
   },
   "myeongil-korean-medicine-hospital": {
     "title": "명일동 한방병원",
     "subtitle": "걸음이 느려졌다면",
-    "scene": "A quiet neighborhood park walking path in soft autumn morning light, a wooden bench beside the path with a simple wooden walking cane leaning against it and a pair of comfortable walking shoes set neatly on the ground, fallen leaves along the edge, calm and unhurried, no people, no signs, no lettering"
+    "scene": "A quiet neighborhood park walking path in soft autumn morning light, a wooden bench beside the path with a simple wooden walking cane leaning against it and a pair of comfortable walking shoes set neatly on the ground, fallen leaves along the edge, calm and unhurried, no people, no signs, no lettering",
+    "motif": "walk",
+    "variant": "rehab"
   },
   "myeongil-car-accident-korean-medicine-hospital": {
     "title": "명일동 교통사고",
     "subtitle": "퇴근하고 들르는 통원",
-    "scene": "An office desk by a large window at dusk with a closed laptop, a wristwatch and a small blank notepad on the desk, a dark suit jacket draped over the back of an office chair, warm desk lamp glow against soft blue evening city light outside, quiet end of the workday, no people, no screens lit, no lettering"
+    "scene": "An office desk by a large window at dusk with a closed laptop, a wristwatch and a small blank notepad on the desk, a dark suit jacket draped over the back of an office chair, warm desk lamp glow against soft blue evening city light outside, quiet end of the workday, no people, no screens lit, no lettering",
+    "motif": "car",
+    "variant": "info"
   },
   "myeongil-neck-pain-korean-medicine-hospital": {
     "title": "명일동 목 통증",
     "subtitle": "두통이 함께 올 때",
-    "scene": "A dim bedside at evening with a softly indented pillow on a neatly made bed, a glass of water and a folded warm towel on the wooden nightstand, a small lamp casting warm amber light, calm and quiet, no medicine packaging, no people, no lettering"
+    "scene": "A dim bedside at evening with a softly indented pillow on a neatly made bed, a glass of water and a folded warm towel on the wooden nightstand, a small lamp casting warm amber light, calm and quiet, no medicine packaging, no people, no lettering",
+    "motif": "neck",
+    "variant": "rehab"
   },
   "myeongil-knee-pain-korean-medicine-hospital": {
     "title": "명일동 무릎 통증",
     "subtitle": "앉았다 일어설 때",
-    "scene": "A bright living room corner in morning sunlight with a sturdy wooden armchair beside a low floor cushion on a light wooden floor, a folded knit blanket resting on the armchair seat, a small potted plant nearby, calm and uncluttered, no people, no lettering"
+    "scene": "A bright living room corner in morning sunlight with a sturdy wooden armchair beside a low floor cushion on a light wooden floor, a folded knit blanket resting on the armchair seat, a small potted plant nearby, calm and uncluttered, no people, no lettering",
+    "motif": "knee",
+    "variant": "rehab"
   },
   "godeok-korean-medicine-hospital": {
     "title": "고덕동 한방병원",
     "subtitle": "아기 안는 손목",
-    "scene": "A cozy nursery corner in soft early morning window light, a curved nursing pillow resting on a cushioned armchair, a neatly folded white baby swaddle blanket and an empty baby bottle on a small wooden side table, warm and calm, no people, no toys with faces, no logos, no lettering"
+    "scene": "A cozy nursery corner in soft early morning window light, a curved nursing pillow resting on a cushioned armchair, a neatly folded white baby swaddle blanket and an empty baby bottle on a small wooden side table, warm and calm, no people, no toys with faces, no logos, no lettering",
+    "motif": "wrist",
+    "variant": "rehab"
   },
   "godeok-car-accident-aftereffects-korean-medicine-hospital": {
     "title": "고덕동 교통사고 후유증",
     "subtitle": "날개뼈 사이 등 통증",
-    "scene": "View from the back seat of a parked car toward an empty driver's seat, the upholstered seatback and headrest in soft natural daylight, the seat belt resting loosely across the empty seat, a quiet residential street blurred through the windshield, calm and still, no people, no license plates, no lettering"
+    "scene": "View from the back seat of a parked car toward an empty driver's seat, the upholstered seatback and headrest in soft natural daylight, the seat belt resting loosely across the empty seat, a quiet residential street blurred through the windshield, calm and still, no people, no license plates, no lettering",
+    "motif": "car",
+    "variant": "info"
   },
   "godeok-back-pain-korean-medicine-hospital": {
     "title": "고덕동 허리 통증",
     "subtitle": "골프·테니스 회전 운동",
-    "scene": "A golf club and a tennis racket leaning side by side against a wooden bench at the edge of an empty outdoor court in early morning light, a folded white towel and a plain water bottle on the bench, long soft shadows on the court surface, calm and quiet, no people, no logos, no lettering"
+    "scene": "A golf club and a tennis racket leaning side by side against a wooden bench at the edge of an empty outdoor court in early morning light, a folded white towel and a plain water bottle on the bench, long soft shadows on the court surface, calm and quiet, no people, no logos, no lettering",
+    "motif": "spine",
+    "variant": "rehab"
   },
   "godeok-shoulder-pain-korean-medicine-hospital": {
     "title": "고덕동 어깨 통증",
     "subtitle": "수영·헬스로 쓴 어깨",
-    "scene": "A calm empty indoor swimming pool with still water reflecting soft ceiling light, a pair of swim goggles and a rolled white towel resting on the tiled pool edge, beside them a pair of light hand dumbbells on a rubber gym mat, bright and quiet, no people, no lane numbers, no logos, no lettering"
+    "scene": "A calm empty indoor swimming pool with still water reflecting soft ceiling light, a pair of swim goggles and a rolled white towel resting on the tiled pool edge, beside them a pair of light hand dumbbells on a rubber gym mat, bright and quiet, no people, no lane numbers, no logos, no lettering",
+    "motif": "shoulder",
+    "variant": "rehab"
   },
   "cheonho-back-pain-korean-medicine-hospital": {
     "title": "천호동 허리 통증",
     "subtitle": "물건 들다 삐끗했을 때",
-    "scene": "A heavy plain cardboard box and a bundled pack of bottled water resting on a tiled floor near a doorway, a folding hand cart leaning against the wall beside them, warm late afternoon light, no labels or printing on the box or bottles"
+    "scene": "A heavy plain cardboard box and a bundled pack of bottled water resting on a tiled floor near a doorway, a folding hand cart leaning against the wall beside them, warm late afternoon light, no labels or printing on the box or bottles",
+    "motif": "spine",
+    "variant": "rehab"
   },
   "cheonho-car-accident-korean-medicine-hospital": {
     "title": "천호동 교통사고",
     "subtitle": "버스 급정거로 다쳤다면",
-    "scene": "Interior of an empty city bus in soft daylight, a row of hanging hand straps and a vertical yellow grab pole in the foreground, empty blue seats, a plain cloth shopping bag fallen on the floor near the aisle, no route displays, no advertisements, no lettering"
+    "scene": "Interior of an empty city bus in soft daylight, a row of hanging hand straps and a vertical yellow grab pole in the foreground, empty blue seats, a plain cloth shopping bag fallen on the floor near the aisle, no route displays, no advertisements, no lettering",
+    "motif": "bus",
+    "variant": "info"
   },
   "cheonho-elbow-pain-korean-medicine-hospital": {
     "title": "천호동 팔꿈치 통증",
     "subtitle": "반복 동작으로 아픈 팔꿈치",
-    "scene": "A wooden work counter with a chef's knife resting on a cutting board beside neatly sliced vegetables, a roll of packing tape and a pair of scissors nearby, and a plain elastic forearm support strap laid next to them, warm natural light, no labels or brand marks"
+    "scene": "A wooden work counter with a chef's knife resting on a cutting board beside neatly sliced vegetables, a roll of packing tape and a pair of scissors nearby, and a plain elastic forearm support strap laid next to them, warm natural light, no labels or brand marks",
+    "motif": "elbow",
+    "variant": "rehab"
   },
   "cheonho-korean-medicine-hospital": {
     "title": "천호동 한방병원",
     "subtitle": "서서 일하는 분들의 통증",
-    "scene": "A small shop checkout counter after closing time, a cushioned anti-fatigue floor mat and a low wooden footrest beneath the counter, a pair of worn comfortable work shoes placed beside them, warm overhead lighting, tidy shelves softly out of focus in the background, no product labels, no signage"
+    "scene": "A small shop checkout counter after closing time, a cushioned anti-fatigue floor mat and a low wooden footrest beneath the counter, a pair of worn comfortable work shoes placed beside them, warm overhead lighting, tidy shelves softly out of focus in the background, no product labels, no signage",
+    "motif": "feet",
+    "variant": "entry"
   },
   "dunchon-car-accident-aftereffects-korean-medicine-hospital": {
     "title": "둔촌동 교통사고 후유증",
     "subtitle": "통증에 잠을 설칠 때",
-    "scene": "A quiet bedroom at night, a rumpled bed with the pillow pushed to one side and the blanket half turned back, a glass of water on the bedside table under the soft glow of a small lamp, pale blue moonlight through sheer curtains, still and calm, no clocks, no screens"
+    "scene": "A quiet bedroom at night, a rumpled bed with the pillow pushed to one side and the blanket half turned back, a glass of water on the bedside table under the soft glow of a small lamp, pale blue moonlight through sheer curtains, still and calm, no clocks, no screens",
+    "motif": "car",
+    "variant": "info"
   },
   "dunchon-knee-pain-korean-medicine-hospital": {
     "title": "둔촌동 무릎 통증",
     "subtitle": "내리막에서 아픈 무릎",
-    "scene": "A gently descending forest trail on a low wooded hill with timber-edged earthen steps covered in fallen autumn leaves, a pair of trekking poles leaning against a wooden railing beside the path, soft morning light filtering through the trees, no people, no signposts"
+    "scene": "A gently descending forest trail on a low wooded hill with timber-edged earthen steps covered in fallen autumn leaves, a pair of trekking poles leaning against a wooden railing beside the path, soft morning light filtering through the trees, no people, no signposts",
+    "motif": "knee",
+    "variant": "rehab"
   },
   "dunchon-korean-medicine-hospital": {
     "title": "둔촌동 한방병원",
     "subtitle": "이사 뒤 허리·어깨 통증",
-    "scene": "A bright, newly moved-in apartment living room with several sealed plain cardboard moving boxes stacked against the wall, a small step stool standing in front of an open high wall cabinet with a few folded towels inside, soft afternoon daylight through large windows, clean wooden floor, calm and uncluttered, no labels or printing on the boxes"
+    "scene": "A bright, newly moved-in apartment living room with several sealed plain cardboard moving boxes stacked against the wall, a small step stool standing in front of an open high wall cabinet with a few folded towels inside, soft afternoon daylight through large windows, clean wooden floor, calm and uncluttered, no labels or printing on the boxes",
+    "motif": "box",
+    "variant": "entry"
   },
   "dunchon-neck-pain-korean-medicine-hospital": {
     "title": "둔촌동 목 통증",
     "subtitle": "스마트폰 보는 학생 거북목",
-    "scene": "A student's bedroom corner in the evening, a smartphone lying face down on a rumpled bed beside a flattened pillow and an open textbook with blank pages, a plain school backpack resting on the floor, warm light from a desk lamp, no screen content, no logos or lettering"
+    "scene": "A student's bedroom corner in the evening, a smartphone lying face down on a rumpled bed beside a flattened pillow and an open textbook with blank pages, a plain school backpack resting on the floor, warm light from a desk lamp, no screen content, no logos or lettering",
+    "motif": "neck",
+    "variant": "rehab"
   },
   "gangil-back-pain-korean-medicine-hospital": {
     "title": "강일동 허리 통증",
     "subtitle": "오래 앉는 출퇴근과 사무",
-    "scene": "An empty office chair with a small lumbar cushion pushed slightly back from a wooden desk, a plain commuter backpack hanging on the chair back, a jacket draped over it, evening light from a nearby window, quiet office after hours, no screens with content, no logos or lettering"
+    "scene": "An empty office chair with a small lumbar cushion pushed slightly back from a wooden desk, a plain commuter backpack hanging on the chair back, a jacket draped over it, evening light from a nearby window, quiet office after hours, no screens with content, no logos or lettering",
+    "motif": "spine",
+    "variant": "rehab"
   },
   "gangil-car-accident-aftereffects-korean-medicine-hospital": {
     "title": "강일동 교통사고 후유증",
     "subtitle": "운전을 다시 시작할 때",
-    "scene": "The driver side door of a parked sedan left open in a clean, bright underground parking garage, the empty driver seat and its headrest clearly visible, a seatbelt resting across the seat, soft even lighting, no license plate visible, no people, no signs or lettering"
+    "scene": "The driver side door of a parked sedan left open in a clean, bright underground parking garage, the empty driver seat and its headrest clearly visible, a seatbelt resting across the seat, soft even lighting, no license plate visible, no people, no signs or lettering",
+    "motif": "car",
+    "variant": "info"
   },
   "gangil-korean-medicine-hospital": {
     "title": "강일동 한방병원",
     "subtitle": "자꾸 삐는 발목 재활",
-    "scene": "A pair of plain sneakers and a soft black ankle brace placed beside a low curb on a quiet residential sidewalk with neat paving blocks, fallen leaves nearby, soft daylight, calm street corner, no people, no logos or lettering"
+    "scene": "A pair of plain sneakers and a soft black ankle brace placed beside a low curb on a quiet residential sidewalk with neat paving blocks, fallen leaves nearby, soft daylight, calm street corner, no people, no logos or lettering",
+    "motif": "ankle",
+    "variant": "rehab"
   },
   "gangil-rehab-korean-medicine-hospital": {
     "title": "강일동 재활",
     "subtitle": "깁스 푼 뒤 굳은 관절",
-    "scene": "A removed wrist splint and a soft green resistance band laid on a padded mat in a bright, clean rehabilitation room, a small rolled towel and a foam block nearby, soft daylight from large windows, calm and orderly, no people, no lettering"
+    "scene": "A removed wrist splint and a soft green resistance band laid on a padded mat in a bright, clean rehabilitation room, a small rolled towel and a foam block nearby, soft daylight from large windows, calm and orderly, no people, no lettering",
+    "motif": "range",
+    "variant": "rehab"
   },
   "sangil-car-accident-korean-medicine-hospital": {
     "title": "상일동 교통사고",
     "subtitle": "1~2주 지나 아파질 때",
-    "scene": "A dark sedan parked under a tree in a quiet apartment parking lot in late autumn, fallen yellow leaves gathered on its windshield and roof as if several days have passed, soft overcast light, still and quiet, license plate hidden from view, no people, no lettering"
+    "scene": "A dark sedan parked under a tree in a quiet apartment parking lot in late autumn, fallen yellow leaves gathered on its windshield and roof as if several days have passed, soft overcast light, still and quiet, license plate hidden from view, no people, no lettering",
+    "motif": "car",
+    "variant": "info"
   },
   "sangil-knee-pain-korean-medicine-hospital": {
     "title": "상일동 무릎 통증",
     "subtitle": "러닝 뒤 무릎 바깥쪽",
-    "scene": "A pair of plain running shoes resting on a wooden bench beside a paved walking path along a small restored stream, autumn trees and tall grasses along the water, soft early morning mist, no people, no logos on the shoes"
+    "scene": "A pair of plain running shoes resting on a wooden bench beside a paved walking path along a small restored stream, autumn trees and tall grasses along the water, soft early morning mist, no people, no logos on the shoes",
+    "motif": "knee",
+    "variant": "rehab"
   },
   "sangil-korean-medicine-hospital": {
     "title": "상일동 한방병원",
     "subtitle": "마우스 쥐는 손목과 팔",
-    "scene": "A tidy office desk beside a large window in a modern business district, a plain wireless mouse and a slim keyboard set side by side with a soft padded wrist rest, a closed plain notebook and a ceramic mug, soft morning light, calm and uncluttered, no screens with content, no logos or lettering"
+    "scene": "A tidy office desk beside a large window in a modern business district, a plain wireless mouse and a slim keyboard set side by side with a soft padded wrist rest, a closed plain notebook and a ceramic mug, soft morning light, calm and uncluttered, no screens with content, no logos or lettering",
+    "motif": "wrist",
+    "variant": "rehab"
   },
   "sangil-neck-pain-korean-medicine-hospital": {
     "title": "상일동 목 통증",
     "subtitle": "모니터 앞에서 굳는 목",
-    "scene": "Two dark switched-off monitors on adjustable arms above a clean office desk with an empty ergonomic chair pulled back, late afternoon light slanting through window blinds, quiet office corner, blank screens, no logos or lettering"
+    "scene": "Two dark switched-off monitors on adjustable arms above a clean office desk with an empty ergonomic chair pulled back, late afternoon light slanting through window blinds, quiet office corner, blank screens, no logos or lettering",
+    "motif": "neck",
+    "variant": "rehab"
   },
   "amsa-back-pain-korean-medicine-hospital": {
     "title": "암사동 허리 한방병원",
     "subtitle": "쪼그려 앉는 습관과 허리",
-    "scene": "A small low wooden stool next to a plastic washing basin and a folded floor cloth on a clean tiled apartment balcony floor, potted plants along the window ledge, soft diffused daylight"
+    "scene": "A small low wooden stool next to a plastic washing basin and a folded floor cloth on a clean tiled apartment balcony floor, potted plants along the window ledge, soft diffused daylight",
+    "motif": "spine",
+    "variant": "rehab"
   },
   "amsa-car-accident-aftereffects-korean-medicine-hospital": {
     "title": "암사동 교통사고 후유증",
     "subtitle": "다리로 내려오는 허리 통증",
-    "scene": "A clean, empty clinic treatment bed with a neatly folded white towel and a small bolster pillow placed under the knee area, soft side light from a window, muted teal wall, calm minimal room"
+    "scene": "A clean, empty clinic treatment bed with a neatly folded white towel and a small bolster pillow placed under the knee area, soft side light from a window, muted teal wall, calm minimal room",
+    "motif": "car",
+    "variant": "info"
   },
   "amsa-korean-medicine-hospital": {
     "title": "암사동 한방병원",
     "subtitle": "한강 자전거 탄 뒤 통증",
-    "scene": "A city bicycle parked on its kickstand beside a quiet riverside bike path lined with tall golden reeds along a wide calm river at late afternoon, soft haze over the water, distant tree line, no people"
+    "scene": "A city bicycle parked on its kickstand beside a quiet riverside bike path lined with tall golden reeds along a wide calm river at late afternoon, soft haze over the water, distant tree line, no people",
+    "motif": "bike",
+    "variant": "entry"
   },
   "amsa-shoulder-pain-korean-medicine-hospital": {
     "title": "암사동 어깨 한방병원",
     "subtitle": "팔을 위로 들 때 아프면",
-    "scene": "A folding clothes drying rack with a few white towels near a bright apartment window, a high kitchen shelf with neatly stacked bowls in soft focus behind, calm morning light, airy and tidy interior"
+    "scene": "A folding clothes drying rack with a few white towels near a bright apartment window, a high kitchen shelf with neatly stacked bowls in soft focus behind, calm morning light, airy and tidy interior",
+    "motif": "shoulder",
+    "variant": "rehab"
   },
   "gildong-car-accident-korean-medicine-hospital": {
     "title": "길동 교통사고 한방병원",
     "subtitle": "무릎을 부딪혔다면",
-    "scene": "Close view of the empty front passenger footwell and lower glovebox panel of a modern car interior, soft daylight through the side window, a small folded knee cushion resting on the seat edge, muted neutral upholstery, shallow depth of field"
+    "scene": "Close view of the empty front passenger footwell and lower glovebox panel of a modern car interior, soft daylight through the side window, a small folded knee cushion resting on the seat edge, muted neutral upholstery, shallow depth of field",
+    "motif": "car",
+    "variant": "info"
   },
   "gildong-knee-pain-korean-medicine-hospital": {
     "title": "길동 무릎 한방병원",
     "subtitle": "50대 이후 무릎과 체중",
-    "scene": "A single stationary exercise bike facing a large window in a calm bright room, a folded white towel draped over the handlebar, warm wood floor, soft morning sunlight, uncluttered lower half"
+    "scene": "A single stationary exercise bike facing a large window in a calm bright room, a folded white towel draped over the handlebar, warm wood floor, soft morning sunlight, uncluttered lower half",
+    "motif": "knee",
+    "variant": "rehab"
   },
   "gildong-korean-medicine-hospital": {
     "title": "길동 한방병원",
     "subtitle": "오래 쉰 뒤 근력 되찾기",
-    "scene": "A sunlit living room window nook where a heavy folded blanket has been set aside on the arm of a sofa, a pair of small soft ankle weights and a water bottle resting on the warm wooden floor, gentle morning light, a quiet sense of getting up and moving again"
+    "scene": "A sunlit living room window nook where a heavy folded blanket has been set aside on the arm of a sofa, a pair of small soft ankle weights and a water bottle resting on the warm wooden floor, gentle morning light, a quiet sense of getting up and moving again",
+    "motif": "dumbbell",
+    "variant": "rehab"
   },
   "gildong-neck-pain-korean-medicine-hospital": {
     "title": "길동 목 통증 한방병원",
     "subtitle": "자고 일어나 목이 굳을 때",
-    "scene": "A small kitchen counter at early dawn, a steaming ceramic mug beside a rolled soft neck support cushion, pale blue light through a window with sheer curtains, quiet stillness, clean minimal surfaces"
+    "scene": "A small kitchen counter at early dawn, a steaming ceramic mug beside a rolled soft neck support cushion, pale blue light through a window with sheer curtains, quiet stillness, clean minimal surfaces",
+    "motif": "neck",
+    "variant": "rehab"
   }
 }

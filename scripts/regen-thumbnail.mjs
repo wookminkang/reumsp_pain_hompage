@@ -13,6 +13,9 @@
  *
  * 환경변수 OPENAI_API_KEY 필요:
  *   set -a; . ./.env.local; set +a
+ *
+ * 항목에 "motif"(와 선택 "variant")가 있으면 AI 대신 scripts/make-bg-svg.mjs로 그린
+ * 선 아이콘 SVG를 배경으로 쓴다. 이 경우 API 키가 필요 없다. (2026-11 원고부터)
  */
 import { execFileSync } from "node:child_process";
 import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync } from "node:fs";
@@ -73,9 +76,20 @@ for (const name of names) {
     continue;
   }
 
-  const bg = join(BG_DIR, `${name}.png`);
+  // motif가 정의된 항목은 AI 사진 대신 직접 그린 SVG 배경을 쓴다 (API 비용 없음).
+  // make-bg-svg.mjs가 매번 같은 결과를 내므로 캐시하지 않는다.
+  const bg = join(BG_DIR, spec.motif ? `${name}.svg` : `${name}.png`);
   try {
-    if (existsSync(bg)) {
+    if (spec.motif) {
+      execFileSync("node", [
+        join(ROOT, "scripts/make-bg-svg.mjs"),
+        name,
+        spec.variant ?? "entry",
+        spec.motif,
+        bg,
+      ], { cwd: ROOT, stdio: "pipe" });
+      console.log(`  SVG 배경: ${name} (${spec.motif})`);
+    } else if (existsSync(bg)) {
       console.log(`  배경 캐시됨: ${name}`);
     } else {
       // gen-image.py는 API 실패 시 그라데이션 플레이스홀더를 저장하고 정상 종료한다.

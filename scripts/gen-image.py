@@ -36,7 +36,15 @@ def save_fallback(out_path: str, size_str: str) -> None:
 req = urllib.request.Request(
     "https://api.openai.com/v1/images/generations",
     data=json.dumps(
-        {"model": "gpt-image-1", "prompt": prompt, "size": size, "quality": "high", "n": 1}
+        # gpt-image-1은 2026-11 기준 생성 요청이 "does not exist"로 거부된다.
+        # 후속 모델을 기본값으로 쓰고, 필요하면 OPENAI_IMAGE_MODEL로 바꾼다.
+        {
+            "model": os.environ.get("OPENAI_IMAGE_MODEL", "gpt-image-1.5"),
+            "prompt": prompt,
+            "size": size,
+            "quality": "high",
+            "n": 1,
+        }
     ).encode(),
     headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
 )

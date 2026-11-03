@@ -1,4 +1,5 @@
 import type { ColumnArticle } from "@/lib/columns/types";
+import { amsaCarAccidentAftereffectsKoreanMedicineHospital } from "./amsa-car-accident-aftereffects-korean-medicine-hospital";
 import { amsaCarAccidentAftereffectsTreatmentClinic } from "./amsa-car-accident-aftereffects-treatment-clinic";
 import { amsaCarAccidentKoreanMedicineClinic } from "./amsa-car-accident-korean-medicine-clinic";
 import { asanHospitalNearbyKoreanMedicine } from "./asan-hospital-nearby-korean-medicine";
@@ -15,6 +16,7 @@ import { carAccidentInpatientMeals } from "./car-accident-inpatient-meals";
 import { carAccidentInpatientTreatmentDuration } from "./car-accident-inpatient-treatment-duration";
 import { carAccidentInpatientTreatmentMeals } from "./car-accident-inpatient-treatment-meals";
 import { carAccidentInpatientTreatmentProcess } from "./car-accident-inpatient-treatment-process";
+import { cheonhoBackPainKoreanMedicineHospital } from "./cheonho-back-pain-korean-medicine-hospital";
 import { cheonhoCarAccidentAftereffectsTreatment } from "./cheonho-car-accident-aftereffects-treatment";
 import { cheonhoCarAccidentTreatment } from "./cheonho-car-accident-treatment";
 import { cheonhoNeckShoulderPain } from "./cheonho-neck-shoulder-pain";
@@ -39,6 +41,7 @@ import { gangdongChemoSideEffectCare } from "./gangdong-chemo-side-effect-care";
 import { gangdongChronicPainCarAccident } from "./gangdong-chronic-pain-car-accident";
 import { gangdongFrozenShoulderTreatment } from "./gangdong-frozen-shoulder-treatment";
 import { gangdongKneePainTreatment } from "./gangdong-knee-pain-treatment";
+import { gangdongKoreanMedicineHospitalRecommendation } from "./gangdong-korean-medicine-hospital-recommendation";
 import { gangdongLegNumbnessTreatment } from "./gangdong-leg-numbness-treatment";
 import { gangdongLumbarDisc } from "./gangdong-lumbar-disc";
 import { gangdongMuscleSpasmTreatment } from "./gangdong-muscle-spasm-treatment";
@@ -54,6 +57,7 @@ import { geoyeoCarAccidentTreatment } from "./geoyeo-car-accident-treatment";
 import { gildongCarAccidentAftereffects } from "./gildong-car-accident-aftereffects";
 import { gildongCarAccidentClinicHospital } from "./gildong-car-accident-clinic-hospital";
 import { gildongCarAccidentTreatmentClinicHospital } from "./gildong-car-accident-treatment-clinic-hospital";
+import { gildongNeckPainKoreanMedicineHospital } from "./gildong-neck-pain-korean-medicine-hospital";
 import { godeokCarAccidentInpatient } from "./godeok-car-accident-inpatient";
 import { godeokCarAccidentInpatientTreatmentAvailable } from "./godeok-car-accident-inpatient-treatment-available";
 import { gwangjinCarAccidentInpatient } from "./gwangjin-car-accident-inpatient";
@@ -75,6 +79,7 @@ import { macheonCarAccidentKoreanMedicineClinic } from "./macheon-car-accident-k
 import { munjeongCarAccidentAftereffectsTreatmentClinic } from "./munjeong-car-accident-aftereffects-treatment-clinic";
 import { munjeongCarAccidentKoreanMedicineClinic } from "./munjeong-car-accident-korean-medicine-clinic";
 import { myeongilCarAccidentAftereffectsTreatment } from "./myeongil-car-accident-aftereffects-treatment";
+import { myeongilCarAccidentKoreanMedicineHospital } from "./myeongil-car-accident-korean-medicine-hospital";
 import { myeongilCarAccidentTreatment } from "./myeongil-car-accident-treatment";
 import { neckStiffnessHandNumbness } from "./neck-stiffness-hand-numbness";
 import { ogeumCarAccidentAftereffectsTreatmentClinic } from "./ogeum-car-accident-aftereffects-treatment-clinic";
@@ -86,6 +91,7 @@ import { radiationTherapyRecovery } from "./radiation-therapy-recovery";
 import { samsungHospitalNearbyNursingHospital } from "./samsung-hospital-nearby-nursing-hospital";
 import { sangilCarAccidentInpatientRehab } from "./sangil-car-accident-inpatient-rehab";
 import { sangilCarAccidentInpatientRehabHospital } from "./sangil-car-accident-inpatient-rehab-hospital";
+import { sangilKneePainKoreanMedicineHospital } from "./sangil-knee-pain-korean-medicine-hospital";
 import { seokchonCarAccidentAftereffectsTreatment } from "./seokchon-car-accident-aftereffects-treatment";
 import { seokchonCarAccidentTreatment } from "./seokchon-car-accident-treatment";
 import { seongdongCarAccidentAftereffectsTreatment } from "./seongdong-car-accident-aftereffects-treatment";
@@ -93,6 +99,7 @@ import { seongnaeCarAccidentAftereffectsTreatment } from "./seongnae-car-acciden
 import { seongnaeCarAccidentInpatientEnvironment } from "./seongnae-car-accident-inpatient-environment";
 import { seongnaeCarAccidentInpatientTreatmentEnvironment } from "./seongnae-car-accident-inpatient-treatment-environment";
 import { seongnaeCarAccidentTreatment } from "./seongnae-car-accident-treatment";
+import { seongnaeKoreanMedicineHospital } from "./seongnae-korean-medicine-hospital";
 import { seongnaeNeckPainTreatment } from "./seongnae-neck-pain-treatment";
 import { seongsimHospitalNearbyKoreanMedicine } from "./seongsim-hospital-nearby-korean-medicine";
 import { seoulPainHospitalRecommendation } from "./seoul-pain-hospital-recommendation";
@@ -120,6 +127,7 @@ import { thyroidCancerSurgeryRecovery } from "./thyroid-cancer-surgery-recovery"
  * sitemap·목록·상세 페이지가 모두 이 배열을 참조한다.
  */
 export const COLUMNS: ColumnArticle[] = [
+  amsaCarAccidentAftereffectsKoreanMedicineHospital,
   amsaCarAccidentAftereffectsTreatmentClinic,
   amsaCarAccidentKoreanMedicineClinic,
   asanHospitalNearbyKoreanMedicine,
@@ -136,6 +144,7 @@ export const COLUMNS: ColumnArticle[] = [
   carAccidentInpatientTreatmentDuration,
   carAccidentInpatientTreatmentMeals,
   carAccidentInpatientTreatmentProcess,
+  cheonhoBackPainKoreanMedicineHospital,
   cheonhoCarAccidentAftereffectsTreatment,
   cheonhoCarAccidentTreatment,
   cheonhoNeckShoulderPain,
@@ -160,6 +169,7 @@ export const COLUMNS: ColumnArticle[] = [
   gangdongChronicPainCarAccident,
   gangdongFrozenShoulderTreatment,
   gangdongKneePainTreatment,
+  gangdongKoreanMedicineHospitalRecommendation,
   gangdongLegNumbnessTreatment,
   gangdongLumbarDisc,
   gangdongMuscleSpasmTreatment,
@@ -175,6 +185,7 @@ export const COLUMNS: ColumnArticle[] = [
   gildongCarAccidentAftereffects,
   gildongCarAccidentClinicHospital,
   gildongCarAccidentTreatmentClinicHospital,
+  gildongNeckPainKoreanMedicineHospital,
   godeokCarAccidentInpatient,
   godeokCarAccidentInpatientTreatmentAvailable,
   gwangjinCarAccidentInpatient,
@@ -196,6 +207,7 @@ export const COLUMNS: ColumnArticle[] = [
   munjeongCarAccidentAftereffectsTreatmentClinic,
   munjeongCarAccidentKoreanMedicineClinic,
   myeongilCarAccidentAftereffectsTreatment,
+  myeongilCarAccidentKoreanMedicineHospital,
   myeongilCarAccidentTreatment,
   neckStiffnessHandNumbness,
   ogeumCarAccidentAftereffectsTreatmentClinic,
@@ -207,6 +219,7 @@ export const COLUMNS: ColumnArticle[] = [
   samsungHospitalNearbyNursingHospital,
   sangilCarAccidentInpatientRehab,
   sangilCarAccidentInpatientRehabHospital,
+  sangilKneePainKoreanMedicineHospital,
   seokchonCarAccidentAftereffectsTreatment,
   seokchonCarAccidentTreatment,
   seongdongCarAccidentAftereffectsTreatment,
@@ -214,6 +227,7 @@ export const COLUMNS: ColumnArticle[] = [
   seongnaeCarAccidentInpatientEnvironment,
   seongnaeCarAccidentInpatientTreatmentEnvironment,
   seongnaeCarAccidentTreatment,
+  seongnaeKoreanMedicineHospital,
   seongnaeNeckPainTreatment,
   seongsimHospitalNearbyKoreanMedicine,
   seoulPainHospitalRecommendation,

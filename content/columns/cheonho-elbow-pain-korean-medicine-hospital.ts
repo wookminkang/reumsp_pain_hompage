@@ -62,7 +62,7 @@ export const cheonhoElbowPainKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/cheonho-elbow-pain-korean-medicine-hospital-thumbnail.jpg",
-    alt: "작업대 위의 도마와 칼, 포장 테이프와 가위, 팔뚝에 감는 밴드를 표현한 칼럼 썸네일. 천호동 팔꿈치 통증, 반복 동작으로 아픈 팔꿈치",
+    alt: "천호동 팔꿈치 통증 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-11",
   dateModified: "2026-11-11",

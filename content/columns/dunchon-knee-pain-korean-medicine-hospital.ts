@@ -60,7 +60,7 @@ export const dunchonKneePainKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/dunchon-knee-pain-korean-medicine-hospital-thumbnail.jpg",
-    alt: "낙엽이 깔린 나무 계단 산길 내리막과 난간에 기대 놓은 등산 스틱을 표현한 칼럼 썸네일. 둔촌동 무릎 통증, 내리막에서 아픈 무릎",
+    alt: "둔촌동 무릎 통증 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-09",
   dateModified: "2026-11-09",

@@ -68,7 +68,7 @@ export const godeokCarAccidentAftereffectsKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/godeok-car-accident-aftereffects-korean-medicine-hospital-thumbnail.jpg",
-    alt: "주차된 차 안의 빈 운전석 등받이와 머리받침을 뒤에서 바라본 장면으로 뒤에서 받힌 뒤의 등 통증을 표현한 칼럼 썸네일. 고덕동 교통사고 후유증, 날개뼈 사이 등 통증. 고덕동 교통사고 후유증 한방병원",
+    alt: "고덕동 교통사고 후유증 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-05",
   dateModified: "2026-11-05",

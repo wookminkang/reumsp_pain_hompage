@@ -69,7 +69,7 @@ export const dunchonCarAccidentAftereffectsKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/dunchon-car-accident-aftereffects-korean-medicine-hospital-thumbnail.jpg",
-    alt: "베개가 한쪽으로 밀려난 침대와 머리맡의 물컵이 있는 밤의 침실을 표현한 칼럼 썸네일. 둔촌동 교통사고 후유증, 통증에 잠을 설칠 때",
+    alt: "둔촌동 교통사고 후유증 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-14",
   dateModified: "2026-11-14",

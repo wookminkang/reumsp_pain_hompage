@@ -67,7 +67,7 @@ export const amsaKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/amsa-korean-medicine-hospital-thumbnail.jpg",
-    alt: "갈대가 자란 강변 자전거도로에 세워 둔 자전거를 표현한 칼럼 썸네일. 암사동 한방병원, 한강 자전거 탄 뒤 통증. 강동구 암사동 한방병원",
+    alt: "암사동 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-10",
   dateModified: "2026-11-10",

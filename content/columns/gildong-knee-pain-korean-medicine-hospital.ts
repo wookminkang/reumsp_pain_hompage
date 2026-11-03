@@ -59,7 +59,7 @@ export const gildongKneePainKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/gildong-knee-pain-korean-medicine-hospital-thumbnail.jpg",
-    alt: "아침 햇살이 드는 밝은 방의 실내 자전거와 손잡이에 걸린 수건을 표현한 칼럼 썸네일. 길동 무릎 한방병원, 50대 이후 무릎과 체중. 길동 무릎 통증 한방병원",
+    alt: "길동 무릎 통증 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-13",
   dateModified: "2026-11-13",

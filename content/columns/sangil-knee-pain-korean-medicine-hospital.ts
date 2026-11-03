@@ -64,7 +64,7 @@ export const sangilKneePainKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/sangil-knee-pain-korean-medicine-hospital-thumbnail.jpg",
-    alt: "하천 옆 산책로 벤치 위에 놓인 러닝화를 배경으로 한 칼럼 썸네일. 상일동 무릎 통증, 러닝 뒤 무릎 바깥쪽. 상일동 무릎 통증 한방병원",
+    alt: "상일동 무릎 통증 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-02",
   dateModified: "2026-11-02",

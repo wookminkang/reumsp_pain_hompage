@@ -70,7 +70,7 @@ export const sangilCarAccidentKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/sangil-car-accident-korean-medicine-hospital-thumbnail.jpg",
-    alt: "낙엽이 쌓인 채 아파트 주차장에 세워 둔 승용차로 사고 뒤 흘러간 시간을 표현한 칼럼 썸네일. 상일동 교통사고, 1~2주 지나 아파질 때. 상일동 교통사고 한방병원",
+    alt: "상일동 교통사고 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-06",
   dateModified: "2026-11-06",

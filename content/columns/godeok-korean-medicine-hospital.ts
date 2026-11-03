@@ -69,7 +69,7 @@ export const godeokKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/godeok-korean-medicine-hospital-thumbnail.jpg",
-    alt: "이른 아침 창가의 안락의자에 수유 쿠션과 개어 둔 아기 속싸개, 빈 젖병이 놓인 장면으로 육아로 생긴 손목 통증을 표현한 칼럼 썸네일. 고덕동 한방병원, 아기 안는 손목. 고덕동 한방병원",
+    alt: "고덕동 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-13",
   dateModified: "2026-11-13",

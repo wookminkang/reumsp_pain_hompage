@@ -58,7 +58,7 @@ export const seongnaeKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/seongnae-korean-medicine-hospital-thumbnail.jpg",
-    alt: "해 질 무렵 불 켜진 건물 창과 빈 버스 정류장 벤치를 표현한 칼럼 썸네일. 성내동 한방병원, 퇴근 뒤와 주말 통원. 성내동 한방병원",
+    alt: "성내동 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-02",
   dateModified: "2026-11-02",

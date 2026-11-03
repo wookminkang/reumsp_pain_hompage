@@ -68,7 +68,7 @@ export const cheonhoCarAccidentKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/cheonho-car-accident-korean-medicine-hospital-thumbnail.jpg",
-    alt: "손잡이가 늘어선 빈 시내버스 안과 바닥에 떨어진 장바구니를 표현한 칼럼 썸네일. 천호동 교통사고, 버스 급정거로 다쳤다면",
+    alt: "천호동 교통사고 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-16",
   dateModified: "2026-11-16",

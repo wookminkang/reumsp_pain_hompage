@@ -64,7 +64,7 @@ export const godeokBackPainKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/godeok-back-pain-korean-medicine-hospital-thumbnail.jpg",
-    alt: "이른 아침 빈 코트 가장자리 벤치에 골프 클럽과 테니스 라켓이 나란히 기대어 있는 장면으로 회전 운동과 허리 통증을 표현한 칼럼 썸네일. 고덕동 허리 통증, 골프·테니스 회전 운동. 고덕동 허리 통증 한방병원",
+    alt: "고덕동 허리 통증 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-09",
   dateModified: "2026-11-09",

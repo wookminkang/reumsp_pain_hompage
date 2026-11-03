@@ -61,7 +61,7 @@ export const myeongilKneePainKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/myeongil-knee-pain-korean-medicine-hospital-thumbnail.jpg",
-    alt: "밝은 거실 한쪽에 팔걸이 의자와 낮은 방석이 나란히 놓인 장면으로 앉았다 일어설 때의 무릎 통증을 표현한 칼럼 썸네일. 명일동 무릎 통증, 앉았다 일어설 때. 명일동 무릎 통증 한방병원",
+    alt: "명일동 무릎 통증 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-16",
   dateModified: "2026-11-16",

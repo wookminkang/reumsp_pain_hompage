@@ -62,7 +62,7 @@ export const amsaBackPainKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/amsa-back-pain-korean-medicine-hospital-thumbnail.jpg",
-    alt: "베란다 바닥에 놓인 낮은 의자와 대야, 걸레를 표현한 칼럼 썸네일. 암사동 허리 한방병원, 쪼그려 앉는 습관과 허리. 암사동 허리 통증 한방병원",
+    alt: "암사동 허리 통증 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-05",
   dateModified: "2026-11-05",

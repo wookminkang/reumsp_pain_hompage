@@ -62,7 +62,7 @@ export const seongnaeShoulderPainKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/seongnae-shoulder-pain-korean-medicine-hospital-thumbnail.jpg",
-    alt: "어두운 침실에서 스탠드 불빛 아래 한쪽 팔을 받치도록 베개가 놓인 침대를 표현한 칼럼 썸네일. 성내동 어깨 통증, 밤에 더 아픈 어깨. 성내동 어깨 통증 한방병원",
+    alt: "성내동 어깨 통증 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-07",
   dateModified: "2026-11-07",

@@ -67,7 +67,7 @@ export const cheonhoKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/cheonho-korean-medicine-hospital-thumbnail.jpg",
-    alt: "영업을 마친 매장 계산대 아래 쿠션 매트와 작은 발판, 편한 작업화가 놓인 장면을 표현한 칼럼 썸네일. 천호동 한방병원, 서서 일하는 분들의 통증",
+    alt: "천호동 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-06",
   dateModified: "2026-11-06",

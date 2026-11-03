@@ -58,7 +58,7 @@ export const gangdongRehabKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/gangdong-rehab-korean-medicine-hospital-thumbnail.jpg",
-    alt: "평행봉과 낮은 계단 발판, 운동 밴드가 놓인 재활치료실을 표현한 칼럼 썸네일. 강동구 재활 치료, 기능을 재는 방법. 강동구 재활 한방병원",
+    alt: "강동구 재활 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-06",
   dateModified: "2026-11-06",

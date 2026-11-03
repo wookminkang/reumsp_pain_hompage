@@ -70,7 +70,7 @@ export const gangilRehabKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/gangil-rehab-korean-medicine-hospital-thumbnail.jpg",
-    alt: "벗어 둔 팔 보호대와 탄력 밴드가 놓인 재활실 매트를 배경으로 한 칼럼 썸네일. 강일동 재활, 깁스 푼 뒤 굳은 관절. 강일동 재활 한방병원",
+    alt: "강일동 재활 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-04",
   dateModified: "2026-11-04",

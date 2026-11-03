@@ -62,7 +62,7 @@ export const gildongKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/gildong-korean-medicine-hospital-thumbnail.jpg",
-    alt: "햇살 드는 거실 창가에 개어 둔 담요와 가벼운 발목 모래주머니를 표현한 칼럼 썸네일. 길동 한방병원, 오래 쉰 뒤 근력 되찾기. 강동구 길동 한방병원",
+    alt: "길동 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-08",
   dateModified: "2026-11-08",

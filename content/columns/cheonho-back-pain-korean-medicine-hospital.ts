@@ -67,7 +67,7 @@ export const cheonhoBackPainKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/cheonho-back-pain-korean-medicine-hospital-thumbnail.jpg",
-    alt: "현관 근처 바닥에 놓인 무거운 상자와 생수 묶음, 벽에 기대 둔 손수레를 표현한 칼럼 썸네일. 천호동 허리 통증, 물건 들다 삐끗했을 때",
+    alt: "천호동 허리 통증 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-01",
   dateModified: "2026-11-01",

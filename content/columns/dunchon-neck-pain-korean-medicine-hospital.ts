@@ -65,7 +65,7 @@ export const dunchonNeckPainKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/dunchon-neck-pain-korean-medicine-hospital-thumbnail.jpg",
-    alt: "침대 위에 엎어 놓은 스마트폰과 펼친 교과서, 바닥의 책가방이 있는 저녁 방을 표현한 칼럼 썸네일. 둔촌동 목 통증, 스마트폰 보는 학생 거북목",
+    alt: "둔촌동 목 통증 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-18",
   dateModified: "2026-11-18",

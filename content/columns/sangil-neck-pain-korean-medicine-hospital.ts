@@ -62,7 +62,7 @@ export const sangilNeckPainKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/sangil-neck-pain-korean-medicine-hospital-thumbnail.jpg",
-    alt: "두 대의 모니터가 놓인 사무실 책상과 의자를 배경으로 한 칼럼 썸네일. 상일동 목 통증, 모니터 앞에서 굳는 목. 상일동 목 통증 한방병원",
+    alt: "상일동 목 통증 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-11",
   dateModified: "2026-11-11",

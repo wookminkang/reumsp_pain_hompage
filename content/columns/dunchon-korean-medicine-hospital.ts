@@ -69,7 +69,7 @@ export const dunchonKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/dunchon-korean-medicine-hospital-thumbnail.jpg",
-    alt: "새 집 거실에 쌓인 이삿짐 상자와 높은 수납장 앞에 놓인 발판을 표현한 칼럼 썸네일. 둔촌동 한방병원, 이사 뒤 허리·어깨 통증",
+    alt: "둔촌동 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-04",
   dateModified: "2026-11-04",

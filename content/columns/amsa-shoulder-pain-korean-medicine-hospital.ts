@@ -57,7 +57,7 @@ export const amsaShoulderPainKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/amsa-shoulder-pain-korean-medicine-hospital-thumbnail.jpg",
-    alt: "밝은 창가의 빨래 건조대와 높은 주방 선반을 표현한 칼럼 썸네일. 암사동 어깨 한방병원, 팔을 위로 들 때 아프면. 암사동 어깨 통증 한방병원",
+    alt: "암사동 어깨 통증 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-15",
   dateModified: "2026-11-15",

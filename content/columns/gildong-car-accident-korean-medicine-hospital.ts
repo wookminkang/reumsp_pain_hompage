@@ -64,7 +64,7 @@ export const gildongCarAccidentKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/gildong-car-accident-korean-medicine-hospital-thumbnail.jpg",
-    alt: "자동차 조수석 앞쪽 무릎이 닿는 자리와 좌석에 놓인 무릎 쿠션을 표현한 칼럼 썸네일. 길동 교통사고 한방병원, 무릎을 부딪혔다면. 길동 교통사고 한방병원",
+    alt: "길동 교통사고 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-17",
   dateModified: "2026-11-17",

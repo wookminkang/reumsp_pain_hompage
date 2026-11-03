@@ -63,7 +63,7 @@ export const seongnaeCarAccidentKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/seongnae-car-accident-korean-medicine-hospital-thumbnail.jpg",
-    alt: "현관 벤치 위에 놓인 러닝화와 운동 가방을 표현한 칼럼 썸네일. 성내동 교통사고, 헬스와 러닝 복귀 시점. 성내동 교통사고 한방병원",
+    alt: "성내동 교통사고 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-12",
   dateModified: "2026-11-12",

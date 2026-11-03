@@ -74,7 +74,7 @@ export const sangilKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/sangil-korean-medicine-hospital-thumbnail.jpg",
-    alt: "사무실 책상 위에 놓인 마우스와 키보드를 배경으로 한 칼럼 썸네일. 상일동 한방병원, 마우스 쥐는 손목과 팔. 강동구 상일동 한방병원 추천",
+    alt: "상일동 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-15",
   dateModified: "2026-11-15",

@@ -61,7 +61,7 @@ export const seongnaeKneePainKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/seongnae-knee-pain-korean-medicine-hospital-thumbnail.jpg",
-    alt: "창으로 빛이 드는 빈 실내 계단과 금속 난간을 표현한 칼럼 썸네일. 성내동 무릎 통증, 계단에서 아픈 무릎 앞. 성내동 무릎 통증 한방병원",
+    alt: "성내동 무릎 통증 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-16",
   dateModified: "2026-11-16",

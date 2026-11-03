@@ -68,7 +68,7 @@ export const godeokShoulderPainKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/godeok-shoulder-pain-korean-medicine-hospital-thumbnail.jpg",
-    alt: "고요한 실내 수영장 레인 가장자리에 수경과 수건이 놓이고 옆 매트에 가벼운 덤벨이 놓인 장면으로 수영과 헬스로 많이 쓴 어깨를 표현한 칼럼 썸네일. 고덕동 어깨 통증, 수영·헬스로 쓴 어깨. 고덕동 어깨 통증 한방병원",
+    alt: "고덕동 어깨 통증 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-18",
   dateModified: "2026-11-18",

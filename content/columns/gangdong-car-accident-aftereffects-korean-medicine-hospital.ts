@@ -61,7 +61,7 @@ export const gangdongCarAccidentAftereffectsKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/gangdong-car-accident-aftereffects-korean-medicine-hospital-thumbnail.jpg",
-    alt: "문이 열린 승용차 운전석에 안전벨트가 걸쳐진 장면을 표현한 칼럼 썸네일. 강동구 교통사고 후유증, 여러 곳이 아플 때. 강동구 교통사고 후유증 한방병원",
+    alt: "강동구 교통사고 후유증 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-10",
   dateModified: "2026-11-10",

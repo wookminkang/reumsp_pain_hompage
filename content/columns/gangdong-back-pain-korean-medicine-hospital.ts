@@ -69,7 +69,7 @@ export const gangdongBackPainKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/gangdong-back-pain-korean-medicine-hospital-thumbnail.jpg",
-    alt: "새벽빛이 드는 흐트러진 침대와 저녁 조명 아래 사무용 의자를 함께 표현한 칼럼 썸네일. 강동구 허리 통증, 아침과 저녁이 다르다면. 강동구 허리 통증 한방병원",
+    alt: "강동구 허리 통증 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-14",
   dateModified: "2026-11-14",

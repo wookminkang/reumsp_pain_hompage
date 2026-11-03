@@ -72,7 +72,7 @@ export const myeongilKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/myeongil-korean-medicine-hospital-thumbnail.jpg",
-    alt: "공원 산책로 벤치 옆에 지팡이와 걷기 편한 신발이 놓인 장면으로 어르신의 걷기와 균형을 표현한 칼럼 썸네일. 명일동 한방병원, 걸음이 느려졌다면. 명일동 한방병원",
+    alt: "명일동 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-11",
   dateModified: "2026-11-11",

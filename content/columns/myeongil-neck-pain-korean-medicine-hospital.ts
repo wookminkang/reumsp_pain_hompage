@@ -68,7 +68,7 @@ export const myeongilNeckPainKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/myeongil-neck-pain-korean-medicine-hospital-thumbnail.jpg",
-    alt: "저녁 침대 머리맡에 물 한 잔과 접힌 수건, 눌린 베개가 놓인 장면으로 목 통증과 함께 오는 두통을 표현한 칼럼 썸네일. 명일동 목 통증, 두통이 함께 올 때. 명일동 목 통증 한방병원",
+    alt: "명일동 목 통증 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-07",
   dateModified: "2026-11-07",

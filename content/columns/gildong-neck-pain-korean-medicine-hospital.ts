@@ -58,7 +58,7 @@ export const gildongNeckPainKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/gildong-neck-pain-korean-medicine-hospital-thumbnail.jpg",
-    alt: "새벽빛이 드는 주방 조리대 위의 따뜻한 머그잔과 목 받침 쿠션을 표현한 칼럼 썸네일. 길동 목 통증 한방병원, 자고 일어나 목이 굳을 때. 길동 목 통증 한방병원",
+    alt: "길동 목 통증 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-03",
   dateModified: "2026-11-03",

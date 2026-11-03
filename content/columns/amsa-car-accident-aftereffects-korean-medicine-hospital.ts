@@ -64,7 +64,7 @@ export const amsaCarAccidentAftereffectsKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/amsa-car-accident-aftereffects-korean-medicine-hospital-thumbnail.jpg",
-    alt: "수건과 무릎 받침 베개가 놓인 조용한 치료실 침대를 표현한 칼럼 썸네일. 암사동 교통사고 후유증, 다리로 내려오는 허리 통증. 암사동 교통사고 후유증 한방병원",
+    alt: "암사동 교통사고 후유증 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-01",
   dateModified: "2026-11-01",

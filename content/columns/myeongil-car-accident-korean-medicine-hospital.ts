@@ -63,7 +63,7 @@ export const myeongilCarAccidentKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/myeongil-car-accident-korean-medicine-hospital-thumbnail.jpg",
-    alt: "해 질 무렵 사무실 책상 위에 닫힌 노트북과 손목시계, 의자에 걸린 재킷이 놓인 장면으로 퇴근 뒤 통원을 표현한 칼럼 썸네일. 명일동 교통사고, 퇴근하고 들르는 통원. 명일동 교통사고 한방병원",
+    alt: "명일동 교통사고 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-03",
   dateModified: "2026-11-03",

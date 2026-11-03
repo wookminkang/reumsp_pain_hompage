@@ -65,7 +65,7 @@ export const gangilKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/gangil-korean-medicine-hospital-thumbnail.jpg",
-    alt: "보도블록 턱 앞에 놓인 운동화와 발목 보호대를 배경으로 한 칼럼 썸네일. 강일동 한방병원, 자주 삐는 발목 재활. 강동구 강일동 한방병원",
+    alt: "강일동 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-17",
   dateModified: "2026-11-17",

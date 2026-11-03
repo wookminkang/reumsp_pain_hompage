@@ -67,7 +67,7 @@ export const gangdongKoreanMedicineHospitalRecommendation = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/gangdong-korean-medicine-hospital-recommendation-thumbnail.jpg",
-    alt: "목 베개와 무릎 보호대, 운동 밴드가 가지런히 놓인 치료실 선반을 표현한 칼럼 썸네일. 강동구 한방병원, 증상 범위와 첫 진료. 강동구 한방병원 추천",
+    alt: "강동구 한방병원 추천 칼럼 대표 이미지",
   },
   datePublished: "2026-11-01",
   dateModified: "2026-11-01",

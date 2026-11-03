@@ -69,7 +69,7 @@ export const gangilCarAccidentAftereffectsKoreanMedicineHospital = {
   category: "지역·증상",
   thumbnail: {
     src: "/images/columns/gangil-car-accident-aftereffects-korean-medicine-hospital-thumbnail.jpg",
-    alt: "지하 주차장에 세워 둔 승용차의 열린 운전석 문을 배경으로 한 칼럼 썸네일. 강일동 교통사고 후유증, 운전을 다시 시작할 때. 강일동 교통사고 후유증 한방병원",
+    alt: "강일동 교통사고 후유증 한방병원 칼럼 대표 이미지",
   },
   datePublished: "2026-11-08",
   dateModified: "2026-11-08",

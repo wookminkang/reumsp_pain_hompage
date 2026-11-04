@@ -24,6 +24,7 @@ import { dunchonCarAccidentAftereffectsTreatment } from "./dunchon-car-accident-
 import { dunchonCarAccidentInpatientCare } from "./dunchon-car-accident-inpatient-care";
 import { dunchonCarAccidentInpatientTreatmentAvailable } from "./dunchon-car-accident-inpatient-treatment-available";
 import { dunchonCarAccidentTreatment } from "./dunchon-car-accident-treatment";
+import { dunchonKoreanMedicineHospital } from "./dunchon-korean-medicine-hospital";
 import { dunchonPostSurgeryRehabHospital } from "./dunchon-post-surgery-rehab-hospital";
 import { dunchonStationNursingHospital } from "./dunchon-station-nursing-hospital";
 import { dunchonTarsalTunnelSyndrome } from "./dunchon-tarsal-tunnel-syndrome";
@@ -50,6 +51,7 @@ import { gangdongPostSurgeryRehabHospital } from "./gangdong-post-surgery-rehab-
 import { gangdongWristPainTreatment } from "./gangdong-wrist-pain-treatment";
 import { gangilCarAccidentAftereffectsTreatmentClinic } from "./gangil-car-accident-aftereffects-treatment-clinic";
 import { gangilCarAccidentKoreanMedicineClinic } from "./gangil-car-accident-korean-medicine-clinic";
+import { gangilRehabKoreanMedicineHospital } from "./gangil-rehab-korean-medicine-hospital";
 import { garakCarAccidentInpatientRehab } from "./garak-car-accident-inpatient-rehab";
 import { garakCarAccidentInpatientRehabHospital } from "./garak-car-accident-inpatient-rehab-hospital";
 import { geoyeoCarAccidentAftereffectsTreatment } from "./geoyeo-car-accident-aftereffects-treatment";
@@ -152,6 +154,7 @@ export const COLUMNS: ColumnArticle[] = [
   dunchonCarAccidentInpatientCare,
   dunchonCarAccidentInpatientTreatmentAvailable,
   dunchonCarAccidentTreatment,
+  dunchonKoreanMedicineHospital,
   dunchonPostSurgeryRehabHospital,
   dunchonStationNursingHospital,
   dunchonTarsalTunnelSyndrome,
@@ -178,6 +181,7 @@ export const COLUMNS: ColumnArticle[] = [
   gangdongWristPainTreatment,
   gangilCarAccidentAftereffectsTreatmentClinic,
   gangilCarAccidentKoreanMedicineClinic,
+  gangilRehabKoreanMedicineHospital,
   garakCarAccidentInpatientRehab,
   garakCarAccidentInpatientRehabHospital,
   geoyeoCarAccidentAftereffectsTreatment,

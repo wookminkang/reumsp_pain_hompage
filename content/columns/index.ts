@@ -1,4 +1,5 @@
 import type { ColumnArticle } from "@/lib/columns/types";
+import { amsaBackPainKoreanMedicineHospital } from "./amsa-back-pain-korean-medicine-hospital";
 import { amsaCarAccidentAftereffectsKoreanMedicineHospital } from "./amsa-car-accident-aftereffects-korean-medicine-hospital";
 import { amsaCarAccidentAftereffectsTreatmentClinic } from "./amsa-car-accident-aftereffects-treatment-clinic";
 import { amsaCarAccidentKoreanMedicineClinic } from "./amsa-car-accident-korean-medicine-clinic";
@@ -60,6 +61,7 @@ import { gildongCarAccidentAftereffects } from "./gildong-car-accident-aftereffe
 import { gildongCarAccidentClinicHospital } from "./gildong-car-accident-clinic-hospital";
 import { gildongCarAccidentTreatmentClinicHospital } from "./gildong-car-accident-treatment-clinic-hospital";
 import { gildongNeckPainKoreanMedicineHospital } from "./gildong-neck-pain-korean-medicine-hospital";
+import { godeokCarAccidentAftereffectsKoreanMedicineHospital } from "./godeok-car-accident-aftereffects-korean-medicine-hospital";
 import { godeokCarAccidentInpatient } from "./godeok-car-accident-inpatient";
 import { godeokCarAccidentInpatientTreatmentAvailable } from "./godeok-car-accident-inpatient-treatment-available";
 import { gwangjinCarAccidentInpatient } from "./gwangjin-car-accident-inpatient";
@@ -129,6 +131,7 @@ import { thyroidCancerSurgeryRecovery } from "./thyroid-cancer-surgery-recovery"
  * sitemap·목록·상세 페이지가 모두 이 배열을 참조한다.
  */
 export const COLUMNS: ColumnArticle[] = [
+  amsaBackPainKoreanMedicineHospital,
   amsaCarAccidentAftereffectsKoreanMedicineHospital,
   amsaCarAccidentAftereffectsTreatmentClinic,
   amsaCarAccidentKoreanMedicineClinic,
@@ -190,6 +193,7 @@ export const COLUMNS: ColumnArticle[] = [
   gildongCarAccidentClinicHospital,
   gildongCarAccidentTreatmentClinicHospital,
   gildongNeckPainKoreanMedicineHospital,
+  godeokCarAccidentAftereffectsKoreanMedicineHospital,
   godeokCarAccidentInpatient,
   godeokCarAccidentInpatientTreatmentAvailable,
   gwangjinCarAccidentInpatient,

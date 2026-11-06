@@ -20,6 +20,7 @@ import { carAccidentInpatientTreatmentProcess } from "./car-accident-inpatient-t
 import { cheonhoBackPainKoreanMedicineHospital } from "./cheonho-back-pain-korean-medicine-hospital";
 import { cheonhoCarAccidentAftereffectsTreatment } from "./cheonho-car-accident-aftereffects-treatment";
 import { cheonhoCarAccidentTreatment } from "./cheonho-car-accident-treatment";
+import { cheonhoKoreanMedicineHospital } from "./cheonho-korean-medicine-hospital";
 import { cheonhoNeckShoulderPain } from "./cheonho-neck-shoulder-pain";
 import { dunchonCarAccidentAftereffectsTreatment } from "./dunchon-car-accident-aftereffects-treatment";
 import { dunchonCarAccidentInpatientCare } from "./dunchon-car-accident-inpatient-care";
@@ -49,6 +50,7 @@ import { gangdongLumbarDisc } from "./gangdong-lumbar-disc";
 import { gangdongMuscleSpasmTreatment } from "./gangdong-muscle-spasm-treatment";
 import { gangdongNeckPainTreatment } from "./gangdong-neck-pain-treatment";
 import { gangdongPostSurgeryRehabHospital } from "./gangdong-post-surgery-rehab-hospital";
+import { gangdongRehabKoreanMedicineHospital } from "./gangdong-rehab-korean-medicine-hospital";
 import { gangdongWristPainTreatment } from "./gangdong-wrist-pain-treatment";
 import { gangilCarAccidentAftereffectsTreatmentClinic } from "./gangil-car-accident-aftereffects-treatment-clinic";
 import { gangilCarAccidentKoreanMedicineClinic } from "./gangil-car-accident-korean-medicine-clinic";
@@ -95,6 +97,7 @@ import { radiationTherapyRecovery } from "./radiation-therapy-recovery";
 import { samsungHospitalNearbyNursingHospital } from "./samsung-hospital-nearby-nursing-hospital";
 import { sangilCarAccidentInpatientRehab } from "./sangil-car-accident-inpatient-rehab";
 import { sangilCarAccidentInpatientRehabHospital } from "./sangil-car-accident-inpatient-rehab-hospital";
+import { sangilCarAccidentKoreanMedicineHospital } from "./sangil-car-accident-korean-medicine-hospital";
 import { sangilKneePainKoreanMedicineHospital } from "./sangil-knee-pain-korean-medicine-hospital";
 import { seokchonCarAccidentAftereffectsTreatment } from "./seokchon-car-accident-aftereffects-treatment";
 import { seokchonCarAccidentTreatment } from "./seokchon-car-accident-treatment";
@@ -152,6 +155,7 @@ export const COLUMNS: ColumnArticle[] = [
   cheonhoBackPainKoreanMedicineHospital,
   cheonhoCarAccidentAftereffectsTreatment,
   cheonhoCarAccidentTreatment,
+  cheonhoKoreanMedicineHospital,
   cheonhoNeckShoulderPain,
   dunchonCarAccidentAftereffectsTreatment,
   dunchonCarAccidentInpatientCare,
@@ -181,6 +185,7 @@ export const COLUMNS: ColumnArticle[] = [
   gangdongMuscleSpasmTreatment,
   gangdongNeckPainTreatment,
   gangdongPostSurgeryRehabHospital,
+  gangdongRehabKoreanMedicineHospital,
   gangdongWristPainTreatment,
   gangilCarAccidentAftereffectsTreatmentClinic,
   gangilCarAccidentKoreanMedicineClinic,
@@ -227,6 +232,7 @@ export const COLUMNS: ColumnArticle[] = [
   samsungHospitalNearbyNursingHospital,
   sangilCarAccidentInpatientRehab,
   sangilCarAccidentInpatientRehabHospital,
+  sangilCarAccidentKoreanMedicineHospital,
   sangilKneePainKoreanMedicineHospital,
   seokchonCarAccidentAftereffectsTreatment,
   seokchonCarAccidentTreatment,

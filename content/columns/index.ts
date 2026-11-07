@@ -87,6 +87,7 @@ import { munjeongCarAccidentKoreanMedicineClinic } from "./munjeong-car-accident
 import { myeongilCarAccidentAftereffectsTreatment } from "./myeongil-car-accident-aftereffects-treatment";
 import { myeongilCarAccidentKoreanMedicineHospital } from "./myeongil-car-accident-korean-medicine-hospital";
 import { myeongilCarAccidentTreatment } from "./myeongil-car-accident-treatment";
+import { myeongilNeckPainKoreanMedicineHospital } from "./myeongil-neck-pain-korean-medicine-hospital";
 import { neckStiffnessHandNumbness } from "./neck-stiffness-hand-numbness";
 import { ogeumCarAccidentAftereffectsTreatmentClinic } from "./ogeum-car-accident-aftereffects-treatment-clinic";
 import { ogeumCarAccidentKoreanMedicineClinic } from "./ogeum-car-accident-korean-medicine-clinic";
@@ -108,6 +109,7 @@ import { seongnaeCarAccidentInpatientTreatmentEnvironment } from "./seongnae-car
 import { seongnaeCarAccidentTreatment } from "./seongnae-car-accident-treatment";
 import { seongnaeKoreanMedicineHospital } from "./seongnae-korean-medicine-hospital";
 import { seongnaeNeckPainTreatment } from "./seongnae-neck-pain-treatment";
+import { seongnaeShoulderPainKoreanMedicineHospital } from "./seongnae-shoulder-pain-korean-medicine-hospital";
 import { seongsimHospitalNearbyKoreanMedicine } from "./seongsim-hospital-nearby-korean-medicine";
 import { seoulPainHospitalRecommendation } from "./seoul-pain-hospital-recommendation";
 import { songpaBackPainHospital } from "./songpa-back-pain-hospital";
@@ -222,6 +224,7 @@ export const COLUMNS: ColumnArticle[] = [
   myeongilCarAccidentAftereffectsTreatment,
   myeongilCarAccidentKoreanMedicineHospital,
   myeongilCarAccidentTreatment,
+  myeongilNeckPainKoreanMedicineHospital,
   neckStiffnessHandNumbness,
   ogeumCarAccidentAftereffectsTreatmentClinic,
   ogeumCarAccidentKoreanMedicineClinic,
@@ -243,6 +246,7 @@ export const COLUMNS: ColumnArticle[] = [
   seongnaeCarAccidentTreatment,
   seongnaeKoreanMedicineHospital,
   seongnaeNeckPainTreatment,
+  seongnaeShoulderPainKoreanMedicineHospital,
   seongsimHospitalNearbyKoreanMedicine,
   seoulPainHospitalRecommendation,
   songpaBackPainHospital,

@@ -52,6 +52,7 @@ import { gangdongNeckPainTreatment } from "./gangdong-neck-pain-treatment";
 import { gangdongPostSurgeryRehabHospital } from "./gangdong-post-surgery-rehab-hospital";
 import { gangdongRehabKoreanMedicineHospital } from "./gangdong-rehab-korean-medicine-hospital";
 import { gangdongWristPainTreatment } from "./gangdong-wrist-pain-treatment";
+import { gangilCarAccidentAftereffectsKoreanMedicineHospital } from "./gangil-car-accident-aftereffects-korean-medicine-hospital";
 import { gangilCarAccidentAftereffectsTreatmentClinic } from "./gangil-car-accident-aftereffects-treatment-clinic";
 import { gangilCarAccidentKoreanMedicineClinic } from "./gangil-car-accident-korean-medicine-clinic";
 import { gangilRehabKoreanMedicineHospital } from "./gangil-rehab-korean-medicine-hospital";
@@ -62,6 +63,7 @@ import { geoyeoCarAccidentTreatment } from "./geoyeo-car-accident-treatment";
 import { gildongCarAccidentAftereffects } from "./gildong-car-accident-aftereffects";
 import { gildongCarAccidentClinicHospital } from "./gildong-car-accident-clinic-hospital";
 import { gildongCarAccidentTreatmentClinicHospital } from "./gildong-car-accident-treatment-clinic-hospital";
+import { gildongKoreanMedicineHospital } from "./gildong-korean-medicine-hospital";
 import { gildongNeckPainKoreanMedicineHospital } from "./gildong-neck-pain-korean-medicine-hospital";
 import { godeokCarAccidentAftereffectsKoreanMedicineHospital } from "./godeok-car-accident-aftereffects-korean-medicine-hospital";
 import { godeokCarAccidentInpatient } from "./godeok-car-accident-inpatient";
@@ -189,6 +191,7 @@ export const COLUMNS: ColumnArticle[] = [
   gangdongPostSurgeryRehabHospital,
   gangdongRehabKoreanMedicineHospital,
   gangdongWristPainTreatment,
+  gangilCarAccidentAftereffectsKoreanMedicineHospital,
   gangilCarAccidentAftereffectsTreatmentClinic,
   gangilCarAccidentKoreanMedicineClinic,
   gangilRehabKoreanMedicineHospital,
@@ -199,6 +202,7 @@ export const COLUMNS: ColumnArticle[] = [
   gildongCarAccidentAftereffects,
   gildongCarAccidentClinicHospital,
   gildongCarAccidentTreatmentClinicHospital,
+  gildongKoreanMedicineHospital,
   gildongNeckPainKoreanMedicineHospital,
   godeokCarAccidentAftereffectsKoreanMedicineHospital,
   godeokCarAccidentInpatient,

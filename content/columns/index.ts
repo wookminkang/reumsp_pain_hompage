@@ -3,6 +3,7 @@ import { amsaBackPainKoreanMedicineHospital } from "./amsa-back-pain-korean-medi
 import { amsaCarAccidentAftereffectsKoreanMedicineHospital } from "./amsa-car-accident-aftereffects-korean-medicine-hospital";
 import { amsaCarAccidentAftereffectsTreatmentClinic } from "./amsa-car-accident-aftereffects-treatment-clinic";
 import { amsaCarAccidentKoreanMedicineClinic } from "./amsa-car-accident-korean-medicine-clinic";
+import { amsaKoreanMedicineHospital } from "./amsa-korean-medicine-hospital";
 import { asanHospitalNearbyKoreanMedicine } from "./asan-hospital-nearby-korean-medicine";
 import { asanHospitalNearbyNursingHospital } from "./asan-hospital-nearby-nursing-hospital";
 import { bangiCarAccidentAftereffects } from "./bangi-car-accident-aftereffects";
@@ -36,6 +37,7 @@ import { gangdongCancerNursingHospital } from "./gangdong-cancer-nursing-hospita
 import { gangdongBackPainHospital } from "./gangdong-back-pain-hospital";
 import { gangdongBackPainTreatment } from "./gangdong-back-pain-treatment";
 import { gangdongCarAccident } from "./gangdong-car-accident";
+import { gangdongCarAccidentAftereffectsKoreanMedicineHospital } from "./gangdong-car-accident-aftereffects-korean-medicine-hospital";
 import { gangdongCarAccidentHospitalFacility } from "./gangdong-car-accident-hospital-facility";
 import { gangdongCarAccidentHospitalization } from "./gangdong-car-accident-hospitalization";
 import { gangdongCarAccidentInpatientTreatmentFacility } from "./gangdong-car-accident-inpatient-treatment-facility";
@@ -144,6 +146,7 @@ export const COLUMNS: ColumnArticle[] = [
   amsaCarAccidentAftereffectsKoreanMedicineHospital,
   amsaCarAccidentAftereffectsTreatmentClinic,
   amsaCarAccidentKoreanMedicineClinic,
+  amsaKoreanMedicineHospital,
   asanHospitalNearbyKoreanMedicine,
   asanHospitalNearbyNursingHospital,
   bangiCarAccidentAftereffects,
@@ -177,6 +180,7 @@ export const COLUMNS: ColumnArticle[] = [
   gangdongBackPainTreatment,
   gangdongCancerNursingHospital,
   gangdongCarAccident,
+  gangdongCarAccidentAftereffectsKoreanMedicineHospital,
   gangdongCarAccidentHospitalFacility,
   gangdongCarAccidentHospitalization,
   gangdongCarAccidentInpatientTreatmentFacility,

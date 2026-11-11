@@ -21,6 +21,7 @@ import { carAccidentInpatientTreatmentProcess } from "./car-accident-inpatient-t
 import { cheonhoBackPainKoreanMedicineHospital } from "./cheonho-back-pain-korean-medicine-hospital";
 import { cheonhoCarAccidentAftereffectsTreatment } from "./cheonho-car-accident-aftereffects-treatment";
 import { cheonhoCarAccidentTreatment } from "./cheonho-car-accident-treatment";
+import { cheonhoElbowPainKoreanMedicineHospital } from "./cheonho-elbow-pain-korean-medicine-hospital";
 import { cheonhoKoreanMedicineHospital } from "./cheonho-korean-medicine-hospital";
 import { cheonhoNeckShoulderPain } from "./cheonho-neck-shoulder-pain";
 import { dunchonCarAccidentAftereffectsTreatment } from "./dunchon-car-accident-aftereffects-treatment";
@@ -93,6 +94,7 @@ import { munjeongCarAccidentKoreanMedicineClinic } from "./munjeong-car-accident
 import { myeongilCarAccidentAftereffectsTreatment } from "./myeongil-car-accident-aftereffects-treatment";
 import { myeongilCarAccidentKoreanMedicineHospital } from "./myeongil-car-accident-korean-medicine-hospital";
 import { myeongilCarAccidentTreatment } from "./myeongil-car-accident-treatment";
+import { myeongilKoreanMedicineHospital } from "./myeongil-korean-medicine-hospital";
 import { myeongilNeckPainKoreanMedicineHospital } from "./myeongil-neck-pain-korean-medicine-hospital";
 import { neckStiffnessHandNumbness } from "./neck-stiffness-hand-numbness";
 import { ogeumCarAccidentAftereffectsTreatmentClinic } from "./ogeum-car-accident-aftereffects-treatment-clinic";
@@ -106,6 +108,7 @@ import { sangilCarAccidentInpatientRehab } from "./sangil-car-accident-inpatient
 import { sangilCarAccidentInpatientRehabHospital } from "./sangil-car-accident-inpatient-rehab-hospital";
 import { sangilCarAccidentKoreanMedicineHospital } from "./sangil-car-accident-korean-medicine-hospital";
 import { sangilKneePainKoreanMedicineHospital } from "./sangil-knee-pain-korean-medicine-hospital";
+import { sangilNeckPainKoreanMedicineHospital } from "./sangil-neck-pain-korean-medicine-hospital";
 import { seokchonCarAccidentAftereffectsTreatment } from "./seokchon-car-accident-aftereffects-treatment";
 import { seokchonCarAccidentTreatment } from "./seokchon-car-accident-treatment";
 import { seongdongCarAccidentAftereffectsTreatment } from "./seongdong-car-accident-aftereffects-treatment";
@@ -164,6 +167,7 @@ export const COLUMNS: ColumnArticle[] = [
   cheonhoBackPainKoreanMedicineHospital,
   cheonhoCarAccidentAftereffectsTreatment,
   cheonhoCarAccidentTreatment,
+  cheonhoElbowPainKoreanMedicineHospital,
   cheonhoKoreanMedicineHospital,
   cheonhoNeckShoulderPain,
   dunchonCarAccidentAftereffectsTreatment,
@@ -236,6 +240,7 @@ export const COLUMNS: ColumnArticle[] = [
   myeongilCarAccidentAftereffectsTreatment,
   myeongilCarAccidentKoreanMedicineHospital,
   myeongilCarAccidentTreatment,
+  myeongilKoreanMedicineHospital,
   myeongilNeckPainKoreanMedicineHospital,
   neckStiffnessHandNumbness,
   ogeumCarAccidentAftereffectsTreatmentClinic,
@@ -249,6 +254,7 @@ export const COLUMNS: ColumnArticle[] = [
   sangilCarAccidentInpatientRehabHospital,
   sangilCarAccidentKoreanMedicineHospital,
   sangilKneePainKoreanMedicineHospital,
+  sangilNeckPainKoreanMedicineHospital,
   seokchonCarAccidentAftereffectsTreatment,
   seokchonCarAccidentTreatment,
   seongdongCarAccidentAftereffectsTreatment,

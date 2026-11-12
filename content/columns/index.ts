@@ -56,6 +56,7 @@ import { gangdongNeckPainTreatment } from "./gangdong-neck-pain-treatment";
 import { gangdongPostSurgeryRehabHospital } from "./gangdong-post-surgery-rehab-hospital";
 import { gangdongRehabKoreanMedicineHospital } from "./gangdong-rehab-korean-medicine-hospital";
 import { gangdongWristPainTreatment } from "./gangdong-wrist-pain-treatment";
+import { gangilBackPainKoreanMedicineHospital } from "./gangil-back-pain-korean-medicine-hospital";
 import { gangilCarAccidentAftereffectsKoreanMedicineHospital } from "./gangil-car-accident-aftereffects-korean-medicine-hospital";
 import { gangilCarAccidentAftereffectsTreatmentClinic } from "./gangil-car-accident-aftereffects-treatment-clinic";
 import { gangilCarAccidentKoreanMedicineClinic } from "./gangil-car-accident-korean-medicine-clinic";
@@ -115,6 +116,7 @@ import { seongdongCarAccidentAftereffectsTreatment } from "./seongdong-car-accid
 import { seongnaeCarAccidentAftereffectsTreatment } from "./seongnae-car-accident-aftereffects-treatment";
 import { seongnaeCarAccidentInpatientEnvironment } from "./seongnae-car-accident-inpatient-environment";
 import { seongnaeCarAccidentInpatientTreatmentEnvironment } from "./seongnae-car-accident-inpatient-treatment-environment";
+import { seongnaeCarAccidentKoreanMedicineHospital } from "./seongnae-car-accident-korean-medicine-hospital";
 import { seongnaeCarAccidentTreatment } from "./seongnae-car-accident-treatment";
 import { seongnaeKoreanMedicineHospital } from "./seongnae-korean-medicine-hospital";
 import { seongnaeNeckPainTreatment } from "./seongnae-neck-pain-treatment";
@@ -202,6 +204,7 @@ export const COLUMNS: ColumnArticle[] = [
   gangdongPostSurgeryRehabHospital,
   gangdongRehabKoreanMedicineHospital,
   gangdongWristPainTreatment,
+  gangilBackPainKoreanMedicineHospital,
   gangilCarAccidentAftereffectsKoreanMedicineHospital,
   gangilCarAccidentAftereffectsTreatmentClinic,
   gangilCarAccidentKoreanMedicineClinic,
@@ -261,6 +264,7 @@ export const COLUMNS: ColumnArticle[] = [
   seongnaeCarAccidentAftereffectsTreatment,
   seongnaeCarAccidentInpatientEnvironment,
   seongnaeCarAccidentInpatientTreatmentEnvironment,
+  seongnaeCarAccidentKoreanMedicineHospital,
   seongnaeCarAccidentTreatment,
   seongnaeKoreanMedicineHospital,
   seongnaeNeckPainTreatment,

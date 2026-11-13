@@ -68,12 +68,14 @@ import { geoyeoCarAccidentTreatment } from "./geoyeo-car-accident-treatment";
 import { gildongCarAccidentAftereffects } from "./gildong-car-accident-aftereffects";
 import { gildongCarAccidentClinicHospital } from "./gildong-car-accident-clinic-hospital";
 import { gildongCarAccidentTreatmentClinicHospital } from "./gildong-car-accident-treatment-clinic-hospital";
+import { gildongKneePainKoreanMedicineHospital } from "./gildong-knee-pain-korean-medicine-hospital";
 import { gildongKoreanMedicineHospital } from "./gildong-korean-medicine-hospital";
 import { gildongNeckPainKoreanMedicineHospital } from "./gildong-neck-pain-korean-medicine-hospital";
 import { godeokBackPainKoreanMedicineHospital } from "./godeok-back-pain-korean-medicine-hospital";
 import { godeokCarAccidentAftereffectsKoreanMedicineHospital } from "./godeok-car-accident-aftereffects-korean-medicine-hospital";
 import { godeokCarAccidentInpatient } from "./godeok-car-accident-inpatient";
 import { godeokCarAccidentInpatientTreatmentAvailable } from "./godeok-car-accident-inpatient-treatment-available";
+import { godeokKoreanMedicineHospital } from "./godeok-korean-medicine-hospital";
 import { gwangjinCarAccidentInpatient } from "./gwangjin-car-accident-inpatient";
 import { gwangjinCarAccidentInpatientTreatmentAvailable } from "./gwangjin-car-accident-inpatient-treatment-available";
 import { hanamCarAccidentAftereffectsTreatment } from "./hanam-car-accident-aftereffects-treatment";
@@ -216,12 +218,14 @@ export const COLUMNS: ColumnArticle[] = [
   gildongCarAccidentAftereffects,
   gildongCarAccidentClinicHospital,
   gildongCarAccidentTreatmentClinicHospital,
+  gildongKneePainKoreanMedicineHospital,
   gildongKoreanMedicineHospital,
   gildongNeckPainKoreanMedicineHospital,
   godeokBackPainKoreanMedicineHospital,
   godeokCarAccidentAftereffectsKoreanMedicineHospital,
   godeokCarAccidentInpatient,
   godeokCarAccidentInpatientTreatmentAvailable,
+  godeokKoreanMedicineHospital,
   gwangjinCarAccidentInpatient,
   gwangjinCarAccidentInpatientTreatmentAvailable,
   hanamCarAccidentAftereffectsTreatment,

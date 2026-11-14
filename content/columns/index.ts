@@ -24,6 +24,7 @@ import { cheonhoCarAccidentTreatment } from "./cheonho-car-accident-treatment";
 import { cheonhoElbowPainKoreanMedicineHospital } from "./cheonho-elbow-pain-korean-medicine-hospital";
 import { cheonhoKoreanMedicineHospital } from "./cheonho-korean-medicine-hospital";
 import { cheonhoNeckShoulderPain } from "./cheonho-neck-shoulder-pain";
+import { dunchonCarAccidentAftereffectsKoreanMedicineHospital } from "./dunchon-car-accident-aftereffects-korean-medicine-hospital";
 import { dunchonCarAccidentAftereffectsTreatment } from "./dunchon-car-accident-aftereffects-treatment";
 import { dunchonCarAccidentInpatientCare } from "./dunchon-car-accident-inpatient-care";
 import { dunchonCarAccidentInpatientTreatmentAvailable } from "./dunchon-car-accident-inpatient-treatment-available";
@@ -34,6 +35,7 @@ import { dunchonPostSurgeryRehabHospital } from "./dunchon-post-surgery-rehab-ho
 import { dunchonStationNursingHospital } from "./dunchon-station-nursing-hospital";
 import { dunchonTarsalTunnelSyndrome } from "./dunchon-tarsal-tunnel-syndrome";
 import { gangdongAnklePainCare } from "./gangdong-ankle-pain-care";
+import { gangdongBackPainKoreanMedicineHospital } from "./gangdong-back-pain-korean-medicine-hospital";
 import { gangdongCancerNursingHospital } from "./gangdong-cancer-nursing-hospital";
 import { gangdongBackPainHospital } from "./gangdong-back-pain-hospital";
 import { gangdongBackPainTreatment } from "./gangdong-back-pain-treatment";
@@ -174,6 +176,7 @@ export const COLUMNS: ColumnArticle[] = [
   cheonhoElbowPainKoreanMedicineHospital,
   cheonhoKoreanMedicineHospital,
   cheonhoNeckShoulderPain,
+  dunchonCarAccidentAftereffectsKoreanMedicineHospital,
   dunchonCarAccidentAftereffectsTreatment,
   dunchonCarAccidentInpatientCare,
   dunchonCarAccidentInpatientTreatmentAvailable,
@@ -185,6 +188,7 @@ export const COLUMNS: ColumnArticle[] = [
   dunchonTarsalTunnelSyndrome,
   gangdongAnklePainCare,
   gangdongBackPainHospital,
+  gangdongBackPainKoreanMedicineHospital,
   gangdongBackPainTreatment,
   gangdongCancerNursingHospital,
   gangdongCarAccident,

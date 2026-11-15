@@ -4,6 +4,7 @@ import { amsaCarAccidentAftereffectsKoreanMedicineHospital } from "./amsa-car-ac
 import { amsaCarAccidentAftereffectsTreatmentClinic } from "./amsa-car-accident-aftereffects-treatment-clinic";
 import { amsaCarAccidentKoreanMedicineClinic } from "./amsa-car-accident-korean-medicine-clinic";
 import { amsaKoreanMedicineHospital } from "./amsa-korean-medicine-hospital";
+import { amsaShoulderPainKoreanMedicineHospital } from "./amsa-shoulder-pain-korean-medicine-hospital";
 import { asanHospitalNearbyKoreanMedicine } from "./asan-hospital-nearby-korean-medicine";
 import { asanHospitalNearbyNursingHospital } from "./asan-hospital-nearby-nursing-hospital";
 import { bangiCarAccidentAftereffects } from "./bangi-car-accident-aftereffects";
@@ -113,6 +114,7 @@ import { sangilCarAccidentInpatientRehab } from "./sangil-car-accident-inpatient
 import { sangilCarAccidentInpatientRehabHospital } from "./sangil-car-accident-inpatient-rehab-hospital";
 import { sangilCarAccidentKoreanMedicineHospital } from "./sangil-car-accident-korean-medicine-hospital";
 import { sangilKneePainKoreanMedicineHospital } from "./sangil-knee-pain-korean-medicine-hospital";
+import { sangilKoreanMedicineHospital } from "./sangil-korean-medicine-hospital";
 import { sangilNeckPainKoreanMedicineHospital } from "./sangil-neck-pain-korean-medicine-hospital";
 import { seokchonCarAccidentAftereffectsTreatment } from "./seokchon-car-accident-aftereffects-treatment";
 import { seokchonCarAccidentTreatment } from "./seokchon-car-accident-treatment";
@@ -156,6 +158,7 @@ export const COLUMNS: ColumnArticle[] = [
   amsaCarAccidentAftereffectsTreatmentClinic,
   amsaCarAccidentKoreanMedicineClinic,
   amsaKoreanMedicineHospital,
+  amsaShoulderPainKoreanMedicineHospital,
   asanHospitalNearbyKoreanMedicine,
   asanHospitalNearbyNursingHospital,
   bangiCarAccidentAftereffects,
@@ -265,6 +268,7 @@ export const COLUMNS: ColumnArticle[] = [
   sangilCarAccidentInpatientRehabHospital,
   sangilCarAccidentKoreanMedicineHospital,
   sangilKneePainKoreanMedicineHospital,
+  sangilKoreanMedicineHospital,
   sangilNeckPainKoreanMedicineHospital,
   seokchonCarAccidentAftereffectsTreatment,
   seokchonCarAccidentTreatment,

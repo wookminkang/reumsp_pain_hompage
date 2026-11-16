@@ -21,6 +21,7 @@ import { carAccidentInpatientTreatmentMeals } from "./car-accident-inpatient-tre
 import { carAccidentInpatientTreatmentProcess } from "./car-accident-inpatient-treatment-process";
 import { cheonhoBackPainKoreanMedicineHospital } from "./cheonho-back-pain-korean-medicine-hospital";
 import { cheonhoCarAccidentAftereffectsTreatment } from "./cheonho-car-accident-aftereffects-treatment";
+import { cheonhoCarAccidentKoreanMedicineHospital } from "./cheonho-car-accident-korean-medicine-hospital";
 import { cheonhoCarAccidentTreatment } from "./cheonho-car-accident-treatment";
 import { cheonhoElbowPainKoreanMedicineHospital } from "./cheonho-elbow-pain-korean-medicine-hospital";
 import { cheonhoKoreanMedicineHospital } from "./cheonho-korean-medicine-hospital";
@@ -100,6 +101,7 @@ import { munjeongCarAccidentKoreanMedicineClinic } from "./munjeong-car-accident
 import { myeongilCarAccidentAftereffectsTreatment } from "./myeongil-car-accident-aftereffects-treatment";
 import { myeongilCarAccidentKoreanMedicineHospital } from "./myeongil-car-accident-korean-medicine-hospital";
 import { myeongilCarAccidentTreatment } from "./myeongil-car-accident-treatment";
+import { myeongilKneePainKoreanMedicineHospital } from "./myeongil-knee-pain-korean-medicine-hospital";
 import { myeongilKoreanMedicineHospital } from "./myeongil-korean-medicine-hospital";
 import { myeongilNeckPainKoreanMedicineHospital } from "./myeongil-neck-pain-korean-medicine-hospital";
 import { neckStiffnessHandNumbness } from "./neck-stiffness-hand-numbness";
@@ -124,6 +126,7 @@ import { seongnaeCarAccidentInpatientEnvironment } from "./seongnae-car-accident
 import { seongnaeCarAccidentInpatientTreatmentEnvironment } from "./seongnae-car-accident-inpatient-treatment-environment";
 import { seongnaeCarAccidentKoreanMedicineHospital } from "./seongnae-car-accident-korean-medicine-hospital";
 import { seongnaeCarAccidentTreatment } from "./seongnae-car-accident-treatment";
+import { seongnaeKneePainKoreanMedicineHospital } from "./seongnae-knee-pain-korean-medicine-hospital";
 import { seongnaeKoreanMedicineHospital } from "./seongnae-korean-medicine-hospital";
 import { seongnaeNeckPainTreatment } from "./seongnae-neck-pain-treatment";
 import { seongnaeShoulderPainKoreanMedicineHospital } from "./seongnae-shoulder-pain-korean-medicine-hospital";
@@ -175,6 +178,7 @@ export const COLUMNS: ColumnArticle[] = [
   carAccidentInpatientTreatmentProcess,
   cheonhoBackPainKoreanMedicineHospital,
   cheonhoCarAccidentAftereffectsTreatment,
+  cheonhoCarAccidentKoreanMedicineHospital,
   cheonhoCarAccidentTreatment,
   cheonhoElbowPainKoreanMedicineHospital,
   cheonhoKoreanMedicineHospital,
@@ -254,6 +258,7 @@ export const COLUMNS: ColumnArticle[] = [
   myeongilCarAccidentAftereffectsTreatment,
   myeongilCarAccidentKoreanMedicineHospital,
   myeongilCarAccidentTreatment,
+  myeongilKneePainKoreanMedicineHospital,
   myeongilKoreanMedicineHospital,
   myeongilNeckPainKoreanMedicineHospital,
   neckStiffnessHandNumbness,
@@ -278,6 +283,7 @@ export const COLUMNS: ColumnArticle[] = [
   seongnaeCarAccidentInpatientTreatmentEnvironment,
   seongnaeCarAccidentKoreanMedicineHospital,
   seongnaeCarAccidentTreatment,
+  seongnaeKneePainKoreanMedicineHospital,
   seongnaeKoreanMedicineHospital,
   seongnaeNeckPainTreatment,
   seongnaeShoulderPainKoreanMedicineHospital,

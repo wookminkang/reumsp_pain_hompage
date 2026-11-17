@@ -64,6 +64,7 @@ import { gangilBackPainKoreanMedicineHospital } from "./gangil-back-pain-korean-
 import { gangilCarAccidentAftereffectsKoreanMedicineHospital } from "./gangil-car-accident-aftereffects-korean-medicine-hospital";
 import { gangilCarAccidentAftereffectsTreatmentClinic } from "./gangil-car-accident-aftereffects-treatment-clinic";
 import { gangilCarAccidentKoreanMedicineClinic } from "./gangil-car-accident-korean-medicine-clinic";
+import { gangilKoreanMedicineHospital } from "./gangil-korean-medicine-hospital";
 import { gangilRehabKoreanMedicineHospital } from "./gangil-rehab-korean-medicine-hospital";
 import { garakCarAccidentInpatientRehab } from "./garak-car-accident-inpatient-rehab";
 import { garakCarAccidentInpatientRehabHospital } from "./garak-car-accident-inpatient-rehab-hospital";
@@ -71,6 +72,7 @@ import { geoyeoCarAccidentAftereffectsTreatment } from "./geoyeo-car-accident-af
 import { geoyeoCarAccidentTreatment } from "./geoyeo-car-accident-treatment";
 import { gildongCarAccidentAftereffects } from "./gildong-car-accident-aftereffects";
 import { gildongCarAccidentClinicHospital } from "./gildong-car-accident-clinic-hospital";
+import { gildongCarAccidentKoreanMedicineHospital } from "./gildong-car-accident-korean-medicine-hospital";
 import { gildongCarAccidentTreatmentClinicHospital } from "./gildong-car-accident-treatment-clinic-hospital";
 import { gildongKneePainKoreanMedicineHospital } from "./gildong-knee-pain-korean-medicine-hospital";
 import { gildongKoreanMedicineHospital } from "./gildong-korean-medicine-hospital";
@@ -221,6 +223,7 @@ export const COLUMNS: ColumnArticle[] = [
   gangilCarAccidentAftereffectsKoreanMedicineHospital,
   gangilCarAccidentAftereffectsTreatmentClinic,
   gangilCarAccidentKoreanMedicineClinic,
+  gangilKoreanMedicineHospital,
   gangilRehabKoreanMedicineHospital,
   garakCarAccidentInpatientRehab,
   garakCarAccidentInpatientRehabHospital,
@@ -228,6 +231,7 @@ export const COLUMNS: ColumnArticle[] = [
   geoyeoCarAccidentTreatment,
   gildongCarAccidentAftereffects,
   gildongCarAccidentClinicHospital,
+  gildongCarAccidentKoreanMedicineHospital,
   gildongCarAccidentTreatmentClinicHospital,
   gildongKneePainKoreanMedicineHospital,
   gildongKoreanMedicineHospital,

@@ -33,6 +33,7 @@ import { dunchonCarAccidentInpatientTreatmentAvailable } from "./dunchon-car-acc
 import { dunchonCarAccidentTreatment } from "./dunchon-car-accident-treatment";
 import { dunchonKneePainKoreanMedicineHospital } from "./dunchon-knee-pain-korean-medicine-hospital";
 import { dunchonKoreanMedicineHospital } from "./dunchon-korean-medicine-hospital";
+import { dunchonNeckPainKoreanMedicineHospital } from "./dunchon-neck-pain-korean-medicine-hospital";
 import { dunchonPostSurgeryRehabHospital } from "./dunchon-post-surgery-rehab-hospital";
 import { dunchonStationNursingHospital } from "./dunchon-station-nursing-hospital";
 import { dunchonTarsalTunnelSyndrome } from "./dunchon-tarsal-tunnel-syndrome";
@@ -82,6 +83,7 @@ import { godeokCarAccidentAftereffectsKoreanMedicineHospital } from "./godeok-ca
 import { godeokCarAccidentInpatient } from "./godeok-car-accident-inpatient";
 import { godeokCarAccidentInpatientTreatmentAvailable } from "./godeok-car-accident-inpatient-treatment-available";
 import { godeokKoreanMedicineHospital } from "./godeok-korean-medicine-hospital";
+import { godeokShoulderPainKoreanMedicineHospital } from "./godeok-shoulder-pain-korean-medicine-hospital";
 import { gwangjinCarAccidentInpatient } from "./gwangjin-car-accident-inpatient";
 import { gwangjinCarAccidentInpatientTreatmentAvailable } from "./gwangjin-car-accident-inpatient-treatment-available";
 import { hanamCarAccidentAftereffectsTreatment } from "./hanam-car-accident-aftereffects-treatment";
@@ -192,6 +194,7 @@ export const COLUMNS: ColumnArticle[] = [
   dunchonCarAccidentTreatment,
   dunchonKneePainKoreanMedicineHospital,
   dunchonKoreanMedicineHospital,
+  dunchonNeckPainKoreanMedicineHospital,
   dunchonPostSurgeryRehabHospital,
   dunchonStationNursingHospital,
   dunchonTarsalTunnelSyndrome,
@@ -241,6 +244,7 @@ export const COLUMNS: ColumnArticle[] = [
   godeokCarAccidentInpatient,
   godeokCarAccidentInpatientTreatmentAvailable,
   godeokKoreanMedicineHospital,
+  godeokShoulderPainKoreanMedicineHospital,
   gwangjinCarAccidentInpatient,
   gwangjinCarAccidentInpatientTreatmentAvailable,
   hanamCarAccidentAftereffectsTreatment,

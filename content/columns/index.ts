@@ -57,6 +57,7 @@ import { gangdongKoreanMedicineHospitalRecommendation } from "./gangdong-korean-
 import { gangdongLegNumbnessTreatment } from "./gangdong-leg-numbness-treatment";
 import { gangdongLumbarDisc } from "./gangdong-lumbar-disc";
 import { gangdongMuscleSpasmTreatment } from "./gangdong-muscle-spasm-treatment";
+import { gangdongNeckPainKoreanMedicineHospital } from "./gangdong-neck-pain-korean-medicine-hospital";
 import { gangdongNeckPainTreatment } from "./gangdong-neck-pain-treatment";
 import { gangdongPostSurgeryRehabHospital } from "./gangdong-post-surgery-rehab-hospital";
 import { gangdongRehabKoreanMedicineHospital } from "./gangdong-rehab-korean-medicine-hospital";
@@ -65,6 +66,7 @@ import { gangilBackPainKoreanMedicineHospital } from "./gangil-back-pain-korean-
 import { gangilCarAccidentAftereffectsKoreanMedicineHospital } from "./gangil-car-accident-aftereffects-korean-medicine-hospital";
 import { gangilCarAccidentAftereffectsTreatmentClinic } from "./gangil-car-accident-aftereffects-treatment-clinic";
 import { gangilCarAccidentKoreanMedicineClinic } from "./gangil-car-accident-korean-medicine-clinic";
+import { gangilKneePainKoreanMedicineHospital } from "./gangil-knee-pain-korean-medicine-hospital";
 import { gangilKoreanMedicineHospital } from "./gangil-korean-medicine-hospital";
 import { gangilRehabKoreanMedicineHospital } from "./gangil-rehab-korean-medicine-hospital";
 import { garakCarAccidentInpatientRehab } from "./garak-car-accident-inpatient-rehab";
@@ -218,6 +220,7 @@ export const COLUMNS: ColumnArticle[] = [
   gangdongLegNumbnessTreatment,
   gangdongLumbarDisc,
   gangdongMuscleSpasmTreatment,
+  gangdongNeckPainKoreanMedicineHospital,
   gangdongNeckPainTreatment,
   gangdongPostSurgeryRehabHospital,
   gangdongRehabKoreanMedicineHospital,
@@ -226,6 +229,7 @@ export const COLUMNS: ColumnArticle[] = [
   gangilCarAccidentAftereffectsKoreanMedicineHospital,
   gangilCarAccidentAftereffectsTreatmentClinic,
   gangilCarAccidentKoreanMedicineClinic,
+  gangilKneePainKoreanMedicineHospital,
   gangilKoreanMedicineHospital,
   gangilRehabKoreanMedicineHospital,
   garakCarAccidentInpatientRehab,

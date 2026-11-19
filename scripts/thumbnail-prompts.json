@@ -666,5 +666,173 @@
     "scene": "A small kitchen counter at early dawn, a steaming ceramic mug beside a rolled soft neck support cushion, pale blue light through a window with sheer curtains, quiet stillness, clean minimal surfaces",
     "motif": "neck",
     "variant": "rehab"
+  },
+  "gangil-knee-pain-korean-medicine-hospital": {
+    "title": "강일동 무릎 통증 한방병원",
+    "subtitle": "빙판길 전에 챙길 무릎 근력",
+    "scene": "A quiet frosted riverside walking path in early winter morning light, a pair of non-slip winter walking shoes resting on a wooden bench beside a folded knit knee blanket, thin ice glinting along the path edge, calm and clean, no people, no signs, no lettering",
+    "motif": "knee",
+    "variant": "rehab"
+  },
+  "gangdong-neck-pain-korean-medicine-hospital": {
+    "title": "강동구 목 통증 한방병원",
+    "subtitle": "팔까지 저린 목, 진료 순서",
+    "scene": "A tidy clinic desk in soft daylight with a neutral anatomical cervical spine model beside an open blank notebook, a pen and a pair of reading glasses, calm and orderly, no people, no lettering, no numbers, no screens",
+    "motif": "neck",
+    "variant": "rehab"
+  },
+  "dunchon-back-pain-korean-medicine-hospital": {
+    "title": "둔촌동 허리 통증 한방병원",
+    "subtitle": "아기 안고 생긴 허리·골반",
+    "scene": "A soft nursing armchair by a bright window with a crescent-shaped nursing pillow and a small lumbar cushion, a neatly folded baby carrier resting on a side table, warm morning light, calm nursery corner, no people, no lettering, no toys with text",
+    "motif": "spine",
+    "variant": "rehab"
+  },
+  "godeok-neck-pain-korean-medicine-hospital": {
+    "title": "고덕동 목 통증 한방병원",
+    "subtitle": "긴장하면 굳는 뒷목",
+    "scene": "A calm desk by a window at dusk with a closed laptop, a neat stack of blank papers, a warm rolled towel and a cup of tea, soft lamp light suggesting tension easing at the end of a long day, no people, no lettering, no screens turned on",
+    "motif": "neck",
+    "variant": "rehab"
+  },
+  "gangdong-shoulder-pain-korean-medicine-hospital": {
+    "title": "강동구 어깨 통증 한방병원",
+    "subtitle": "팔을 뒤로 돌릴 때 아픈 어깨",
+    "scene": "A tidy entryway with a winter coat half-hung on a wall hook, one sleeve dangling, a plain leather wallet resting on a small wooden shelf beside it, soft daylight, calm and minimal, no people, no lettering, no logos",
+    "motif": "shoulder",
+    "variant": "rehab"
+  },
+  "myeongil-back-pain-korean-medicine-hospital": {
+    "title": "명일동 허리 통증 한방병원",
+    "subtitle": "골다공증 어르신 허리 확인",
+    "scene": "A softly glowing X-ray light box on a clinic wall showing a plain blurred spine silhouette, a simple wooden walking cane leaning against a chair beside it, calm neutral tones, no people, no lettering, no numbers",
+    "motif": "spine",
+    "variant": "rehab"
+  },
+  "gangdong-knee-pain-korean-medicine-hospital": {
+    "title": "강동구 무릎 통증 한방병원",
+    "subtitle": "붓고 물이 찬 듯한 무릎",
+    "scene": "A cold compress pack wrapped in a white towel resting on a cushioned footstool beside a raised soft pillow, a quiet living room corner in soft afternoon light, calm and tidy, no people, no lettering",
+    "motif": "knee",
+    "variant": "rehab"
+  },
+  "godeok-hip-pain-korean-medicine-hospital": {
+    "title": "고덕동 고관절 통증 한방병원",
+    "subtitle": "양반다리·계단이 아픈 고관절",
+    "scene": "A bright minimalist room with a low traditional floor cushion beside a simple wooden chair, a short flight of light wooden stairs with a handrail in the background, soft afternoon light, calm and uncluttered, no people, no lettering",
+    "motif": "range",
+    "variant": "rehab"
+  },
+  "amsa-neck-pain-korean-medicine-hospital": {
+    "title": "암사동 목 통증 한방병원",
+    "subtitle": "돌릴 때 소리 나는 목",
+    "scene": "A wooden side table beside a bright window with a pair of reading glasses, a folded knit scarf and a cup of warm tea, a small round mirror angled on the table reflecting the window light, soft winter morning light, calm and uncluttered, no people, no text, no logos",
+    "motif": "neck",
+    "variant": "rehab"
+  },
+  "godeok-knee-pain-korean-medicine-hospital": {
+    "title": "고덕동 무릎 통증 한방병원",
+    "subtitle": "점프·방향 전환 뒤 무릎",
+    "scene": "A quiet indoor sports hall corner with a basketball and a soccer ball resting on a polished wooden floor near a painted court line, a rolled knee support sleeve and a water bottle on a low bench beside them, soft overhead light, no people, no lettering, no numbers, no logos",
+    "motif": "knee",
+    "variant": "rehab"
+  },
+  "seongnae-neck-pain-korean-medicine-hospital": {
+    "title": "성내동 목 통증 한방병원",
+    "subtitle": "운전이 일인 분들의 목",
+    "scene": "The open driver door of a parked white delivery van in soft morning light, the steering wheel and an empty headrest visible inside, a few plain cardboard boxes stacked neatly in the cargo area behind, calm city street in soft focus, no people, no text, no logos, no license plate",
+    "motif": "neck",
+    "variant": "rehab"
+  },
+  "myeongil-shoulder-pain-korean-medicine-hospital": {
+    "title": "명일동 어깨 통증 한방병원",
+    "subtitle": "굳어서 머리 빗기 힘들 때",
+    "scene": "A tidy bathroom vanity in morning light with a long handled wooden hairbrush resting beside the sink, a soft front buttoned cardigan draped over a small stool nearby, calm warm home interior, no people, no text, no logos",
+    "motif": "shoulder",
+    "variant": "rehab"
+  },
+  "gangil-neck-pain-korean-medicine-hospital": {
+    "title": "강일동 목 통증 한방병원",
+    "subtitle": "어깨 결림까지 번질 때",
+    "scene": "A bright apartment entryway with a thick wool scarf and a winter coat hanging on a wooden coat rack, a soft fabric heat pack resting on a small bench below, pale winter daylight through a frosted window, no people, no text, no logos",
+    "motif": "neck",
+    "variant": "rehab"
+  },
+  "cheonho-knee-pain-korean-medicine-hospital": {
+    "title": "천호동 무릎 통증 한방병원",
+    "subtitle": "오금이 당기고 안 펴질 때",
+    "scene": "A cozy living room armchair with a matching footrest, a rolled white towel placed on the footrest, a foam roller lying on a yoga mat on the wooden floor beside it, warm late afternoon light, no people, no text, no logos",
+    "motif": "knee",
+    "variant": "rehab"
+  },
+  "sangil-back-pain-korean-medicine-hospital": {
+    "title": "상일동 허리 통증 한방병원",
+    "subtitle": "엉덩이 위쪽이 아플 때",
+    "scene": "A short indoor staircase with a smooth wooden handrail inside a quiet apartment, a neatly folded pair of trousers and socks on a low stool at the foot of the stairs, soft daylight from a side window, no people, no text, no logos",
+    "motif": "spine",
+    "variant": "rehab"
+  },
+  "gildong-shoulder-pain-korean-medicine-hospital": {
+    "title": "길동 어깨 통증 한방병원",
+    "subtitle": "갑자기 극심해진 어깨",
+    "scene": "A quiet bedroom at night with several pillows stacked against the headboard for a reclined resting position, a cold pack wrapped in a white towel on the nightstand beside a dim warm lamp, calm and still, no people, no text, no logos",
+    "motif": "shoulder",
+    "variant": "rehab"
+  },
+  "cheonho-shoulder-pain-korean-medicine-hospital": {
+    "title": "천호동 어깨 통증 한방병원",
+    "subtitle": "넘어지며 손을 짚었다면",
+    "scene": "Outdoor stone steps scattered with wet autumn leaves beside a metal handrail, a folded arm sling and a cloth-wrapped ice pack resting on the lowest step, soft overcast light, calm and quiet, no people, no lettering, no logos",
+    "motif": "shoulder",
+    "variant": "rehab"
+  },
+  "seongnae-back-pain-korean-medicine-hospital": {
+    "title": "성내동 허리 통증 한방병원",
+    "subtitle": "걷다 쉬어 가는 허리",
+    "scene": "A quiet neighborhood walking path in late autumn with a wooden bench, a folding shopping trolley and a walking cane resting beside the bench, fallen leaves on the path, soft afternoon light, no people, no lettering, no logos",
+    "motif": "walk",
+    "variant": "rehab"
+  },
+  "amsa-knee-pain-korean-medicine-hospital": {
+    "title": "암사동 무릎 통증 한방병원",
+    "subtitle": "무릎이 빠지는 느낌",
+    "scene": "An indoor stair landing with a wooden handrail, a knee support brace and a pair of walking shoes placed on the bottom step, a round balance cushion on the floor nearby, calm daylight, no people, no lettering, no logos",
+    "motif": "knee",
+    "variant": "rehab"
+  },
+  "gangil-shoulder-pain-korean-medicine-hospital": {
+    "title": "강일동 어깨 통증 한방병원",
+    "subtitle": "팔로 내려오는 통증",
+    "scene": "A clean examination room corner with a padded treatment table, an anatomical shoulder and cervical spine model on a small side cart, a folded white towel and a reflex hammer beside it, soft window light, no people, no lettering, no logos",
+    "motif": "shoulder",
+    "variant": "rehab"
+  },
+  "cheonho-neck-pain-korean-medicine-hospital": {
+    "title": "천호동 목 통증 한방병원",
+    "subtitle": "고개 숙여 일하는 목",
+    "scene": "A tidy kitchen prep counter with a wooden cutting board, a chef knife and sliced vegetables, beside it a hydraulic salon styling chair and a small tray holding hair scissors and a comb, warm soft light, no people, no lettering, no logos",
+    "motif": "neck",
+    "variant": "rehab"
+  },
+  "dunchon-shoulder-pain-korean-medicine-hospital": {
+    "title": "둔촌동 어깨 통증 한방병원",
+    "subtitle": "한쪽으로 드는 장바구니",
+    "scene": "Two full reusable grocery bags and a shoulder tote bag resting on a wooden bench near an apartment entrance, a wheeled shopping trolley standing beside them, soft afternoon light, no people, no lettering, no logos, no brand marks",
+    "motif": "shoulder",
+    "variant": "rehab"
+  },
+  "sangil-shoulder-pain-korean-medicine-hospital": {
+    "title": "상일동 어깨 통증 한방병원",
+    "subtitle": "라켓 운동 뒤 어깨",
+    "scene": "An empty indoor badminton court with a net, a badminton racket and a tennis racket leaning against a wooden bench, a shuttlecock and a resistance band lying on the bench, bright even gym light, no people, no lettering, no court numbers, no logos",
+    "motif": "shoulder",
+    "variant": "rehab"
+  },
+  "gildong-back-pain-korean-medicine-hospital": {
+    "title": "길동 허리 통증 한방병원",
+    "subtitle": "주말 텃밭 일 뒤 허리",
+    "scene": "A small urban vegetable garden plot in late autumn with harvested napa cabbages in a wooden crate, a long handled hoe and a foam kneeling pad resting on the dark soil, soft morning light, no people, no lettering, no logos",
+    "motif": "spine",
+    "variant": "rehab"
   }
 }

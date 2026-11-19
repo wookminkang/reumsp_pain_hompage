@@ -194,6 +194,38 @@
 | 2026-11-18 | dunchon-neck-pain-korean-medicine-hospital | 둔촌동 목 통증 한방병원 추천해줘 | 둔촌동 목 통증 한방병원 | 스마트폰을 오래 보는 학생·청년의 거북목 || 작성완료 |
 | 2026-11-18 | godeok-shoulder-pain-korean-medicine-hospital | 고덕동 어깨 통증 한방병원 어디로 가야 해? | 고덕동 어깨 통증 한방병원 | 수영·헬스로 많이 쓴 어깨 || 작성완료 |
 
+## 11월 후반 통증·재활 칼럼 발행 일정 (2026-11-19 ~ 11-30)
+
+24편, 하루 2편. 11/1~11/18과 같은 규칙(고정 문구, 질의형 제목, 강동구 동만, keyword "한방병원", 입원 주제 제외)으로 쓴다. 2026-11-19 사용자 지시로 이어서 작성했다.
+- 동마다 11월 앞 배치에서 안 쓴 증상(목·허리·어깨·무릎, 고덕동은 고관절)을 배정했다. 교통사고는 동마다 이미 1편씩 있어 이번에는 넣지 않았다.
+
+| 날짜 | slug | 제목 | 키워드 | 고유 축 | 상태 |
+|---|---|---|---|---|---|
+| 2026-11-19 | gangil-knee-pain-korean-medicine-hospital | 강일동 무릎 통증 한방병원 찾아줘 | 강일동 무릎 통증 한방병원 | 겨울철 빙판길과 추위를 앞두고 챙기는 무릎 근력 | 작성완료 |
+| 2026-11-19 | gangdong-neck-pain-korean-medicine-hospital | 강동구 목 통증 한방병원 어디로 가야 해? | 강동구 목 통증 한방병원 | 팔 저림이 함께 오는 목 통증(목 디스크 의심 신호와 진료 순서) | 작성완료 |
+| 2026-11-20 | dunchon-back-pain-korean-medicine-hospital | 둔촌동 허리 통증 한방병원 추천해 줄래? | 둔촌동 허리 통증 한방병원 | 출산 뒤 아이를 안고 지내며 생긴 허리·골반 통증 | 작성완료 |
+| 2026-11-20 | godeok-neck-pain-korean-medicine-hospital | 고덕동 목 통증 한방병원 찾아줘 | 고덕동 목 통증 한방병원 | 긴장하면 뒷목이 뻐근해지는 근막 통증 | 작성완료 |
+| 2026-11-21 | gangdong-shoulder-pain-korean-medicine-hospital | 강동구 어깨 통증 한방병원 추천해줘 | 강동구 어깨 통증 한방병원 | 옷 입기·뒷주머니처럼 팔을 뒤로 돌릴 때 아픈 어깨 | 작성완료 |
+| 2026-11-21 | myeongil-back-pain-korean-medicine-hospital | 명일동 허리 통증 한방병원 어디가 좋아? | 명일동 허리 통증 한방병원 | 골다공증 있는 어르신의 갑작스러운 허리 통증과 X-ray 확인 | 작성완료 |
+| 2026-11-22 | gangdong-knee-pain-korean-medicine-hospital | 강동구 무릎 통증 한방병원 알려줘 | 강동구 무릎 통증 한방병원 | 무릎이 붓고 물이 찬 느낌이 들 때 | 작성완료 |
+| 2026-11-22 | godeok-hip-pain-korean-medicine-hospital | 고덕동 고관절 통증 한방병원 알려줘 | 고덕동 고관절 통증 한방병원 | 양반다리·계단에서 사타구니 쪽이 아픈 고관절 | 작성완료 |
+| 2026-11-23 | amsa-neck-pain-korean-medicine-hospital | 암사동 목 통증 한방병원 어디 있을까? | 암사동 목 통증 한방병원 | 목을 돌릴 때 소리 나고 뻣뻣한 50대 이후의 목 | 작성완료 |
+| 2026-11-23 | godeok-knee-pain-korean-medicine-hospital | 고덕동 무릎 통증 한방병원 어디 있어? | 고덕동 무릎 통증 한방병원 | 축구·농구처럼 점프·방향 전환이 많은 운동 뒤 무릎 | 작성완료 |
+| 2026-11-24 | seongnae-neck-pain-korean-medicine-hospital | 성내동 목 통증 한방병원 찾아줘 | 성내동 목 통증 한방병원 | 운전을 오래 하는 직업(택배·택시·영업)의 목·어깨 | 작성완료 |
+| 2026-11-24 | myeongil-shoulder-pain-korean-medicine-hospital | 명일동 어깨 통증 한방병원 추천해 줄래? | 명일동 어깨 통증 한방병원 | 어깨가 굳어 머리 빗기·옷 갈아입기가 힘들 때 | 작성완료 |
+| 2026-11-25 | gangil-neck-pain-korean-medicine-hospital | 강일동 목 통증 한방병원 어디가 좋을까? | 강일동 목 통증 한방병원 | 어깨 결림까지 번지는 목 통증(위등세모근 주변) | 작성완료 |
+| 2026-11-25 | cheonho-knee-pain-korean-medicine-hospital | 천호동 무릎 통증 한방병원 어디가 좋을까? | 천호동 무릎 통증 한방병원 | 무릎 뒤 오금이 당기고 펴기 힘들 때 | 작성완료 |
+| 2026-11-26 | sangil-back-pain-korean-medicine-hospital | 상일동 허리 통증 한방병원 어디로 가야 해? | 상일동 허리 통증 한방병원 | 허리 아래 엉덩이·골반 쪽으로 오는 통증(천장관절 부위) | 작성완료 |
+| 2026-11-26 | gildong-shoulder-pain-korean-medicine-hospital | 길동 어깨 통증 한방병원 어디로 가면 돼? | 길동 어깨 통증 한방병원 | 갑자기 극심해진 어깨 통증(석회성 힘줄염 의심 신호) | 작성완료 |
+| 2026-11-27 | cheonho-shoulder-pain-korean-medicine-hospital | 천호동 어깨 통증 한방병원 찾아줘 | 천호동 어깨 통증 한방병원 | 넘어지며 손을 짚은 뒤 생긴 어깨 통증 | 작성완료 |
+| 2026-11-27 | seongnae-back-pain-korean-medicine-hospital | 성내동 허리 통증 한방병원 어디가 좋아? | 성내동 허리 통증 한방병원 | 오래 걸으면 다리가 저려 쉬어 가는 허리(척추관 협착 의심 신호) | 작성완료 |
+| 2026-11-28 | amsa-knee-pain-korean-medicine-hospital | 암사동 무릎 통증 한방병원 알려줘 | 암사동 무릎 통증 한방병원 | 무릎이 꺾이거나 빠지는 느낌(인대 손상 뒤 불안정감) | 작성완료 |
+| 2026-11-28 | gangil-shoulder-pain-korean-medicine-hospital | 강일동 어깨 통증 한방병원 알려줘 | 강일동 어깨 통증 한방병원 | 어깨에서 팔로 내려오는 통증(목에서 오는 통증과 구분) | 작성완료 |
+| 2026-11-29 | cheonho-neck-pain-korean-medicine-hospital | 천호동 목 통증 한방병원 알려줘 | 천호동 목 통증 한방병원 | 고개 숙여 오래 일하는 조리·미용 직업의 목 | 작성완료 |
+| 2026-11-29 | dunchon-shoulder-pain-korean-medicine-hospital | 둔촌동 어깨 통증 한방병원 어디 있어? | 둔촌동 어깨 통증 한방병원 | 무거운 장바구니·가방을 한쪽으로 드는 어깨 | 작성완료 |
+| 2026-11-30 | sangil-shoulder-pain-korean-medicine-hospital | 상일동 어깨 통증 한방병원 추천해줘 | 상일동 어깨 통증 한방병원 | 배드민턴·테니스 같은 라켓 운동 뒤 어깨 | 작성완료 |
+| 2026-11-30 | gildong-back-pain-korean-medicine-hospital | 길동 허리 통증 한방병원 추천해줘 | 길동 허리 통증 한방병원 | 주말 텃밭·화단 일처럼 숙인 자세를 반복한 뒤 허리 | 작성완료 |
+
 ## 자료 대기였던 두 축 (2026-09-07 대체 완료)
 
 아래 두 축은 담당자 확인 자료가 없어 **근거 없는 서술 대신 미개척 주제로 교체했다.** 30편은 자료 없이 전부 작성 완료된 상태다.

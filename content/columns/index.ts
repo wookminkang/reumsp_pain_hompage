@@ -26,6 +26,7 @@ import { cheonhoCarAccidentTreatment } from "./cheonho-car-accident-treatment";
 import { cheonhoElbowPainKoreanMedicineHospital } from "./cheonho-elbow-pain-korean-medicine-hospital";
 import { cheonhoKoreanMedicineHospital } from "./cheonho-korean-medicine-hospital";
 import { cheonhoNeckShoulderPain } from "./cheonho-neck-shoulder-pain";
+import { dunchonBackPainKoreanMedicineHospital } from "./dunchon-back-pain-korean-medicine-hospital";
 import { dunchonCarAccidentAftereffectsKoreanMedicineHospital } from "./dunchon-car-accident-aftereffects-korean-medicine-hospital";
 import { dunchonCarAccidentAftereffectsTreatment } from "./dunchon-car-accident-aftereffects-treatment";
 import { dunchonCarAccidentInpatientCare } from "./dunchon-car-accident-inpatient-care";
@@ -85,6 +86,7 @@ import { godeokCarAccidentAftereffectsKoreanMedicineHospital } from "./godeok-ca
 import { godeokCarAccidentInpatient } from "./godeok-car-accident-inpatient";
 import { godeokCarAccidentInpatientTreatmentAvailable } from "./godeok-car-accident-inpatient-treatment-available";
 import { godeokKoreanMedicineHospital } from "./godeok-korean-medicine-hospital";
+import { godeokNeckPainKoreanMedicineHospital } from "./godeok-neck-pain-korean-medicine-hospital";
 import { godeokShoulderPainKoreanMedicineHospital } from "./godeok-shoulder-pain-korean-medicine-hospital";
 import { gwangjinCarAccidentInpatient } from "./gwangjin-car-accident-inpatient";
 import { gwangjinCarAccidentInpatientTreatmentAvailable } from "./gwangjin-car-accident-inpatient-treatment-available";
@@ -189,6 +191,7 @@ export const COLUMNS: ColumnArticle[] = [
   cheonhoElbowPainKoreanMedicineHospital,
   cheonhoKoreanMedicineHospital,
   cheonhoNeckShoulderPain,
+  dunchonBackPainKoreanMedicineHospital,
   dunchonCarAccidentAftereffectsKoreanMedicineHospital,
   dunchonCarAccidentAftereffectsTreatment,
   dunchonCarAccidentInpatientCare,
@@ -248,6 +251,7 @@ export const COLUMNS: ColumnArticle[] = [
   godeokCarAccidentInpatient,
   godeokCarAccidentInpatientTreatmentAvailable,
   godeokKoreanMedicineHospital,
+  godeokNeckPainKoreanMedicineHospital,
   godeokShoulderPainKoreanMedicineHospital,
   gwangjinCarAccidentInpatient,
   gwangjinCarAccidentInpatientTreatmentAvailable,

@@ -62,6 +62,7 @@ import { gangdongNeckPainKoreanMedicineHospital } from "./gangdong-neck-pain-kor
 import { gangdongNeckPainTreatment } from "./gangdong-neck-pain-treatment";
 import { gangdongPostSurgeryRehabHospital } from "./gangdong-post-surgery-rehab-hospital";
 import { gangdongRehabKoreanMedicineHospital } from "./gangdong-rehab-korean-medicine-hospital";
+import { gangdongShoulderPainKoreanMedicineHospital } from "./gangdong-shoulder-pain-korean-medicine-hospital";
 import { gangdongWristPainTreatment } from "./gangdong-wrist-pain-treatment";
 import { gangilBackPainKoreanMedicineHospital } from "./gangil-back-pain-korean-medicine-hospital";
 import { gangilCarAccidentAftereffectsKoreanMedicineHospital } from "./gangil-car-accident-aftereffects-korean-medicine-hospital";
@@ -106,6 +107,7 @@ import { macheonCarAccidentAftereffectsTreatmentClinic } from "./macheon-car-acc
 import { macheonCarAccidentKoreanMedicineClinic } from "./macheon-car-accident-korean-medicine-clinic";
 import { munjeongCarAccidentAftereffectsTreatmentClinic } from "./munjeong-car-accident-aftereffects-treatment-clinic";
 import { munjeongCarAccidentKoreanMedicineClinic } from "./munjeong-car-accident-korean-medicine-clinic";
+import { myeongilBackPainKoreanMedicineHospital } from "./myeongil-back-pain-korean-medicine-hospital";
 import { myeongilCarAccidentAftereffectsTreatment } from "./myeongil-car-accident-aftereffects-treatment";
 import { myeongilCarAccidentKoreanMedicineHospital } from "./myeongil-car-accident-korean-medicine-hospital";
 import { myeongilCarAccidentTreatment } from "./myeongil-car-accident-treatment";
@@ -227,6 +229,7 @@ export const COLUMNS: ColumnArticle[] = [
   gangdongNeckPainTreatment,
   gangdongPostSurgeryRehabHospital,
   gangdongRehabKoreanMedicineHospital,
+  gangdongShoulderPainKoreanMedicineHospital,
   gangdongWristPainTreatment,
   gangilBackPainKoreanMedicineHospital,
   gangilCarAccidentAftereffectsKoreanMedicineHospital,
@@ -271,6 +274,7 @@ export const COLUMNS: ColumnArticle[] = [
   macheonCarAccidentKoreanMedicineClinic,
   munjeongCarAccidentAftereffectsTreatmentClinic,
   munjeongCarAccidentKoreanMedicineClinic,
+  myeongilBackPainKoreanMedicineHospital,
   myeongilCarAccidentAftereffectsTreatment,
   myeongilCarAccidentKoreanMedicineHospital,
   myeongilCarAccidentTreatment,

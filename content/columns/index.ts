@@ -53,6 +53,7 @@ import { gangdongCarAccidentTreatmentKoreanMedicineClinic } from "./gangdong-car
 import { gangdongChemoSideEffectCare } from "./gangdong-chemo-side-effect-care";
 import { gangdongChronicPainCarAccident } from "./gangdong-chronic-pain-car-accident";
 import { gangdongFrozenShoulderTreatment } from "./gangdong-frozen-shoulder-treatment";
+import { gangdongKneePainKoreanMedicineHospital } from "./gangdong-knee-pain-korean-medicine-hospital";
 import { gangdongKneePainTreatment } from "./gangdong-knee-pain-treatment";
 import { gangdongKoreanMedicineHospitalRecommendation } from "./gangdong-korean-medicine-hospital-recommendation";
 import { gangdongLegNumbnessTreatment } from "./gangdong-leg-numbness-treatment";
@@ -86,6 +87,7 @@ import { godeokBackPainKoreanMedicineHospital } from "./godeok-back-pain-korean-
 import { godeokCarAccidentAftereffectsKoreanMedicineHospital } from "./godeok-car-accident-aftereffects-korean-medicine-hospital";
 import { godeokCarAccidentInpatient } from "./godeok-car-accident-inpatient";
 import { godeokCarAccidentInpatientTreatmentAvailable } from "./godeok-car-accident-inpatient-treatment-available";
+import { godeokHipPainKoreanMedicineHospital } from "./godeok-hip-pain-korean-medicine-hospital";
 import { godeokKoreanMedicineHospital } from "./godeok-korean-medicine-hospital";
 import { godeokNeckPainKoreanMedicineHospital } from "./godeok-neck-pain-korean-medicine-hospital";
 import { godeokShoulderPainKoreanMedicineHospital } from "./godeok-shoulder-pain-korean-medicine-hospital";
@@ -220,6 +222,7 @@ export const COLUMNS: ColumnArticle[] = [
   gangdongChemoSideEffectCare,
   gangdongChronicPainCarAccident,
   gangdongFrozenShoulderTreatment,
+  gangdongKneePainKoreanMedicineHospital,
   gangdongKneePainTreatment,
   gangdongKoreanMedicineHospitalRecommendation,
   gangdongLegNumbnessTreatment,
@@ -253,6 +256,7 @@ export const COLUMNS: ColumnArticle[] = [
   godeokCarAccidentAftereffectsKoreanMedicineHospital,
   godeokCarAccidentInpatient,
   godeokCarAccidentInpatientTreatmentAvailable,
+  godeokHipPainKoreanMedicineHospital,
   godeokKoreanMedicineHospital,
   godeokNeckPainKoreanMedicineHospital,
   godeokShoulderPainKoreanMedicineHospital,

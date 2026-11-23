@@ -4,6 +4,7 @@ import { amsaCarAccidentAftereffectsKoreanMedicineHospital } from "./amsa-car-ac
 import { amsaCarAccidentAftereffectsTreatmentClinic } from "./amsa-car-accident-aftereffects-treatment-clinic";
 import { amsaCarAccidentKoreanMedicineClinic } from "./amsa-car-accident-korean-medicine-clinic";
 import { amsaKoreanMedicineHospital } from "./amsa-korean-medicine-hospital";
+import { amsaNeckPainKoreanMedicineHospital } from "./amsa-neck-pain-korean-medicine-hospital";
 import { amsaShoulderPainKoreanMedicineHospital } from "./amsa-shoulder-pain-korean-medicine-hospital";
 import { asanHospitalNearbyKoreanMedicine } from "./asan-hospital-nearby-korean-medicine";
 import { asanHospitalNearbyNursingHospital } from "./asan-hospital-nearby-nursing-hospital";
@@ -88,6 +89,7 @@ import { godeokCarAccidentAftereffectsKoreanMedicineHospital } from "./godeok-ca
 import { godeokCarAccidentInpatient } from "./godeok-car-accident-inpatient";
 import { godeokCarAccidentInpatientTreatmentAvailable } from "./godeok-car-accident-inpatient-treatment-available";
 import { godeokHipPainKoreanMedicineHospital } from "./godeok-hip-pain-korean-medicine-hospital";
+import { godeokKneePainKoreanMedicineHospital } from "./godeok-knee-pain-korean-medicine-hospital";
 import { godeokKoreanMedicineHospital } from "./godeok-korean-medicine-hospital";
 import { godeokNeckPainKoreanMedicineHospital } from "./godeok-neck-pain-korean-medicine-hospital";
 import { godeokShoulderPainKoreanMedicineHospital } from "./godeok-shoulder-pain-korean-medicine-hospital";
@@ -173,6 +175,7 @@ export const COLUMNS: ColumnArticle[] = [
   amsaCarAccidentAftereffectsTreatmentClinic,
   amsaCarAccidentKoreanMedicineClinic,
   amsaKoreanMedicineHospital,
+  amsaNeckPainKoreanMedicineHospital,
   amsaShoulderPainKoreanMedicineHospital,
   asanHospitalNearbyKoreanMedicine,
   asanHospitalNearbyNursingHospital,
@@ -257,6 +260,7 @@ export const COLUMNS: ColumnArticle[] = [
   godeokCarAccidentInpatient,
   godeokCarAccidentInpatientTreatmentAvailable,
   godeokHipPainKoreanMedicineHospital,
+  godeokKneePainKoreanMedicineHospital,
   godeokKoreanMedicineHospital,
   godeokNeckPainKoreanMedicineHospital,
   godeokShoulderPainKoreanMedicineHospital,

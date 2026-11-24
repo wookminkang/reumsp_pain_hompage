@@ -118,6 +118,7 @@ import { myeongilCarAccidentTreatment } from "./myeongil-car-accident-treatment"
 import { myeongilKneePainKoreanMedicineHospital } from "./myeongil-knee-pain-korean-medicine-hospital";
 import { myeongilKoreanMedicineHospital } from "./myeongil-korean-medicine-hospital";
 import { myeongilNeckPainKoreanMedicineHospital } from "./myeongil-neck-pain-korean-medicine-hospital";
+import { myeongilShoulderPainKoreanMedicineHospital } from "./myeongil-shoulder-pain-korean-medicine-hospital";
 import { neckStiffnessHandNumbness } from "./neck-stiffness-hand-numbness";
 import { ogeumCarAccidentAftereffectsTreatmentClinic } from "./ogeum-car-accident-aftereffects-treatment-clinic";
 import { ogeumCarAccidentKoreanMedicineClinic } from "./ogeum-car-accident-korean-medicine-clinic";
@@ -142,6 +143,7 @@ import { seongnaeCarAccidentKoreanMedicineHospital } from "./seongnae-car-accide
 import { seongnaeCarAccidentTreatment } from "./seongnae-car-accident-treatment";
 import { seongnaeKneePainKoreanMedicineHospital } from "./seongnae-knee-pain-korean-medicine-hospital";
 import { seongnaeKoreanMedicineHospital } from "./seongnae-korean-medicine-hospital";
+import { seongnaeNeckPainKoreanMedicineHospital } from "./seongnae-neck-pain-korean-medicine-hospital";
 import { seongnaeNeckPainTreatment } from "./seongnae-neck-pain-treatment";
 import { seongnaeShoulderPainKoreanMedicineHospital } from "./seongnae-shoulder-pain-korean-medicine-hospital";
 import { seongsimHospitalNearbyKoreanMedicine } from "./seongsim-hospital-nearby-korean-medicine";
@@ -289,6 +291,7 @@ export const COLUMNS: ColumnArticle[] = [
   myeongilKneePainKoreanMedicineHospital,
   myeongilKoreanMedicineHospital,
   myeongilNeckPainKoreanMedicineHospital,
+  myeongilShoulderPainKoreanMedicineHospital,
   neckStiffnessHandNumbness,
   ogeumCarAccidentAftereffectsTreatmentClinic,
   ogeumCarAccidentKoreanMedicineClinic,
@@ -313,6 +316,7 @@ export const COLUMNS: ColumnArticle[] = [
   seongnaeCarAccidentTreatment,
   seongnaeKneePainKoreanMedicineHospital,
   seongnaeKoreanMedicineHospital,
+  seongnaeNeckPainKoreanMedicineHospital,
   seongnaeNeckPainTreatment,
   seongnaeShoulderPainKoreanMedicineHospital,
   seongsimHospitalNearbyKoreanMedicine,

@@ -25,6 +25,7 @@ import { cheonhoCarAccidentAftereffectsTreatment } from "./cheonho-car-accident-
 import { cheonhoCarAccidentKoreanMedicineHospital } from "./cheonho-car-accident-korean-medicine-hospital";
 import { cheonhoCarAccidentTreatment } from "./cheonho-car-accident-treatment";
 import { cheonhoElbowPainKoreanMedicineHospital } from "./cheonho-elbow-pain-korean-medicine-hospital";
+import { cheonhoKneePainKoreanMedicineHospital } from "./cheonho-knee-pain-korean-medicine-hospital";
 import { cheonhoKoreanMedicineHospital } from "./cheonho-korean-medicine-hospital";
 import { cheonhoNeckShoulderPain } from "./cheonho-neck-shoulder-pain";
 import { dunchonBackPainKoreanMedicineHospital } from "./dunchon-back-pain-korean-medicine-hospital";
@@ -72,6 +73,7 @@ import { gangilCarAccidentAftereffectsTreatmentClinic } from "./gangil-car-accid
 import { gangilCarAccidentKoreanMedicineClinic } from "./gangil-car-accident-korean-medicine-clinic";
 import { gangilKneePainKoreanMedicineHospital } from "./gangil-knee-pain-korean-medicine-hospital";
 import { gangilKoreanMedicineHospital } from "./gangil-korean-medicine-hospital";
+import { gangilNeckPainKoreanMedicineHospital } from "./gangil-neck-pain-korean-medicine-hospital";
 import { gangilRehabKoreanMedicineHospital } from "./gangil-rehab-korean-medicine-hospital";
 import { garakCarAccidentInpatientRehab } from "./garak-car-accident-inpatient-rehab";
 import { garakCarAccidentInpatientRehabHospital } from "./garak-car-accident-inpatient-rehab-hospital";
@@ -198,6 +200,7 @@ export const COLUMNS: ColumnArticle[] = [
   cheonhoCarAccidentKoreanMedicineHospital,
   cheonhoCarAccidentTreatment,
   cheonhoElbowPainKoreanMedicineHospital,
+  cheonhoKneePainKoreanMedicineHospital,
   cheonhoKoreanMedicineHospital,
   cheonhoNeckShoulderPain,
   dunchonBackPainKoreanMedicineHospital,
@@ -245,6 +248,7 @@ export const COLUMNS: ColumnArticle[] = [
   gangilCarAccidentKoreanMedicineClinic,
   gangilKneePainKoreanMedicineHospital,
   gangilKoreanMedicineHospital,
+  gangilNeckPainKoreanMedicineHospital,
   gangilRehabKoreanMedicineHospital,
   garakCarAccidentInpatientRehab,
   garakCarAccidentInpatientRehabHospital,

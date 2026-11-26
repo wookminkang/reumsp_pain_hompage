@@ -86,6 +86,7 @@ import { gildongCarAccidentTreatmentClinicHospital } from "./gildong-car-acciden
 import { gildongKneePainKoreanMedicineHospital } from "./gildong-knee-pain-korean-medicine-hospital";
 import { gildongKoreanMedicineHospital } from "./gildong-korean-medicine-hospital";
 import { gildongNeckPainKoreanMedicineHospital } from "./gildong-neck-pain-korean-medicine-hospital";
+import { gildongShoulderPainKoreanMedicineHospital } from "./gildong-shoulder-pain-korean-medicine-hospital";
 import { godeokBackPainKoreanMedicineHospital } from "./godeok-back-pain-korean-medicine-hospital";
 import { godeokCarAccidentAftereffectsKoreanMedicineHospital } from "./godeok-car-accident-aftereffects-korean-medicine-hospital";
 import { godeokCarAccidentInpatient } from "./godeok-car-accident-inpatient";
@@ -129,6 +130,7 @@ import { pungnapCarAccidentAftereffectsTreatment } from "./pungnap-car-accident-
 import { pungnapCarAccidentTreatment } from "./pungnap-car-accident-treatment";
 import { radiationTherapyRecovery } from "./radiation-therapy-recovery";
 import { samsungHospitalNearbyNursingHospital } from "./samsung-hospital-nearby-nursing-hospital";
+import { sangilBackPainKoreanMedicineHospital } from "./sangil-back-pain-korean-medicine-hospital";
 import { sangilCarAccidentInpatientRehab } from "./sangil-car-accident-inpatient-rehab";
 import { sangilCarAccidentInpatientRehabHospital } from "./sangil-car-accident-inpatient-rehab-hospital";
 import { sangilCarAccidentKoreanMedicineHospital } from "./sangil-car-accident-korean-medicine-hospital";
@@ -261,6 +263,7 @@ export const COLUMNS: ColumnArticle[] = [
   gildongKneePainKoreanMedicineHospital,
   gildongKoreanMedicineHospital,
   gildongNeckPainKoreanMedicineHospital,
+  gildongShoulderPainKoreanMedicineHospital,
   godeokBackPainKoreanMedicineHospital,
   godeokCarAccidentAftereffectsKoreanMedicineHospital,
   godeokCarAccidentInpatient,
@@ -304,6 +307,7 @@ export const COLUMNS: ColumnArticle[] = [
   pungnapCarAccidentTreatment,
   radiationTherapyRecovery,
   samsungHospitalNearbyNursingHospital,
+  sangilBackPainKoreanMedicineHospital,
   sangilCarAccidentInpatientRehab,
   sangilCarAccidentInpatientRehabHospital,
   sangilCarAccidentKoreanMedicineHospital,

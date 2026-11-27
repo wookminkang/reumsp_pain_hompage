@@ -28,6 +28,7 @@ import { cheonhoElbowPainKoreanMedicineHospital } from "./cheonho-elbow-pain-kor
 import { cheonhoKneePainKoreanMedicineHospital } from "./cheonho-knee-pain-korean-medicine-hospital";
 import { cheonhoKoreanMedicineHospital } from "./cheonho-korean-medicine-hospital";
 import { cheonhoNeckShoulderPain } from "./cheonho-neck-shoulder-pain";
+import { cheonhoShoulderPainKoreanMedicineHospital } from "./cheonho-shoulder-pain-korean-medicine-hospital";
 import { dunchonBackPainKoreanMedicineHospital } from "./dunchon-back-pain-korean-medicine-hospital";
 import { dunchonCarAccidentAftereffectsKoreanMedicineHospital } from "./dunchon-car-accident-aftereffects-korean-medicine-hospital";
 import { dunchonCarAccidentAftereffectsTreatment } from "./dunchon-car-accident-aftereffects-treatment";
@@ -140,6 +141,7 @@ import { sangilNeckPainKoreanMedicineHospital } from "./sangil-neck-pain-korean-
 import { seokchonCarAccidentAftereffectsTreatment } from "./seokchon-car-accident-aftereffects-treatment";
 import { seokchonCarAccidentTreatment } from "./seokchon-car-accident-treatment";
 import { seongdongCarAccidentAftereffectsTreatment } from "./seongdong-car-accident-aftereffects-treatment";
+import { seongnaeBackPainKoreanMedicineHospital } from "./seongnae-back-pain-korean-medicine-hospital";
 import { seongnaeCarAccidentAftereffectsTreatment } from "./seongnae-car-accident-aftereffects-treatment";
 import { seongnaeCarAccidentInpatientEnvironment } from "./seongnae-car-accident-inpatient-environment";
 import { seongnaeCarAccidentInpatientTreatmentEnvironment } from "./seongnae-car-accident-inpatient-treatment-environment";
@@ -205,6 +207,7 @@ export const COLUMNS: ColumnArticle[] = [
   cheonhoKneePainKoreanMedicineHospital,
   cheonhoKoreanMedicineHospital,
   cheonhoNeckShoulderPain,
+  cheonhoShoulderPainKoreanMedicineHospital,
   dunchonBackPainKoreanMedicineHospital,
   dunchonCarAccidentAftereffectsKoreanMedicineHospital,
   dunchonCarAccidentAftereffectsTreatment,
@@ -317,6 +320,7 @@ export const COLUMNS: ColumnArticle[] = [
   seokchonCarAccidentAftereffectsTreatment,
   seokchonCarAccidentTreatment,
   seongdongCarAccidentAftereffectsTreatment,
+  seongnaeBackPainKoreanMedicineHospital,
   seongnaeCarAccidentAftereffectsTreatment,
   seongnaeCarAccidentInpatientEnvironment,
   seongnaeCarAccidentInpatientTreatmentEnvironment,

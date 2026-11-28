@@ -3,6 +3,7 @@ import { amsaBackPainKoreanMedicineHospital } from "./amsa-back-pain-korean-medi
 import { amsaCarAccidentAftereffectsKoreanMedicineHospital } from "./amsa-car-accident-aftereffects-korean-medicine-hospital";
 import { amsaCarAccidentAftereffectsTreatmentClinic } from "./amsa-car-accident-aftereffects-treatment-clinic";
 import { amsaCarAccidentKoreanMedicineClinic } from "./amsa-car-accident-korean-medicine-clinic";
+import { amsaKneePainKoreanMedicineHospital } from "./amsa-knee-pain-korean-medicine-hospital";
 import { amsaKoreanMedicineHospital } from "./amsa-korean-medicine-hospital";
 import { amsaNeckPainKoreanMedicineHospital } from "./amsa-neck-pain-korean-medicine-hospital";
 import { amsaShoulderPainKoreanMedicineHospital } from "./amsa-shoulder-pain-korean-medicine-hospital";
@@ -76,6 +77,7 @@ import { gangilKneePainKoreanMedicineHospital } from "./gangil-knee-pain-korean-
 import { gangilKoreanMedicineHospital } from "./gangil-korean-medicine-hospital";
 import { gangilNeckPainKoreanMedicineHospital } from "./gangil-neck-pain-korean-medicine-hospital";
 import { gangilRehabKoreanMedicineHospital } from "./gangil-rehab-korean-medicine-hospital";
+import { gangilShoulderPainKoreanMedicineHospital } from "./gangil-shoulder-pain-korean-medicine-hospital";
 import { garakCarAccidentInpatientRehab } from "./garak-car-accident-inpatient-rehab";
 import { garakCarAccidentInpatientRehabHospital } from "./garak-car-accident-inpatient-rehab-hospital";
 import { geoyeoCarAccidentAftereffectsTreatment } from "./geoyeo-car-accident-aftereffects-treatment";
@@ -182,6 +184,7 @@ export const COLUMNS: ColumnArticle[] = [
   amsaCarAccidentAftereffectsKoreanMedicineHospital,
   amsaCarAccidentAftereffectsTreatmentClinic,
   amsaCarAccidentKoreanMedicineClinic,
+  amsaKneePainKoreanMedicineHospital,
   amsaKoreanMedicineHospital,
   amsaNeckPainKoreanMedicineHospital,
   amsaShoulderPainKoreanMedicineHospital,
@@ -255,6 +258,7 @@ export const COLUMNS: ColumnArticle[] = [
   gangilKoreanMedicineHospital,
   gangilNeckPainKoreanMedicineHospital,
   gangilRehabKoreanMedicineHospital,
+  gangilShoulderPainKoreanMedicineHospital,
   garakCarAccidentInpatientRehab,
   garakCarAccidentInpatientRehabHospital,
   geoyeoCarAccidentAftereffectsTreatment,
